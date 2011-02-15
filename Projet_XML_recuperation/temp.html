@@ -1,0 +1,297 @@
+<HTML><HEAD>
+<!-- developpe par  Real Gagnon, Quebec Canada http://rgagnon.com -->
+<META NAME="description"
+      Content="Real's JAVA JAVASCRIPT and PowerBuilder How-to pages with useful code snippets">
+<META NAME="keywords"
+      Content="java,javascript,wsh,vbscript,programming,tips,powerbuilder">
+<LINK title="mystyle" href="../howto.css" type="text/css" rel="stylesheet">
+<LINK rel="alternate" type="application/rss+xml" title="Real's HowTo" href="http://www.rgagnon.com/feed.xml">
+
+
+<TITLE>Connect through a Proxy - Real's Java How-to</TITLE>
+<script language="Javascript1.2" src="../scripts/watermark.js"></script>
+<noscript>
+<div align="center"><a href="#" target="_blank"><img src="../images/ads-001.png" height=30 width=300 title="ads" border='0'></a></div>
+</noscript>
+</HEAD><BODY><br>
+<!-- Google adsense -->
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5001760496988433";
+//top banner text 1
+google_ad_slot = "5477985772";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<!-- Google adsense -->
+<!-- HOWTO content -->
+<h4>Connect through a Proxy</h4>
+
+<h3>The Networking Properties</h3>
+
+You have to set the following properties :
+<DIV class="howtocode"><PRE>
+http.proxyHost (default: &lt;none&gt;)
+http.proxyPort (default: 80 if http.proxyHost specified)
+http.nonProxyHosts (default: &lt;none&gt;)
+</PRE></DIV>
+
+<b>NOTE:</b> <i>proxyHost</i>, <i>proxyPort</i> are deprecated. you have to prefix them with "http.". 
+<br>
+<b>NOTE:</b> Those properties are documented here :<a href="http://java.sun.com/javase/6/docs/technotes/guides/net/properties.html" target="_top">
+http://java.sun.com/javase/6/docs/technotes/guides/net/properties.html</a>.
+
+<p>You can set the required properties when starting the JVM for a JAVA application from the command line:
+<DIV class="howtocode"><PRE>
+java  -Dhttp.proxyHost=myproxyserver.com  -Dhttp.proxyPort=80 MyJavaApp
+</PRE></DIV>
+
+Or in your source :
+<DIV class="howtocode"><PRE>
+System.setProperty("http.proxyHost", "myProxyServer.com");
+System.setProperty("http.proxyPort", "80");
+</PRE></DIV>
+
+<hr>
+Since <b>Java 1.5</b> you can also pass a java.net.Proxy instance to the openConnection() method:
+<DIV class="howtocode"><PRE>
+//Proxy instance, proxy ip = 123.0.0.1 with port 8080
+Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("123.0.0.1", 8080));
+URL url = new URL("http://www.yahoo.com");
+HttpURLConnection uc = (HttpURLConnection)url.openConnection(proxy);
+uc.connect();
+        
+String page;
+StringBuffer tmp = new StringBuffer();
+BufferedReader in = new BufferedReader(new InputStreamReader(uc.getInputStream()));
+while ((line = in.readLine()) != null){
+   page.append(line + "\n");
+}
+System.out.println(page);
+</PRE></DIV>
+so you don't need to set system properties.
+
+<P>You can use the default PROXY as defined by your networking settings.
+<DIV class="howtocode"><PRE>
+<b>System.setProperty("java.net.useSystemProxies", "true");</b>
+List l = null;
+try {
+  l = ProxySelector.getDefault().select(new URI("http://www.yahoo.com"));
+}
+catch (URISyntaxException e) {
+  e.printStackTrace();
+}
+
+if (l != null) {
+   for (Iterator iter = l.iterator(); iter.hasNext() {
+      java.net.Proxy proxy = (java.net.Proxy) iter.next();
+      System.out.println("proxy hostname : " + proxy.type());
+      InetSocketAddress addr = (InetSocketAddress) proxy.address();
+      if (addr == null) {
+        System.out.println("No Proxy");
+      } 
+      else {
+        System.out.println("proxy hostname : " + addr.getHostName());
+        System.out.println("proxy port : " + addr.getPort());
+      }
+   }
+}
+</PRE></DIV>
+To bypass the PROXY,
+<DIV class="howtocode"><PRE>
+URL url = new URL("http://internal.server.local/");
+URLConnection conn = url.openConnection(Proxy.NO_PROXY);
+</PRE></DIV>
+<hr>
+
+
+<h3>Proxy and Username/Password</h3>
+
+<p>You might need to identify yourself to the proxy server. 
+<p>One way is to use the  HTTP property "Proxy-Authorization" with a username:password base64 encoded.</small>
+<DIV class="howtocode"><PRE>
+System.setProperty("http.proxyHost", "myProxyServer.com");
+System.setProperty("http.proxyPort", "80");
+URL url=new URL("http://someserver/somepage");
+URLConnection uc = url.openConnection ();
+String encoded = new String
+      (Base64.base64Encode(new String("username:password").getBytes()));
+uc.setRequestProperty("Proxy-Authorization", "Basic " + encoded);
+uc.connect();
+</PRE></DIV>
+
+<small>NOTE: For a base64 function, see this <a href="./java-0084.html">How-to</a>.</small>
+
+<hr>
+The following example dumps the content of a URL but before we identify ourself to the proxy.
+<DIV class="howtocode"><PRE>
+import java.net.*;
+import java.io.*;
+
+public class URLUtils {
+  public static void main(String s[]) {
+    URLUtils.dump("http://www.yahoo.com");
+    System.out.println("**************");
+    URLUtils.dump("https://www.paypal.com");
+    System.out.println("**************");
+  }
+
+  public static void dump(String URLName){
+    try {
+      DataInputStream di = null;
+      FileOutputStream fo = null;
+      byte [] b = new byte[1];
+
+      // PROXY
+      System.setProperty("http.proxyHost","proxy.mydomain.local") ;
+      System.setProperty("http.proxyPort", "80") ;
+
+      URL u = new URL(URLName);
+      HttpURLConnection con = (HttpURLConnection) u.openConnection();
+      //
+      // it's not the greatest idea to use a sun.misc.* class
+      // Sun strongly advises not to use them since they can
+      // change or go away in a future release so beware.
+      //
+      sun.misc.BASE64Encoder encoder = new sun.misc.BASE64Encoder();
+      String encodedUserPwd =
+         encoder.encode("mydomain\\MYUSER:MYPASSWORD".getBytes());
+      con.setRequestProperty
+         ("Proxy-Authorization", "Basic " + encodedUserPwd);
+      // PROXY ----------
+
+      di = new DataInputStream(con.getInputStream());
+      while(-1 != di.read(b,0,1)) {
+         System.out.print(new String(b));
+      }
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+}
+</PRE></DIV>
+
+
+With JDK1.2, the <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/Authenticator.html" target="_top">java.net.Authenticator</a> 
+can be used to send the credentials when needed.
+
+<DIV class="howtocode"><PRE>
+public static void dump(String URLName){
+  try {
+    DataInputStream di = null;
+    FileOutputStream fo = null;
+    byte [] b = new byte[1];
+ 
+    // PROXY
+    System.setProperty("http.proxyHost","proxy.mydomain.local") ;
+    System.setProperty("http.proxyPort", "80") ;
+ 
+    Authenticator.setDefault(new Authenticator() {
+      protected PasswordAuthentication getPasswordAuthentication() {
+        return new
+           PasswordAuthentication("mydomain\\username","password".toCharArray());
+    }});
+ 
+    URL u = new URL(URLName);
+    HttpURLConnection con = (HttpURLConnection) u.openConnection();
+    di = new DataInputStream(con.getInputStream());
+    while(-1 != di.read(b,0,1)) {
+       System.out.print(new String(b));
+    }
+  }
+  catch (Exception e) {
+          e.printStackTrace();
+  }
+}
+</PRE></DIV>
+
+<h3>Bypass a Proxy</h3>
+<P>In intranet environment, you may need to bypass the proxy server and go directly to the http server.
+<p>The  <i>http.nonProxyHosts</i> property indicates the hosts which should be connected too directly and 
+not through the proxy server. 
+The value can be a list of hosts, each seperated by a |, and in addition a wildcard character 
+(*) can be used for matching. 
+<DIV class="howtocode"><PRE>
+java.exe  
+   -Dhttp.nonProxyHosts="*.mycompany.com|*.mycompany.local|localhost" 
+      MyClass
+</PRE></DIV>
+
+<HR>
+
+
+<!-- HOWTO content -->
+<HR><!-- Google Friend Connect -->
+<script type="text/javascript" src="http://www.google.com/friendconnect/script/friendconnect.js"></script>
+<div id="div-7681152402483573063" style="width:590px;border:1px solid #cccccc;"></div>
+<script type="text/javascript">
+var skin = {};
+skin['BORDER_COLOR'] = '#cccccc';
+// skin['ENDCAP_BG_COLOR'] = '#e0ecff';
+skin['ENDCAP_BG_COLOR'] = '#d3d3d3';
+skin['ENDCAP_TEXT_COLOR'] = '#333333';
+skin['ENDCAP_LINK_COLOR'] = '#0000cc';
+skin['ALTERNATE_BG_COLOR'] = '#ffffff';
+skin['CONTENT_BG_COLOR'] = '#ffffff';
+skin['CONTENT_LINK_COLOR'] = '#0000cc';
+skin['CONTENT_TEXT_COLOR'] = '#333333';
+skin['CONTENT_SECONDARY_LINK_COLOR'] = '#7777cc';
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = '#666666';
+skin['CONTENT_HEADLINE_COLOR'] = '#333333';
+skin['DEFAULT_COMMENT_TEXT'] = '- add your comment here -';
+skin['HEADER_TEXT'] = 'Comments';
+skin['POSTS_PER_PAGE'] = '5';
+google.friendconnect.container.setParentUrl('/' /* location of rpc_relay.html and canvas.html */);
+google.friendconnect.container.renderWallGadget(
+ { id: 'div-7681152402483573063',
+   site: '09315574661186500794',
+   'view-params':{"disableMinMax":"false","scope":"PAGE","allowAnonymousPost":"false","startMaximized":"true"}
+ },
+  skin);
+</script>
+<!-- Google Friend Connect -->
+<HR><!-- Google adsense -->
+<p><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5001760496988433";
+//bottom banner image 1
+google_ad_slot = "7489098401";
+google_ad_width = 468;
+google_ad_height = 60;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<!-- Google adsense -->
+<HR><small>
+<div align="center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" value="_xclick" name="cmd">
+<input type="hidden" value="real@rgagnon.com" name="business">
+<input type="hidden" value="Support for Real's HowTo" name="item_name">
+<input type="hidden" value="realhowto" name="item_number">
+<input type="hidden" value="1" name="no_shipping">
+<input type="hidden" value="http://www.rgagnon.com/thanks.html" name="return">
+<table><tr><td><small>If you find this article useful, consider making a small donation <br>
+to show your support for this Web site and its content.</td>
+<td><input title="Make payments with PayPal - it's fast, free and secure!" type="image"
+alt="Make payments with PayPal - it's fast, free and secure!"
+src="https://www.paypal.com/images/x-click-but04.gif"
+border="0" name="submit"></td></tr></table></form></div>
+<p align='center'>Written and compiled by R&eacute;al Gagnon  &#169;1998-2011<br>
+[<A HREF="http://rgagnon.com/" TARGET="_top"> home </A>]</small></p>
+<HR><!-- GOOGLE ANALYTICS -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2178549-1";
+urchinTracker();
+</script>
+<!-- GOOGLE ANALYTICS -->
+</BODY></HTML>
