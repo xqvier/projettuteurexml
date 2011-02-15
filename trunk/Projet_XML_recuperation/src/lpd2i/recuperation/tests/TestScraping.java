@@ -18,7 +18,7 @@ public class TestScraping {
      * @param args
      */
     public static void main(String[] args) {
-        Scraping scrap = new Scraping("http://www.cinefil.com", Scraping.CINEFIL);
+        Scraping scrap = new Scraping("http://www.allocine.fr/film/fichefilm_gen_cfilm=29233.html", Scraping.CINEFIL);
         
         System.out.println("loadContent():");
         scrap.loadContent();
