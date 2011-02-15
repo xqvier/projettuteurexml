@@ -4,9 +4,7 @@
  */ 
 package lpd2i.recuperation;
 
-import java.sql.Time;
 import java.util.ArrayList;
-import java.util.Timer;
 
 /**
  * Classe gérant les informations d'un film
