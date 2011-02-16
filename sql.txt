@@ -1,0 +1,23 @@
+CREATE TABLE film 
+( 
+id_film NUMERIC,
+titre VARCHAR(50),
+duree NUMERIC,
+annee NUMERIC(4),
+resume LONG,
+commentaires XMLTYPE,
+notes_site NUMERIC,
+notes_util NUMERIC
+)
+/
+
+INSERT INTO film
+VALUES ( 0001, 'slevin', '183', '1984', 'petit film et acteurs petit joueur', XMLType('
+<Warehouse whNo="100"> 
+<Building>Owned</Building>
+</Warehouse>'), 15, 12 )
+/
+
+SELECT 
+  f.commentaires.extract('/Warehouse/Building/text()').getStringVal()
+FROM film f;
