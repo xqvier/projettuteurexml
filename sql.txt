@@ -56,10 +56,35 @@ constraint fke2 foreign key (id_genre) references genre(id_genre)
 /
 
 INSERT INTO film
-VALUES ( 0001, 'slevin', '183', '1984', 'petit film et acteurs petit joueur', XMLType('
+VALUES ( 0001, 'top gun', '123', '1995', 'des avions et une histoire d'amour', XMLType('
 <Warehouse whNo="100"> 
 <Building>Owned</Building>
-</Warehouse>'), 15, 12 )
+</Warehouse>'), 5, 4 )
+VALUES ( 0002, 'slevin', '108', '2006', 'deux clan, un endettés', XMLType('
+<Warehouse whNo="100"> 
+<Building>coucou</Building>
+</Warehouse>'), 8, 6 )
+
+
+insert into personne
+values (0001, 'cruise', 'tom'),
+values (0002, 'eastwood','client),
+values (0003, 'bruce', 'willis'),
+
+insert into genre
+values (0001, 'policier'),
+values (0002, 'action'),
+
+
+insert into est
+values (0001,0002),
+values (0002,0001),
+
+insert into jouer
+values (0001,0001),
+values (0002,0003),
+
+
 /
 
 SELECT 
