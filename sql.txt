@@ -4,10 +4,54 @@ id_film NUMERIC,
 titre VARCHAR(50),
 duree NUMERIC,
 annee NUMERIC(4),
+notes_site NUMERIC,
+notes_util NUMERIC,
 resume LONG,
 commentaires XMLTYPE,
-notes_site NUMERIC,
-notes_util NUMERIC
+constraint pkf primary key (id_film)
+)
+
+
+create table personne
+(
+id_pers numeric,
+nom_pers varchar(50),
+prenom_pers varchar(50),
+constraint pkp primary key (id_pers)
+)
+
+create table genre
+(
+id_genre numeric,
+nom_genre,
+constraint pkg primary key (id_genre)
+)
+
+create table jouer
+(
+id_film numeric,
+id_pers numeric,
+constraint pkj primary key (id_film,id_pers),
+constraint fkj1 foreign key (id_film) references film(id_film),
+constraint fkj2 foreign key (id_Pers) references personne(id_pers)
+)
+
+create table realiser
+(
+id_film numeric,
+id_pers numeric,
+constraint pkr primary key (id_film,id_pers),
+constraint fkr1 foreign key (id_film) references film(id_film),
+constraint fkr2 foreign key (id_Pers) references personne(id_pers)
+)
+
+create table est
+(
+id_film numeric,
+id_genre numeric,
+constraint pke primary key (id_film,idgenre),
+constraint fke1 foreign key (id_film) references film(id_film),
+constraint fke2 foreign key (id_genre) references genre(id_genre)
 )
 /
 
