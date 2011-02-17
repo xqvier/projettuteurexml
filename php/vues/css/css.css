@@ -1,0 +1,25 @@
+body {
+	width:800px;
+	margin:auto;
+}
+
+li {
+	color:#FFF;
+	float:left;
+	display:block;
+	heigth:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	border-style:none;
+}
+
+ul {
+	height:30px;
+	background-color:#4a5a5a;
+}
+
+a {
+	text-decoration:none;
+	color:#FFF;
+}
