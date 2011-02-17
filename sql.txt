@@ -7,7 +7,7 @@ annee NUMERIC(4),
 notes_site NUMERIC,
 notes_util NUMERIC,
 resume LONG,
-commentaires XMLTYPE,
+commentaire XMLTYPE,
 constraint pkf primary key (id_film)
 )
 
@@ -23,7 +23,7 @@ constraint pkp primary key (id_pers)
 create table genre
 (
 id_genre numeric,
-nom_genre,
+nom_genre varchar(25),
 constraint pkg primary key (id_genre)
 )
 
@@ -49,46 +49,68 @@ create table est
 (
 id_film numeric,
 id_genre numeric,
-constraint pke primary key (id_film,idgenre),
+constraint pke primary key (id_film,id_genre),
 constraint fke1 foreign key (id_film) references film(id_film),
 constraint fke2 foreign key (id_genre) references genre(id_genre)
 )
 /
 
 INSERT INTO film
-VALUES ( 0001, 'top gun', '123', '1995', 'des avions et une histoire d'amour', XMLType('
-<Warehouse whNo="100"> 
-<Building>Owned</Building>
-</Warehouse>'), 5, 4 )
-VALUES ( 0002, 'slevin', '108', '2006', 'deux clan, un endettés', XMLType('
-<Warehouse whNo="100"> 
-<Building>coucou</Building>
-</Warehouse>'), 8, 6 )
+VALUES ( 0001, 'top gun', 123, 1995, 5, 4 ,'des avions et une histoire d amour',XMLType('
+<film> 
+    <commentaire>
+	<pseudo>juju</pseudo>
+	<com>super film j adore les avions !!!!</com>
+	<note>6</note>
+	<source>Allocine</source>
+    </commentaire>
+</film>'))
+
+INSERT INTO film
+VALUES ( 0002, 'slevin', 108, 2006, 8 ,6 ,'deux clan un endettés',XMLType('
+<film> 
+    <commentaire>
+	<pseudo>bro_du_52</pseudo>
+	<com>trés bon film avec M. Willis</com>
+	<note>8</note>
+	<source>Allocine</source>
+    </commentaire>
+</film>') )
 
 
 insert into personne
-values (0001, 'cruise', 'tom'),
-values (0002, 'eastwood','client),
-values (0003, 'bruce', 'willis'),
+values (0001, 'cruise', 'tom')
+
+insert into personne
+values (0002, 'eastwood','clint')
+
+insert into personne
+values (0003, 'bruce', 'willis')
 
 insert into genre
-values (0001, 'policier'),
-values (0002, 'action'),
+values (0001, 'policier')
+
+insert into genre
+values (0002, 'action')
 
 
 insert into est
-values (0001,0002),
-values (0002,0001),
+values (0001,0002)
+
+insert into est
+values (0002,0001)
 
 insert into jouer
-values (0001,0001),
-values (0002,0003),
+values (0001,0001)
+
+insert into jouer
+values (0002,0003)
 
 
 /
 
 SELECT 
-  f.commentaires.extract('/Warehouse/Building/text()').getStringVal()
+  f.commentaire.extract('/film/commentaire/com/text()').getStringVal()
 FROM film f;
 
 
