@@ -1,0 +1,9 @@
+fix-uri: t
+fix-backslash: t
+force-output: t
+error-file: error.txt
+char-encoding: utf8
+ascii-chars: n
+escape-cdata: n
+input-encoding: latin1
+keep-time: n

@@ -1,0 +1,549 @@
+line 4 column 1 - Warning: unknown attribute "xmlns:fb"
+line 8 column 526 - Warning: unknown attribute "property"
+line 8 column 599 - Warning: unknown attribute "property"
+line 8 column 650 - Warning: unknown attribute "property"
+line 8 column 763 - Warning: <span> isn't allowed in <head> elements
+line 8 column 769 - Warning: discarding unexpected meta
+line 8 column 872 - Warning: trimming empty <span>
+line 8 column 889 - Warning: discarding unexpected meta
+line 8 column 1 043 - Warning: discarding unexpected meta
+line 8 column 1 200 - Warning: discarding unexpected meta
+line 8 column 1 364 - Warning: discarding unexpected meta
+line 8 column 1 522 - Warning: discarding unexpected meta
+line 8 column 1 674 - Warning: trimming empty <span>
+line 8 column 1 685 - Warning: meta lacks "content" attribute
+line 8 column 1 685 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 709 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 754 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 799 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 840 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 880 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 935 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 975 - Warning: meta isn't allowed in <body> elements
+line 8 column 2 022 - Warning: link isn't allowed in <body> elements
+line 8 column 2 096 - Warning: link isn't allowed in <body> elements
+line 9 column 8 - Warning: link isn't allowed in <body> elements
+line 11 column 8 - Warning: link isn't allowed in <body> elements
+line 15 column 4 - Warning: link isn't allowed in <body> elements
+line 21 column 79 - Warning: Warning: unescaped & or unknown entity "&acjsversion"
+line 34 column 3 - Warning: <style> isn't allowed in <body> elements
+line 76 column -3 - Warning: </head> isn't allowed in <body> elements
+line 77 column 1 - Warning: <body> isn't allowed in <body> elements
+line 96 column 14 - Warning: trimming empty <p>
+line 108 column 11 - Warning: unknown attribute "connectionrequired"
+line 112 column 34 - Warning: trimming empty <span>
+line 114 column 30 - Warning: trimming empty <ul>
+line 118 column 34 - Warning: trimming empty <div>
+line 175 column 25 - Warning: <form> lacks "action" attribute
+line 208 column 53 - Warning: img attribute "height" has invalid value "0px"
+line 208 column 53 - Warning: img attribute "width" has invalid value "0px"
+line 214 column 57 - Warning: <a> escaping malformed URI reference
+line 246 column 33 - Warning: trimming empty <div>
+line 262 column 25 - Warning: trimming empty <div>
+line 269 column 33 - Warning: trimming empty <div>
+line 277 column 153 - Warning: trimming empty <span>
+line 279 column 65 - Warning: <li> Anchor "ctl02" already defined
+line 279 column 190 - Warning: trimming empty <span>
+line 281 column 65 - Warning: <li> Anchor "ctl02" already defined
+line 281 column 187 - Warning: trimming empty <span>
+line 283 column 65 - Warning: <li> Anchor "ctl02" already defined
+line 283 column 183 - Warning: trimming empty <span>
+line 285 column 65 - Warning: <li> Anchor "ctl02" already defined
+line 285 column 195 - Warning: trimming empty <span>
+line 290 column 49 - Warning: trimming empty <div>
+line 331 column 41 - Warning: trimming empty <div>
+line 353 column 33 - Warning: trimming empty <div>
+line 359 column 25 - Warning: trimming empty <div>
+line 360 column 1 - Warning: trimming empty <div>
+line 362 column 35 - Warning: trimming empty <div>
+line 369 column 29 - Warning: trimming empty <div>
+line 378 column 32 - Warning: trimming empty <div>
+line 379 column 32 - Warning: trimming empty <div>
+line 380 column 32 - Warning: trimming empty <div>
+line 381 column 33 - Warning: trimming empty <div>
+line 382 column 9 - Warning: trimming empty <div>
+line 389 column 29 - Warning: unknown attribute "typeof"
+line 389 column 29 - Warning: unknown attribute "xmlns:v"
+line 407 column 263 - Warning: unknown attribute "cuserbookmark"
+line 407 column 263 - Warning: unknown attribute "parametervalue"
+line 407 column 263 - Warning: unknown attribute "parametername"
+line 407 column 328 - Warning: trimming empty <span>
+line 424 column 297 - Warning: trimming empty <span>
+line 425 column 21 - Warning: trimming empty <span>
+line 426 column 17 - Warning: trimming empty <div>
+line 431 column 125 - Warning: trimming empty <span>
+line 436 column 25 - Warning: trimming empty <div>
+line 447 column 57 - Warning: trimming empty <div>
+line 448 column 33 - Warning: trimming empty <div>
+line 449 column 53 - Warning: trimming empty <div>
+line 451 column 21 - Warning: trimming empty <div>
+line 458 column 33 - Warning: unknown attribute "property"
+line 468 column 21 - Warning: trimming empty <div>
+line 609 column 95 - Warning: unknown attribute "property"
+line 618 column 49 - Warning: trimming empty <div>
+line 626 column 775 - Warning: <img> attribute with missing trailing quote mark
+line 626 column 775 - Warning: img lacks "src" attribute
+line 626 column 1 154 - Warning: trimming empty <div>
+line 626 column 1 164 - Warning: unknown attribute "parametervalue"
+line 626 column 1 164 - Warning: unknown attribute "parametername"
+line 626 column 1 530 - Warning: trimming empty <div>
+line 634 column 33 - Warning: trimming empty <div>
+line 637 column 33 - Warning: unknown attribute "showstar"
+line 637 column 33 - Warning: unknown attribute "cusernotation"
+line 637 column 33 - Warning: unknown attribute "parametervalue"
+line 637 column 33 - Warning: unknown attribute "parametername"
+line 637 column 1 816 - Warning: trimming empty <div>
+line 637 column 1 869 - Warning: trimming empty <div>
+line 637 column 1 926 - Warning: trimming empty <div>
+line 637 column 2 036 - Warning: trimming empty <div>
+line 637 column 2 147 - Warning: trimming empty <div>
+line 637 column 2 173 - Warning: trimming empty <div>
+line 642 column 41 - Warning: trimming empty <div>
+line 644 column 33 - Warning: trimming empty <div>
+line 655 column 25 - Warning: trimming empty <div>
+line 662 column 79 - Warning: trimming empty <div>
+line 663 column 37 - Warning: trimming empty <div>
+line 672 column 66 - Warning: trimming empty <div>
+line 673 column 65 - Warning: trimming empty <div>
+line 693 column 65 - Warning: trimming empty <div>
+line 702 column 9 - Warning: missing </div> before <li>
+line 702 column 9 - Warning: inserting implicit <ul>
+line 702 column 225 - Warning: unknown attribute "cmovie"
+line 702 column 241 - Warning: trimming empty <span>
+line 704 column 1 - Warning: missing <li>
+line 709 column 2 - Warning: input Anchor "q" already defined
+line 711 column 21 - nested emphasis <em>
+line 711 column 21 - Warning: trimming empty <em>
+line 711 column 36 - Warning: trimming empty <em>
+line 711 column 47 - Warning: trimming empty <span>
+line 725 column 13 - Warning: trimming empty <p>
+line 726 column 5 - Warning: trimming empty <div>
+line 729 column 53 - Warning: missing </ul> before </div>
+line 780 column 119 - Warning: Warning: unescaped & or unknown entity "&said"
+line 780 column 128 - Warning: Warning: unescaped & or unknown entity "&mid"
+line 780 column 137 - Warning: Warning: unescaped & or unknown entity "&mkid"
+line 781 column 41 - Warning: trimming empty <div>
+line 787 column 34 - Warning: trimming empty <div>
+line 789 column 33 - Warning: trimming empty <div>
+line 796 column 25 - Warning: trimming empty <li>
+line 797 column 21 - Warning: trimming empty <ul>
+line 799 column 13 - Warning: trimming empty <div>
+line 800 column 37 - Warning: trimming empty <div>
+line 861 column 37 - Warning: trimming empty <div>
+line 864 column 29 - Warning: trimming empty <div>
+line 882 column 87 - Warning: trimming empty <div>
+line 886 column 13 - Warning: trimming empty <div>
+line 900 column 65 - Warning: trimming empty <div>
+line 959 column 41 - Warning: trimming empty <p>
+line 962 column 57 - Warning: trimming empty <div>
+line 965 column 49 - Warning: trimming empty <div>
+line 1 029 column 41 - Warning: trimming empty <p>
+line 1 032 column 57 - Warning: trimming empty <div>
+line 1 035 column 49 - Warning: trimming empty <div>
+line 1 043 column 49 - Warning: trimming empty <div>
+line 1 066 column 87 - Warning: trimming empty <div>
+line 1 070 column 13 - Warning: trimming empty <div>
+line 1 150 column 57 - Warning: trimming empty <div>
+line 1 153 column 49 - Warning: trimming empty <div>
+line 1 225 column 57 - Warning: trimming empty <div>
+line 1 228 column 49 - Warning: trimming empty <div>
+line 1 300 column 57 - Warning: trimming empty <div>
+line 1 303 column 49 - Warning: trimming empty <div>
+line 1 375 column 57 - Warning: trimming empty <div>
+line 1 378 column 49 - Warning: trimming empty <div>
+line 1 386 column 49 - Warning: trimming empty <div>
+line 1 395 column 57 - Warning: trimming empty <div>
+line 1 410 column 63 - Warning: trimming empty <div>
+line 1 411 column 21 - Warning: trimming empty <div>
+line 1 435 column 61 - Warning: trimming empty <div>
+line 1 479 column 73 - Warning: trimming empty <div>
+line 1 500 column 69 - Warning: trimming empty <div>
+line 1 522 column 65 - Warning: trimming empty <div>
+line 1 524 column 81 - Warning: trimming empty <div>
+line 1 530 column 88 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 1 535 column 57 - Warning: trimming empty <div>
+line 1 552 column 61 - Warning: trimming empty <div>
+line 1 569 column 65 - Warning: trimming empty <div>
+line 1 578 column 33 - Warning: trimming empty <div>
+line 1 579 column 49 - Warning: trimming empty <div>
+line 1 586 column 17 - Warning: unknown attribute "parametervalue"
+line 1 586 column 17 - Warning: unknown attribute "parametername"
+line 1 587 column 34 - Warning: replacing element <p> by <br>
+line 1 589 column 114 - Warning: trimming empty <em>
+line 1 589 column 129 - Warning: trimming empty <em>
+line 1 589 column 140 - Warning: trimming empty <span>
+line 1 590 column 33 - Warning: trimming empty <div>
+line 1 594 column 33 - Warning: trimming empty <div>
+line 1 605 column 33 - Warning: trimming empty <div>
+line 1 610 column 63 - Warning: trimming empty <div>
+line 1 611 column 21 - Warning: trimming empty <div>
+line 1 771 column 49 - Warning: trimming empty <div>
+line 1 777 column 49 - Warning: trimming empty <div>
+line 1 785 column 63 - Warning: trimming empty <div>
+line 1 786 column 21 - Warning: trimming empty <div>
+line 1 795 column 1 - Warning: unknown attribute "typeof"
+line 1 800 column 36 - Warning: unknown attribute "property"
+line 1 802 column 39 - Warning: unknown attribute "property"
+line 1 818 column 10 - Warning: <div> attribute "id" has invalid value "rid_19965557'"
+line 1 830 column 40 - Warning: trimming empty <div>
+line 1 832 column 25 - Warning: trimming empty <div>
+line 1 856 column 213 - Warning: unknown attribute "allowchangeopacity"
+line 1 856 column 213 - Warning: unknown attribute "isrightcolumn"
+line 1 856 column 213 - Warning: unknown attribute "connecteduserid"
+line 1 856 column 213 - Warning: unknown attribute "connectedpseudo"
+line 1 856 column 213 - Warning: unknown attribute "userid"
+line 1 867 column 29 - Warning: trimming empty <div>
+line 1 888 column 13 - Warning: trimming empty <div>
+line 1 910 column 17 - Warning: trimming empty <p>
+line 1 936 column 13 - Warning: trimming empty <div>
+line 1 945 column 9 - Warning: trimming empty <div>
+line 1 950 column 9 - Warning: <div> attribute "id" has invalid value "rid_19955796'"
+line 1 962 column 40 - Warning: trimming empty <div>
+line 1 964 column 25 - Warning: trimming empty <div>
+line 1 988 column 213 - Warning: unknown attribute "allowchangeopacity"
+line 1 988 column 213 - Warning: unknown attribute "isrightcolumn"
+line 1 988 column 213 - Warning: unknown attribute "connecteduserid"
+line 1 988 column 213 - Warning: unknown attribute "connectedpseudo"
+line 1 988 column 213 - Warning: unknown attribute "userid"
+line 1 999 column 29 - Warning: trimming empty <div>
+line 2 020 column 13 - Warning: trimming empty <div>
+line 2 042 column 17 - Warning: trimming empty <p>
+line 2 066 column 13 - Warning: trimming empty <div>
+line 2 075 column 9 - Warning: trimming empty <div>
+line 2 083 column 163 - Warning: <a> Anchor "link_boxoffice_fr" already defined
+line 2 086 column 57 - Warning: trimming empty <div>
+line 2 089 column 269 - Warning: Warning: unescaped & or unknown entity "&critique"
+line 2 089 column 302 - Warning: Warning: unescaped & or unknown entity "&year"
+line 2 092 column 57 - Warning: trimming empty <div>
+line 2 097 column 25 - Warning: trimming empty <div>
+line 2 100 column 81 - Warning: trimming empty <em>
+line 2 100 column 96 - Warning: trimming empty <em>
+line 2 100 column 107 - Warning: trimming empty <span>
+line 2 102 column 37 - Warning: trimming empty <div>
+line 2 112 column 63 - Warning: trimming empty <div>
+line 2 113 column 21 - Warning: trimming empty <div>
+line 2 141 column 49 - Warning: trimming empty <div>
+line 2 143 column 49 - Warning: trimming empty <div>
+line 2 150 column 55 - Warning: trimming empty <div>
+line 2 151 column 17 - Warning: trimming empty <div>
+line 2 172 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 179 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 186 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 193 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 200 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 207 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 214 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 221 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 228 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 235 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 242 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 249 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 256 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 263 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 270 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 277 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 284 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 291 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 298 column 40 - Warning: <table> Anchor "tableid_tags" already defined
+line 2 308 column 49 - Warning: trimming empty <div>
+line 2 325 column 33 - Warning: trimming empty <div>
+line 2 345 column 39 - Warning: trimming empty <div>
+line 2 346 column -3 - Warning: trimming empty <div>
+line 2 355 column 1 - Warning: <style> isn't allowed in <div> elements
+line 2 369 column 40 - Warning: trimming empty <div>
+line 2 371 column 25 - Warning: trimming empty <div>
+line 2 379 column 33 - Warning: <form> lacks "action" attribute
+line 2 386 column 49 - Warning: trimming empty <em>
+line 2 386 column 64 - Warning: trimming empty <em>
+line 2 386 column 75 - Warning: trimming empty <span>
+line 2 391 column 41 - Warning: trimming empty <div>
+line 2 393 column 33 - Warning: trimming empty <div>
+line 2 395 column 27 - Warning: trimming empty <div>
+line 2 409 column 61 - Warning: trimming empty <ul>
+line 2 410 column 53 - Warning: trimming empty <div>
+line 2 416 column 33 - Warning: trimming empty <div>
+line 2 418 column 25 - Warning: trimming empty <div>
+line 2 425 column 136 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 2 436 column 25 - Warning: trimming empty <div>
+line 2 451 column 71 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 2 454 column 30 - Warning: missing </em> before <div>
+line 2 458 column 49 - Warning: trimming empty <em>
+line 2 458 column 64 - Warning: trimming empty <em>
+line 2 458 column 75 - Warning: trimming empty <span>
+line 2 465 column 31 - Warning: discarding unexpected </em>
+line 2 468 column 41 - Warning: trimming empty <div>
+line 2 582 column 116 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 2 587 column 118 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 2 603 column 140 - Warning: Warning: unescaped & or unknown entity "&linkurl"
+line 2 614 column 41 - Warning: trimming empty <div>
+line 2 629 column 33 - Warning: trimming empty <div>
+line 2 663 column 33 - Warning: trimming empty <div>
+line 2 666 column 13 - Warning: replacing element </p> by <br>
+line 2 666 column 13 - Warning: inserting implicit <br>
+line 2 667 column 17 - Warning: <br> element not empty or not closed
+line 2 682 column 32 - Warning: trimming empty <div>
+line 2 683 column 32 - Warning: trimming empty <div>
+line 2 684 column 32 - Warning: trimming empty <div>
+line 2 685 column 33 - Warning: trimming empty <div>
+line 2 686 column 9 - Warning: trimming empty <div>
+line 2 723 column 32 - Warning: trimming empty <div>
+line 2 724 column 32 - Warning: trimming empty <div>
+line 2 725 column 32 - Warning: trimming empty <div>
+line 2 726 column 33 - Warning: trimming empty <div>
+line 2 727 column 5 - Warning: trimming empty <div>
+line 2 769 column 26 - Warning: trimming empty <div>
+line 2 779 column 33 - Warning: trimming empty <div>
+line 2 784 column 32 - Warning: trimming empty <div>
+line 2 785 column 32 - Warning: trimming empty <div>
+line 2 786 column 32 - Warning: trimming empty <div>
+line 2 787 column 33 - Warning: trimming empty <div>
+line 2 788 column 5 - Warning: trimming empty <div>
+line 2 800 column 13 - Warning: trimming empty <div>
+line 2 802 column 13 - Warning: trimming empty <div>
+line 2 804 column 13 - Warning: trimming empty <div>
+line 2 806 column 13 - Warning: trimming empty <div>
+line 2 807 column 5 - Warning: trimming empty <div>
+line 2 815 column 110 - Warning: unknown attribute "cuserbookmark"
+line 2 815 column 110 - Warning: unknown attribute "parametervalue"
+line 2 815 column 110 - Warning: unknown attribute "parametername"
+line 2 830 column 82 - Warning: trimming empty <div>
+line 2 830 column 113 - Warning: trimming empty <div>
+line 2 830 column 281 - Warning: trimming empty <div>
+line 2 855 column 29 - Warning: trimming empty <div>
+line 2 890 column 40 - Warning: trimming empty <div>
+line 2 892 column 25 - Warning: trimming empty <div>
+line 2 918 column 289 - Warning: unknown attribute "allowchangeopacity"
+line 2 918 column 289 - Warning: unknown attribute "isrightcolumn"
+line 2 918 column 289 - Warning: unknown attribute "connecteduserid"
+line 2 918 column 289 - Warning: unknown attribute "connectedpseudo"
+line 2 918 column 289 - Warning: unknown attribute "userid"
+line 2 924 column 97 - Warning: trimming empty <div>
+line 2 942 column 77 - Warning: trimming empty <div>
+line 2 946 column 63 - Warning: trimming empty <div>
+line 2 977 column 40 - Warning: trimming empty <div>
+line 2 979 column 25 - Warning: trimming empty <div>
+line 3 005 column 289 - Warning: unknown attribute "allowchangeopacity"
+line 3 005 column 289 - Warning: unknown attribute "isrightcolumn"
+line 3 005 column 289 - Warning: unknown attribute "connecteduserid"
+line 3 005 column 289 - Warning: unknown attribute "connectedpseudo"
+line 3 005 column 289 - Warning: unknown attribute "userid"
+line 3 011 column 97 - Warning: trimming empty <div>
+line 3 029 column 77 - Warning: trimming empty <div>
+line 3 033 column 63 - Warning: trimming empty <div>
+line 3 064 column 40 - Warning: trimming empty <div>
+line 3 066 column 25 - Warning: trimming empty <div>
+line 3 092 column 289 - Warning: unknown attribute "allowchangeopacity"
+line 3 092 column 289 - Warning: unknown attribute "isrightcolumn"
+line 3 092 column 289 - Warning: unknown attribute "connecteduserid"
+line 3 092 column 289 - Warning: unknown attribute "connectedpseudo"
+line 3 092 column 289 - Warning: unknown attribute "userid"
+line 3 098 column 97 - Warning: trimming empty <div>
+line 3 116 column 77 - Warning: trimming empty <div>
+line 3 157 column 40 - Warning: trimming empty <div>
+line 3 159 column 25 - Warning: trimming empty <div>
+line 3 185 column 289 - Warning: unknown attribute "allowchangeopacity"
+line 3 185 column 289 - Warning: unknown attribute "isrightcolumn"
+line 3 185 column 289 - Warning: unknown attribute "connecteduserid"
+line 3 185 column 289 - Warning: unknown attribute "connectedpseudo"
+line 3 185 column 289 - Warning: unknown attribute "userid"
+line 3 191 column 97 - Warning: trimming empty <div>
+line 3 209 column 77 - Warning: trimming empty <div>
+line 3 213 column 63 - Warning: trimming empty <div>
+line 3 244 column 40 - Warning: trimming empty <div>
+line 3 246 column 25 - Warning: trimming empty <div>
+line 3 272 column 289 - Warning: unknown attribute "allowchangeopacity"
+line 3 272 column 289 - Warning: unknown attribute "isrightcolumn"
+line 3 272 column 289 - Warning: unknown attribute "connecteduserid"
+line 3 272 column 289 - Warning: unknown attribute "connectedpseudo"
+line 3 272 column 289 - Warning: unknown attribute "userid"
+line 3 278 column 97 - Warning: trimming empty <div>
+line 3 296 column 77 - Warning: trimming empty <div>
+line 3 300 column 63 - Warning: trimming empty <div>
+line 3 331 column 40 - Warning: trimming empty <div>
+line 3 333 column 25 - Warning: trimming empty <div>
+line 3 359 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 359 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 359 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 359 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 359 column 291 - Warning: unknown attribute "userid"
+line 3 365 column 97 - Warning: trimming empty <div>
+line 3 383 column 77 - Warning: trimming empty <div>
+line 3 424 column 40 - Warning: trimming empty <div>
+line 3 426 column 25 - Warning: trimming empty <div>
+line 3 452 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 452 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 452 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 452 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 452 column 291 - Warning: unknown attribute "userid"
+line 3 458 column 97 - Warning: trimming empty <div>
+line 3 476 column 77 - Warning: trimming empty <div>
+line 3 480 column 63 - Warning: trimming empty <div>
+line 3 511 column 40 - Warning: trimming empty <div>
+line 3 513 column 25 - Warning: trimming empty <div>
+line 3 539 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 539 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 539 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 539 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 539 column 291 - Warning: unknown attribute "userid"
+line 3 545 column 97 - Warning: trimming empty <div>
+line 3 563 column 77 - Warning: trimming empty <div>
+line 3 567 column 63 - Warning: trimming empty <div>
+line 3 598 column 40 - Warning: trimming empty <div>
+line 3 600 column 25 - Warning: trimming empty <div>
+line 3 626 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 626 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 626 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 626 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 626 column 291 - Warning: unknown attribute "userid"
+line 3 632 column 97 - Warning: trimming empty <div>
+line 3 650 column 77 - Warning: trimming empty <div>
+line 3 691 column 40 - Warning: trimming empty <div>
+line 3 693 column 25 - Warning: trimming empty <div>
+line 3 719 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 719 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 719 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 719 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 719 column 291 - Warning: unknown attribute "userid"
+line 3 725 column 97 - Warning: trimming empty <div>
+line 3 743 column 77 - Warning: trimming empty <div>
+line 3 747 column 63 - Warning: trimming empty <div>
+line 3 778 column 40 - Warning: trimming empty <div>
+line 3 780 column 25 - Warning: trimming empty <div>
+line 3 806 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 806 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 806 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 806 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 806 column 291 - Warning: unknown attribute "userid"
+line 3 812 column 97 - Warning: trimming empty <div>
+line 3 830 column 77 - Warning: trimming empty <div>
+line 3 834 column 63 - Warning: trimming empty <div>
+line 3 865 column 40 - Warning: trimming empty <div>
+line 3 867 column 25 - Warning: trimming empty <div>
+line 3 893 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 893 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 893 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 893 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 893 column 291 - Warning: unknown attribute "userid"
+line 3 899 column 97 - Warning: trimming empty <div>
+line 3 917 column 77 - Warning: trimming empty <div>
+line 3 958 column 40 - Warning: trimming empty <div>
+line 3 960 column 25 - Warning: trimming empty <div>
+line 3 986 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 3 986 column 291 - Warning: unknown attribute "isrightcolumn"
+line 3 986 column 291 - Warning: unknown attribute "connecteduserid"
+line 3 986 column 291 - Warning: unknown attribute "connectedpseudo"
+line 3 986 column 291 - Warning: unknown attribute "userid"
+line 3 992 column 97 - Warning: trimming empty <div>
+line 4 010 column 77 - Warning: trimming empty <div>
+line 4 014 column 63 - Warning: trimming empty <div>
+line 4 045 column 40 - Warning: trimming empty <div>
+line 4 047 column 25 - Warning: trimming empty <div>
+line 4 073 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 4 073 column 291 - Warning: unknown attribute "isrightcolumn"
+line 4 073 column 291 - Warning: unknown attribute "connecteduserid"
+line 4 073 column 291 - Warning: unknown attribute "connectedpseudo"
+line 4 073 column 291 - Warning: unknown attribute "userid"
+line 4 079 column 97 - Warning: trimming empty <div>
+line 4 097 column 77 - Warning: trimming empty <div>
+line 4 101 column 63 - Warning: trimming empty <div>
+line 4 132 column 40 - Warning: trimming empty <div>
+line 4 134 column 25 - Warning: trimming empty <div>
+line 4 160 column 291 - Warning: unknown attribute "allowchangeopacity"
+line 4 160 column 291 - Warning: unknown attribute "isrightcolumn"
+line 4 160 column 291 - Warning: unknown attribute "connecteduserid"
+line 4 160 column 291 - Warning: unknown attribute "connectedpseudo"
+line 4 160 column 291 - Warning: unknown attribute "userid"
+line 4 166 column 97 - Warning: trimming empty <div>
+line 4 184 column 77 - Warning: trimming empty <div>
+line 4 206 column 29 - Warning: trimming empty <div>
+line 4 211 column 82 - Warning: trimming empty <div>
+line 4 211 column 113 - Warning: trimming empty <div>
+line 4 211 column 137 - Warning: <a> escaping malformed URI reference
+line 4 211 column 401 - Warning: trimming empty <div>
+line 4 219 column 13 - Warning: trimming empty <div>
+line 4 225 column 13 - Warning: trimming empty <div>
+line 4 227 column 13 - Warning: trimming empty <div>
+line 4 229 column 13 - Warning: trimming empty <div>
+line 4 231 column 13 - Warning: trimming empty <div>
+line 4 232 column 5 - Warning: trimming empty <div>
+line 4 244 column 13 - Warning: trimming empty <div>
+line 4 246 column 13 - Warning: trimming empty <div>
+line 4 248 column 13 - Warning: trimming empty <div>
+line 4 250 column 13 - Warning: trimming empty <div>
+line 4 251 column 5 - Warning: trimming empty <div>
+line 4 268 column 91 - Warning: trimming empty <span>
+line 4 283 column 42 - Warning: trimming empty <div>
+line 4 297 column 29 - Warning: trimming empty <div>
+line 4 325 column 40 - Warning: trimming empty <div>
+line 4 327 column 25 - Warning: trimming empty <div>
+line 4 346 column 287 - Warning: unknown attribute "allowchangeopacity"
+line 4 346 column 287 - Warning: unknown attribute "isrightcolumn"
+line 4 346 column 287 - Warning: unknown attribute "connecteduserid"
+line 4 346 column 287 - Warning: unknown attribute "connectedpseudo"
+line 4 346 column 287 - Warning: unknown attribute "userid"
+line 4 352 column 93 - Warning: trimming empty <div>
+line 4 371 column 77 - Warning: trimming empty <div>
+line 4 379 column 85 - Warning: trimming empty <div>
+line 4 405 column 40 - Warning: trimming empty <div>
+line 4 407 column 25 - Warning: trimming empty <div>
+line 4 426 column 287 - Warning: unknown attribute "allowchangeopacity"
+line 4 426 column 287 - Warning: unknown attribute "isrightcolumn"
+line 4 426 column 287 - Warning: unknown attribute "connecteduserid"
+line 4 426 column 287 - Warning: unknown attribute "connectedpseudo"
+line 4 426 column 287 - Warning: unknown attribute "userid"
+line 4 432 column 93 - Warning: trimming empty <div>
+line 4 451 column 77 - Warning: trimming empty <div>
+line 4 459 column 85 - Warning: trimming empty <div>
+line 4 485 column 40 - Warning: trimming empty <div>
+line 4 487 column 25 - Warning: trimming empty <div>
+line 4 506 column 287 - Warning: unknown attribute "allowchangeopacity"
+line 4 506 column 287 - Warning: unknown attribute "isrightcolumn"
+line 4 506 column 287 - Warning: unknown attribute "connecteduserid"
+line 4 506 column 287 - Warning: unknown attribute "connectedpseudo"
+line 4 506 column 287 - Warning: unknown attribute "userid"
+line 4 512 column 93 - Warning: trimming empty <div>
+line 4 531 column 77 - Warning: trimming empty <div>
+line 4 552 column 29 - Warning: trimming empty <div>
+line 4 557 column 13 - Warning: trimming empty <div>
+line 4 563 column 13 - Warning: trimming empty <div>
+line 4 565 column 13 - Warning: trimming empty <div>
+line 4 567 column 13 - Warning: trimming empty <div>
+line 4 569 column 13 - Warning: trimming empty <div>
+line 4 570 column 5 - Warning: trimming empty <div>
+line 4 581 column 33 - Warning: trimming empty <div>
+line 4 585 column 25 - Warning: trimming empty <div>
+line 4 588 column 1 - Warning: <style> isn't allowed in <div> elements
+line 4 598 column 24 - Warning: trimming empty <div>
+line 4 599 column 24 - Warning: trimming empty <div>
+line 4 600 column 24 - Warning: trimming empty <div>
+line 4 601 column 25 - Warning: trimming empty <div>
+line 4 602 column 1 - Warning: trimming empty <div>
+line 4 607 column 37 - Warning: trimming empty <div>
+line 4 614 column 32 - Warning: trimming empty <div>
+line 4 615 column 32 - Warning: trimming empty <div>
+line 4 616 column 32 - Warning: trimming empty <div>
+line 4 617 column 33 - Warning: trimming empty <div>
+line 4 618 column 5 - Warning: trimming empty <div>
+line 4 625 column 24 - Warning: trimming empty <div>
+line 4 626 column 24 - Warning: trimming empty <div>
+line 4 627 column 24 - Warning: trimming empty <div>
+line 4 628 column 25 - Warning: trimming empty <div>
+line 4 629 column 1 - Warning: trimming empty <div>
+line 4 632 column 82 - Warning: trimming empty <div>
+line 4 636 column 41 - Warning: trimming empty <div>
+line 4 641 column 43 - Warning: trimming empty <div>
+line 4 675 column 109 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 4 688 column 73 - Warning: trimming empty <div>
+line 4 690 column 65 - Warning: trimming empty <div>
+line 4 693 column 59 - Warning: trimming empty <div>
+line 4 710 column 84 - Warning: <a> Anchor "minilist_moviepage1" already defined
+line 4 730 column 109 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 4 743 column 73 - Warning: trimming empty <div>
+line 4 745 column 65 - Warning: trimming empty <div>
+line 4 748 column 59 - Warning: trimming empty <div>
+line 4 765 column 84 - Warning: <a> Anchor "minilist_moviepage1" already defined
+line 4 785 column 109 - Warning: Warning: unescaped & or unknown entity "&cfilm"
+line 4 798 column 73 - Warning: trimming empty <div>
+line 4 800 column 65 - Warning: trimming empty <div>
+line 4 803 column 59 - Warning: trimming empty <div>
+line 4 811 col
