@@ -90,3 +90,14 @@ values (0002,0003),
 SELECT 
   f.commentaires.extract('/Warehouse/Building/text()').getStringVal()
 FROM film f;
+
+
+/***********************************************************************************/
+
+
+
+
+
+
+
+
