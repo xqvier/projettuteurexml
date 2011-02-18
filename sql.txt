@@ -111,4 +111,4 @@ values (0002,0003)
 
 SELECT 
   f.commentaire.extract('/film/commentaire/com/text()').getStringVal()
-FROM film f;
+FROM film f; 
