@@ -1,23 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
 xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="fr"
 lang="fr">
-<head>
+<head id="ctl00_ctl00_Head1">
 <meta name="generator"
 content="HTML Tidy for Java (vers. 2009-12-01), see jtidy.sourceforge.net" />
-<title>Piège de cristal (1988) - AlloCiné</title>
 <meta http-equiv="Content-Language" content="FR" />
 <meta http-equiv="Content-Type"
 content="text/html; charset=UTF-8" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description"
-content="Un film de John McTiernan avec Bruce Willis, Alan Rickman. John McClane, policier new-yorkais, est venu rejoindre sa femme Holly, dont il est separé depuis plusieurs mois, pour les fêtes de Noël dans le secret espoir d'une réconciliation. Celle-ci est cadre dans une multinationale japonaise, la Nakatomi Corp..." />
+content="Un film de Joseph Kosinski avec Jeff Bridges, Garrett Hedlund. Sam Flynn, 27 ans, est le fils expert en technologie de Kevin Flynn. Cherchant à percer le mystère de la disparition de son père, il se retrouve aspiré dans ce même monde de programmes redoutables et de jeux mortels où vit son père depuis 25 ans. Ave..." />
 <meta property="og:title"
-content="Piège de cristal (1988) - AlloCiné" />
+content="Tron l'héritage (2010) - AlloCiné" />
 <meta property="og:site_name" content="AlloCiné" />
 <meta property="og:image"
-content="http://images.allocine.fr/r_160_214/medias/nmedia/18/36/04/15/18686563.jpg" />
+content="http://images.allocine.fr/r_160_214/medias/nmedia/18/71/75/38/19640130.jpg" />
 <meta name="keywords" />
 <meta name="distribution" content="global" />
 <meta name="Googlebot" content="noarchive" />
@@ -27,48 +24,18 @@ content="http://images.allocine.fr/r_160_214/medias/nmedia/18/36/04/15/18686563.
 <meta name="geo.country" content="FR" />
 <meta name="ICBM" content="48.87078;2.30447" />
 <link rel="shortcut icon" type="image/x-icon"
-href="/skin/allocine.ico" />
-<link rel="icon" type="image/ico" href="/skin/allocine.ico" />
-<link rel="image_src"
-href="http://images.allocine.fr/r_160_214/medias/nmedia/18/36/04/15/18686563.jpg" />
+href="/skin/favicon.ico" />
 <link rel="stylesheet" type="text/css"
 href="/skin/default/ac-core.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/skin/default/ac-core-ie7.css" /><![endif]--><!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/skin/default/ac-core-ie6.css" /><![endif]-->
 <link rel="stylesheet" type="text/css"
-href="/skin/default/ac-flags.css" /><style type="text/css">
-/*<![CDATA[*/
-    #a2apage_sm_ifr
-    {
-      display: none;
-    }
-  /*]]>*/
-</style>
-<style type="text/css">
-/*<![CDATA[*/
-        .error{background-color: #FFF6C3; width:95%; vertical-align:middle; text-align:center; padding:5px 10px;}
-        .success{background-color: #FFFFFF; color: #47A243 ;}
-        #message {border: 1px solid #d3d3d3;background-color: #ffffff;width: 330px; }
-        #message.disabled {border: 1px solid #edf0f3;background-color: #edf0f3;}
-/*]]>*/
-</style>
-<style type="text/css">
-/*<![CDATA[*/
-        .adpurl_style_table_1  td { border: 0 !important; }
-        .apdurl_style_ad_table_1 { margin-bottom: 10px; }
-/*]]>*/
-</style>
-</head>
-<body>
-  
-<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/skin/default/ac-core-ie7.css" /><![endif]-->
- 
-<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/skin/default/ac-core-ie6.css" /><![endif]-->
-  <script type="text/javascript"
+href="/skin/default/ac-flags.css" /><script type="text/javascript"
 src="/js/ac/ac.resources.634333770720337648.js">
 //<![CDATA[
 //]]>
 </script>
 <script type="text/javascript"
-src="/js/acScriptHandlerEx.ashx?p=-1628004091&amp;acjsversion=634333770720337648">
+src="/js/acScriptHandlerEx.ashx?p=230355761&amp;acjsversion=634333770720337648">
 //<![CDATA[
 //]]>
 </script>
@@ -79,7 +46,7 @@ $.Loader.loadScripts(["http://platform.twitter.com/widgets.js","/js/acScriptHand
 </script>
 <script type="text/javascript">
 //<![CDATA[
-ac.adManager.register(10936,81687,"movie=4019;genre=13025","1572,47,192,46,5137,6709,54,5370,5371,62,295");
+ac.adManager.register(10936,81687,"movie=29233;genre=13021","6709,62,1572,47,192,295,54,5370,5371");
 //]]>
 </script>
 <script type="text/javascript">
@@ -87,9 +54,18 @@ ac.adManager.register(10936,81687,"movie=4019;genre=13025","1572,47,192,46,5137,
 ac.adManager.registerCallback();
 //]]>
 </script>
-<script type="text/javascript">
+<style type="text/css">
+/*<![CDATA[*/
+        #a2apage_sm_ifr
+        {
+            display: none;
+        }
+    /*]]>*/
+</style>
+<script id="ctl00_ctl00_htmlhead_EntityManagerScript1"
+type="text/javascript">
 //<![CDATA[
-if ('undefined' == typeof acInfos) { acInfos = {};acInfos.entities = {};}acInfos.entities['movie'] = {"cMovie":4019,"titleFormed":"Piège de cristal","fanCount":2041,"commentCount":18};
+if ('undefined' == typeof acInfos) {  acInfos = {};acInfos.entities = {};}acInfos.entities['movie'] = {"cMovie":29233,"titleFormed":"Tron l'héritage","fanCount":2314,"commentCount":984};
 //]]>
 </script>
 <script type="text/javascript">
@@ -107,7 +83,7 @@ if ('undefined' == typeof acInfos) { acInfos = {};acInfos.entities = {};}acInfos
                         $("#SeeThisFilmTabs > .tabs > ul").fmSimpleTabs({
                                 panes: "#SeeThisFilmTabs > .tabs-panes > div.tab",
                                 tab: "li",
-                                startingTab: 1,
+                                startingTab: 0,
                                 isAjax: true,
                                 loadingMsg: ""
                         });
@@ -122,6 +98,25 @@ if ('undefined' == typeof acInfos) { acInfos = {};acInfos.entities = {};}acInfos
                 });
         //]]>
 </script>
+<link rel="stylesheet" type="text/css"
+href="/skin/cobranding/tron/event.css" />
+<title>Tron l'héritage (2010) - AlloCiné</title>
+<style type="text/css">
+/*<![CDATA[*/
+        .error{background-color: #FFF6C3; width:95%; vertical-align:middle; text-align:center; padding:5px 10px;}
+        .success{background-color: #FFFFFF; color: #47A243 ;}
+        #message {border: 1px solid #d3d3d3;background-color: #ffffff;width: 330px; }
+        #message.disabled {border: 1px solid #edf0f3;background-color: #edf0f3;}
+/*]]>*/
+</style>
+<style type="text/css">
+/*<![CDATA[*/
+        .adpurl_style_table_1  td { border: 0 !important; }
+        .apdurl_style_ad_table_1 { margin-bottom: 10px; }
+/*]]>*/
+</style>
+</head>
+<body>
 <div id="ad_62_1" class="adbox adf_62" style="position:static">
 <script type="text/javascript">
 //<![CDATA[
@@ -163,7 +158,7 @@ ac.adManager.postRender("ad_47_1");
 <div class="ac_context js_inter_hide"><!-- CONNECTBAR -->
 <div id="connectbar"><!-- DISCONNECTEDINNER -->
 <div class="disconnectedInner">
-<div class="leftZone"><span class="bg_arrow">&nbsp;</span></div>
+<div class="leftZone"><span class="bg_arrow">&#160;</span></div>
 <!-- /leftZone-->
 <ul class="rightZone">
 <li><a id="devenirmembre"
@@ -177,7 +172,7 @@ class="connect community-connect"></a></li>
 <!-- /disconnectedInner-->
 <!-- CONNECTBARINNER -->
 <div class="connectedInner" connectionrequired="">
-<div class="userID"><span class="bg_arrow">&nbsp;</span> <img
+<div class="userID"><span class="bg_arrow">&#160;</span> <img
 src="http://images.allocine.fr/commons/empty.gif" alt=""
 title="" /> </div>
 <!-- /userID-->
@@ -187,7 +182,7 @@ class="disconnect"></a></div>
 <!-- /connectbarInner-->
 <!-- DECO -->
 <!-- /bg_connectbar-->
-<span class="shadowbar">&nbsp;</span><!-- /shadowbar-->
+<span class="shadowbar">&#160;</span><!-- /shadowbar-->
 </div>
 <!-- /connectbar-->
 <div id="overlay_connect" title="connection"
@@ -242,15 +237,17 @@ style="display:inline"></div>
 <div id="fbc_welcome" title="" style="display:inline"></div>
 <!-- IE6 nor more -->
 <!--[if lt IE 7]><script type="text/javascript" language="javascript" src="/js/ac/ac.ie6nomore.js"></script><![endif]-->
+<!-- Iphone + Ipod touch redirect -->
 <script type="text/javascript" language="Javascript">
 //<![CDATA[
                 <!--
-      if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-        document.write('<div style="background-color: #000000; font-family:helvetica,arial; font-size:26px; color:#FFFFFF; border:solid 1px #FFCC00; margin:0px; padding:20px 0 20px;-webkit-text-size-adjust:none; height:80px; text-align: center;">Vous pouvez visiter notre site optimis&eacute; :<br /><a href="http://iphone.allocine.fr" class="link1" style="color:#FFCC00" ><b>AlloCin&eacute; pour iPhone<\/b><\/a> (et iPod Touch)<\/div>');
-      }
+            if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                document.write('<div style="background-color: #000000; font-family:helvetica,arial; font-size:26px; color:#FFFFFF; border:solid 1px #FFCC00; margin:0px; padding:20px 0 20px;-webkit-text-size-adjust:none; height:80px; text-align: center;">Vous pouvez visiter notre site optimis&eacute; :<br /><a href="http://iphone.allocine.fr" class="link1" style="color:#FFCC00" ><b>AlloCin&eacute; pour iPhone<\/b><\/a> \(et iPod Touch\)<\/div>');
+            }
                 -->
-    //]]>
+        //]]>
 </script>
+ <!-- / Iphone + Ipod touch redirect -->
  
 <div id="showtimesinfotip" class="showtimesinfotip"></div>
 <div id="flyingstars" style="display: none;">
@@ -272,6 +269,7 @@ value="4,5" /> <input name="adv2" type="radio"
 class="community_notation {split:2}" value="5" /></form>
 </div>
 <div id="flyingstarsden"></div>
+<div id="flyingstarsden"></div>
 <div class="ac_page">
 <div class="pagecontainer">
 <div id="headersubmenu"></div>
@@ -289,6 +287,7 @@ ac.adManager.postRender("ad_192_1");
 //]]>
 </script>
 </div>
+<!-- HEADER -->
 <!-- Platform Header Menu -->
 <div class="mainheader">
 <div class="ac_header">
@@ -353,15 +352,15 @@ href="/communaute/"><span class="label">Communauté</span></a></li>
 <!-- /tabshdr -->
 <div class="tabshdr2">
 <ul>
-<li class=""><a href="/article/">News</a>&nbsp;|&nbsp;</li>
+<li class=""><a href="/article/">News</a>&#160;|&#160;</li>
 <li class=""><a
-href="/article/dossiers.html">Dossiers</a>&nbsp;|&nbsp;</li>
-<li class=""><a href="/dvd/">DVD</a>&nbsp;|&nbsp;</li>
-<li class=""><a href="/vod/">VOD</a>&nbsp;|&nbsp;</li>
-<li class=""><a href="/personne/">Stars</a>&nbsp;|&nbsp;</li>
+href="/article/dossiers.html">Dossiers</a>&#160;|&#160;</li>
+<li class=""><a href="/dvd/">DVD</a>&#160;|&#160;</li>
+<li class=""><a href="/vod/">VOD</a>&#160;|&#160;</li>
+<li class=""><a href="/personne/">Stars</a>&#160;|&#160;</li>
 <li class=""><a href="/jeux-video/">Jeux
-vidéo</a>&nbsp;|&nbsp;</li>
-<li class=""><a href="/jeux/">Concours</a>&nbsp;|&nbsp;</li>
+vidéo</a>&#160;|&#160;</li>
+<li class=""><a href="/jeux/">Concours</a>&#160;|&#160;</li>
 <li class=""><a href="/service/">Plus</a></li>
 </ul>
 </div>
@@ -393,49 +392,91 @@ vidéo</a>&nbsp;|&nbsp;</li>
 </div>
 <!-- /mainheader -->
 <!-- Direct Sub Header -->
-<div class="pagelayout lysheet">
+<!-- /subheader -->
+<div class="pagelayout">
 <div class="spacer"><!-- IE6 --></div>
 <div class="coltop">
-<div id="ad_46_1" class="adbox adf_46 -fleft fright"
-style="height:90px"><script type="text/javascript">
-//<![CDATA[
-ac.adManager.registerInsertion(46, "ad_46_1", {fAfter:function(formatId, targetId){
-                                ac.adRenderer.megaBannerAdjust();
-                        }});ac.adManager.render("ad_46_1");
-//]]>
-</script>
+<div class="coltop">
+<div class="tron_menu">
+<div class="flash_player_00"><object width='100%'
+height='100%'><param name='movie'
+value='http://images.allocine.fr/commons/event/tron/toolbar_tron3.swf' />
+<param name='allowFullScreen' value='true' />
+<param name='scale' value='noScale' />
+<param name='allowScriptAccess' value='always' />
+<param name='wmode' value='transparent' />
+<embed
+src='http://images.allocine.fr/commons/event/tron/toolbar_tron3.swf'
+ type='application/x-shockwave-flash' width='100%' height='100%'
+allowfullscreen='true' allowscriptaccess='always'
+wmode='transparent' /></object></div>
+<div class="tron_nav">
+<ul>
+<li class="tron"><a
+href="http://www.allocine.fr/film/fichefilm_gen_cfilm=3996.html">Tron</a></li>
+<li class="legacy"><a
+href="http://www.allocine.fr/film/fichefilm_gen_cfilm=29233.html">Tron
+l'héritage</a></li>
+<li class="bof"><a
+href="http://www.allocine.fr/evenement/tron/bof.aspx">B.O.F.</a></li>
+<li class="videogame"><a
+href="http://www.allocine.fr/video/emissions/gameintv/episode/?cmedia=19193843">Jeu
+vidéo</a></li>
+<li class="videosexclu"><a
+href="http://www.allocine.fr/evenement/tron/videos.aspx">Vidéos
+exclusives</a></li>
+<li class="game"><a href="http://www.allocine.fr/games/tron/">Jeu
+concours</a></li>
+<li class="game3d"><a
+href="http://www.disney.fr/tron/augmented-reality/index.html"
+target="_blank">Jeu concours</a></li>
+</ul>
 </div>
-<script type="text/javascript">
-//<![CDATA[
-ac.adManager.postRender("ad_46_1");
-//]]>
-</script>
- 
-<div id="ad_5137_1" class="adbox adf_5137 ad_mktblock_small">
-<script type="text/javascript">
-//<![CDATA[
-ac.adManager.registerInsertion(5137, "ad_5137_1", {fBefore:function(formatId, targetId){ac.adManager.dependsOn(formatId, 46);}});ac.adManager.render("ad_5137_1");
-//]]>
-</script>
+<!-- /tron_nav -->
 </div>
-<script type="text/javascript">
+<!-- /tron_menu -->
+</div>
+<!-- /coltop -->
+<script type="text/javascript" language="Javascript">
 //<![CDATA[
-ac.adManager.postRender("ad_5137_1");
-//]]>
+
+    function selectMenuTab(selectedTabIdx) {
+        $(".tron_menu a").removeClass("current");
+        $(".tron_menu li").eq(selectedTabIdx).children("a").addClass("current");
+    }
+
+    var path = window.location.pathname;
+    if (typeof(acInfos.entities.movie) != "undefined") {
+        if (acInfos.entities.movie.cMovie == 3996)
+            selectMenuTab(0);
+        if (acInfos.entities.movie.cMovie == 29233 && window.location.pathname != '/evenement/tron/bof.aspx')
+            selectMenuTab(1);
+    }
+
+    if (window.location.pathname == '/evenement/tron/bof.aspx')
+        selectMenuTab(2);
+
+    if (window.location.pathname == '/evenement/tron/videos.aspx')
+        selectMenuTab(4);
+    if (window.location.pathname == '/evenement/tron/default.aspx')
+        selectMenuTab(5);
+        
+    
+ //]]>
 </script>
 </div>
 <!-- /coltop -->
 <div class="colgeneral">
-<div class="boxbasic breadcrumb"><!-- TOP HORIZONTAL SEPARATOR -->
-<div class="boxbasicctt" xmlns:v="http://rdf.data-vocabulary.org/#"
-typeof="v:Movie">
+<div class="boxbasic breadcrumb"><!-- /boxhdr -->
+<div class="boxbasicctt">
 <div class="boxbasichdr">
 <p><a href="/">Accueil</a> <em>&gt;</em> <a
 href="/film/">Cinéma</a> <em>&gt;</em> <a href="/film/tous/">Tous
 les films</a> <em>&gt;</em> <a
-href="/film/tous/genre-13025/">Action</a> <em>&gt;</em> <span
-title="Piège de cristal">Piège de cristal</span></p>
+href="/film/tous/genre-13021/">Science fiction</a> <em>&gt;</em>
+<span title="Tron l'héritage">Tron l'héritage</span></p>
 </div>
+<!-- /boxbasichdr -->
 <!-- functions bar -->
 <div class="functionsbar belowbreadcrumb -hpadding10 -fs11">
 <!-- On the left functions -->
@@ -455,57 +496,51 @@ id="master_head_link_nbfan"></span></li>
 <div class="fright">
 <div class="functionsmenu"><!-- /FB_btn -->
 <div class="TWT_btn fleft"><span class="acencrypteddata hide"
-data='37C71C42484AC2C21C2D1CCBCC46CBCB43C11EC2454AC1431E41C3CBCB4F491C18101C45C143441C2D1C45CBCBC02D1F1FCBCC46CBCB43C119424F4E1FC2454AC1431C18101C4B4ACB4A1E424FC349CB1C2D1C454FC146CD4F49CB4A481C18101C4B4ACB4A1EC4464A1C2D1C4A48484F424649431C18101C4B4ACB4A1E484A494C1C2D1C44C11C18101C4B4ACB4A1EC3C1481C2D101C45CBCBC02D1F1FCCCCCC194A48484F424649431944C11F4446484E1F44464245434446484E3F4C43493F424446484E2E2B202A261945CB4E481CCE3E'>Tweet</span></div>
+data='37C71C42484AC2C21C2D1CCBCC46CBCB43C11EC2454AC1431E41C3CBCB4F491C18101C45C143441C2D1C45CBCBC02D1F1FCBCC46CBCB43C119424F4E1FC2454AC1431C18101C4B4ACB4A1E424FC349CB1C2D1C454FC146CD4F49CB4A481C18101C4B4ACB4A1EC4464A1C2D1C4A48484F424649431C18101C4B4ACB4A1E484A494C1C2D1C44C11C18101C4B4ACB4A1EC3C1481C2D101C45CBCBC02D1F1FCCCCCC194A48484F424649431944C11F4446484E1F44464245434446484E3F4C43493F424446484E2E21262122221945CB4E481CCE3E'>Tweet</span></div>
 <!-- /TWT_btn -->
 <!-- /MSN_btn -->
 </div>
 </div>
 </div>
-<!-- IF HR COMPLEX -->
-<!-- ENDIF -->
-<div class="rubric"><!-- title bar -->
+<div class="rubric">
 <div class="titlebar">
-<h1 property="v:name">Piège de cristal</h1>
+<h1>Tron l'héritage</h1>
 </div>
+<!-- /title bar -->
 </div>
 <!-- /rubric -->
 <div class="colcontent">
 <div class="rubric">
 <p>Date de sortie cinéma : <span class="bold"><a
-href="/film/agenda.html?week=1988-09-21">21 septembre
-1988</a></span><br />
- Film déjà disponible en <a
-href='/film/fichefilm-4019/dvd-blu-ray/?cproduct=11848'>DVD</a>
-depuis le : 18 juillet 2007<br />
- Film déjà disponible en <a
-href='/film/fichefilm-4019/dvd-blu-ray/?cproduct=65991'>Blu-ray</a>
-depuis le : 1 septembre 2010<br />
+href="/film/agenda.html?week=2011-02-09">9 février
+2011</a></span><br />
 <br />
 </p>
 <!-- End first block -->
 <p>Réalisé par <span class="bold"><a rel="v:directedBy"
-href='/personne/fichepersonne_gen_cpersonne=9804.html'
-title='John McTiernan'>John McTiernan</a></span><br />
+href='/personne/fichepersonne_gen_cpersonne=193401.html'
+title='Joseph Kosinski'>Joseph Kosinski</a></span><br />
  Avec <a rel="v:starring"
-href='/personne/fichepersonne_gen_cpersonne=6693.html'
-title='Bruce Willis'>Bruce Willis</a>, <a rel="v:starring"
-href='/personne/fichepersonne_gen_cpersonne=9805.html'
-title='Alan Rickman'>Alan Rickman</a>, <a rel="v:starring"
-href='/personne/fichepersonne_gen_cpersonne=1131.html'
-title='Alexander Godunov'>Alexander Godunov</a>, <a
-class="underline"
-href="/film/casting_gen_cfilm=4019.html">plus</a><br />
+href='/personne/fichepersonne_gen_cpersonne=1052.html'
+title='Jeff Bridges'>Jeff Bridges</a>, <a rel="v:starring"
+href='/personne/fichepersonne_gen_cpersonne=89322.html'
+title='Garrett Hedlund'>Garrett Hedlund</a>, <a rel="v:starring"
+href='/personne/fichepersonne_gen_cpersonne=104785.html'
+title='Olivia Wilde'>Olivia Wilde</a>, <a class="underline"
+href="/film/casting_gen_cfilm=29233.html">plus</a><br />
 <br />
 </p>
 <!-- end paragraph for second block -->
-<p>Titre original : <span class="purehtml"><em>Die
-Hard</em></span><br />
+<p>Titre original : <span class="purehtml"><em>Tron
+Legacy</em></span><br />
  Long-métrage <a href="/film/tous/pays-5002/">américain</a>
-<span>.</span> Genre : <a href="/film/tous/genre-13025/">Action</a>
-, <a href="/film/tous/genre-13023/">Thriller</a><br />
+<span>.</span> Genre : <a href="/film/tous/genre-13021/">Science
+fiction</a> , <a href="/film/tous/genre-13025/">Action</a> , <a
+href="/film/tous/genre-13001/">Aventure</a><br />
  Durée : 02h06min Année de production : <a
-href="/film/tous/decennie-1980/?year=1988">1988</a><br />
-<br />
+href="/film/tous/decennie-2010/?year=2010">2010</a><br />
+ Distributeur : <a href="/societe/fichesociete-15029/">Walt Disney
+Studios Motion Pictures France</a><br />
 </p>
 <!-- end paragraph for third block -->
 <div>
@@ -513,21 +548,21 @@ href="/film/tous/decennie-1980/?year=1988">1988</a><br />
 style="overflow: hidden; height: 54px;">
 <div id="synopsis_full">
 <p><span class="bold">Synopsis :</span> <span
-property="v:summary">John McClane, policier new-yorkais, est venu
-rejoindre sa femme Holly, dont il est separé depuis plusieurs mois,
-pour les fêtes de Noël dans le secret espoir d'une réconciliation.
-Celle-ci est cadre dans une multinationale japonaise, la Nakatomi
-Corporation. Son patron, M. Takagi, donne une soirée en l'honneur
-de ses employés, à laquelle assiste McClane. Tandis qu'il s'isole
-pour téléphoner, un commando investit l'immeuble et coupe toutes
-les communications avec l'extérieur...</span></p>
+property="v:summary">Sam Flynn, 27 ans, est le fils expert en
+technologie de Kevin Flynn. Cherchant à percer le mystère de la
+disparition de son père, il se retrouve aspiré dans ce même monde
+de programmes redoutables et de jeux mortels où vit son père depuis
+25 ans. Avec la fidèle confidente de Kevin, père et fils s'engagent
+dans un voyage où la mort guette, à travers un cyber univers
+époustouflant visuellement, devenu plus avancé technologiquement et
+plus dangereux que jamais...</span></p>
 </div>
 </div>
 <ul id="link_open" class="functionsmenu fs11 hide">
 <li><a id="rtt" class="underline" href="javascript:void(0);"><img
 class="ico" alt=" " title="" width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" />Lire la
-suite</a>&nbsp;</li>
+suite</a>&#160;</li>
 <li><a href="javascript:void(0);"><img id="imgrtt"
 class="ico icotickdown"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
@@ -537,21 +572,25 @@ height="0" alt="" title="" /></a></li>
 <div class="vpadding10 hmargin10l"><!-- notationbar -->
 <div class="notationbar">
 <div class="notezone">
-<p>Presse</p>
-<p class="withstars"><img class="stareval null on5"
+<p><a
+href="/film/revuedepresse_gen_cfilm=29233.html">Presse</a></p>
+<p class="withstars"><a
+href="/film/revuedepresse_gen_cfilm=29233.html"><img
+class="stareval n25 on5"
 src='http://images.allocine.fr/commons/empty.gif' width='0'
-height='0' alt='' title='' /></p>
+height='0' alt='2,7' title='2,7' /></a><span
+class="moreinfo">(2,7)</span></p>
 </div>
 <div class="notezone vseparatorl">
 <p><a
-href="/film/critiquepublic_gen_cfilm=4019.html">Spectateurs</a><span
- class="moreinfo">(18870 notes)</span></p>
+href="/film/critiquepublic_gen_cfilm=29233.html">Spectateurs</a><span
+ class="moreinfo">(3235 notes)</span></p>
 <p class="withstars"><a
-href="/film/critiquepublic_gen_cfilm=4019.html"><img
-class="stareval n40 on5"
+href="/film/critiquepublic_gen_cfilm=29233.html"><img
+class="stareval n35 on5"
 src='http://images.allocine.fr/commons/empty.gif' width='0'
-height='0' alt='3,9' title='3,9' /></a><span
-class="moreinfo">(3,9)</span></p>
+height='0' alt='3,6' title='3,6' /></a><span
+class="moreinfo">(3,6)</span></p>
 </div>
 <div class="notezone vseparatorl">
 <div class="withreco">
@@ -565,7 +604,7 @@ class="ico icoquestion"
 src='http://images.allocine.fr/commons/empty.gif' width='0'
 height='0' alt='' title='' /></a></li>
 </ul>
-<div class='recobar' parametername='cmovie' parametervalue='4019'>
+<div class='recobar' parametername='cmovie' parametervalue='29233'>
 <img class='recopercent1' style='width: 0%;'
 src='http://images.allocine.fr/commons/empty.gif' width='0'
 height='0' alt='' /><img class='recomask'
@@ -578,11 +617,10 @@ height='0' alt='' /></div>
 <div class="morezone">
 <div class="myNoteBox big-rating">
 <div class="myNoteBoxInner">
-<div id="ctl00_ctl00_MainContent_colcontent_ctl00_ctl16"
-class="starsratezone" parametername="cmovie" parametervalue="4019"
+<div id="ctl00_ctl00_body_colcontent_ctl00_ctl16"
+class="starsratezone" parametername="cmovie" parametervalue="29233"
 cusernotation="0" showstar="true">
-<div
-id="ctl00_ctl00_MainContent_colcontent_ctl00_ctl16-rate-toggle">
+<div id="ctl00_ctl00_body_colcontent_ctl00_ctl16-rate-toggle">
 <div class="starsratelabel">Ma note :</div>
 <div class="star-rating starZero starZeroSelected"><a title="0"
 style="margin-left: 0px;">0</a></div>
@@ -613,15 +651,14 @@ title="5" style="margin-left: -8px;">5</a></div>
 <div class="rating-cancel icoredcross"><a
 title="Effacer ma note"></a></div>
 </div>
-<div id="ctl00_ctl00_MainContent_colcontent_ctl00_ctl16-rate">
-</div>
+<div id="ctl00_ctl00_body_colcontent_ctl00_ctl16-rate"></div>
 </div>
 <p><a id="community_addmovielist" class="underline"
 href="javascript:openRightOverlay('cmovie');">Ajouter ce film à une
-liste</a> <span class="lighten">&nbsp;|&nbsp;</span> <a
+liste</a> <span class="lighten">&#160;|&#160;</span> <a
 id="community_postmoviecritik" class="underline"
 href="javascript:openRightOverlay('cmovie');">Poster ma
-critique</a> <span class="lighten">&nbsp;|&nbsp;</span> <a
+critique</a> <span class="lighten">&#160;|&#160;</span> <a
 class="underline"
 href="/communaute/mon-allocine/speednoter/?type=movie">Notez
 d'autres films !</a></p>
@@ -629,12 +666,6 @@ d'autres films !</a></p>
 </div>
 </div>
 <!-- /morezone -->
-<p class="fleft vpadding10t"><img class="ico icoticka vam" alt=" "
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" /><a
-id="link_boxoffice_fr" class="fs11 underline"
-href='/film/fichefilm-4019/bonnes-raisons/'>1 bonne raison d'aller
-voir ce film</a></p>
 </div>
 <!-- /rubric -->
 <!-- /rubric -->
@@ -644,9 +675,9 @@ voir ce film</a></p>
 <div id="SeeThisFilmTabs" class="blueTabs"><!-- tabs bar -->
 <div class="tabs">
 <ul>
-<li><em><span>Au cinéma</span></em></li>
-<li><a><span>VOD (télécharger)</span></a></li>
-<li><a><span>DVD et Blu-Ray</span></a></li>
+<li><a><span>Au cinéma</span></a></li>
+<li><em><span>VOD (télécharger)</span></em></li>
+<li><em><span>DVD et Blu-Ray</span></em></li>
 </ul>
 </div>
 <!-- /tabs bar -->
@@ -655,17 +686,26 @@ voir ce film</a></p>
 <div class="contentzone">
 <ul class="noindent">
 <li class="-vseparatorr"><span id="MyTheaterButton"><a
-href="/seance/film-4019/mes-cinemas/"><img class="ico icofavadd"
+href="/seance/film-29233/mes-cinemas/"><img class="ico icofavadd"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="" title="Ajouter" /></a></span></li>
 <li style="list-style: none"><span class="lighten">Ex : Nice,
 Bastille, 33017, UGC Lyon, Gaumont Paris</span> 
 <form id="searchSeeThisFilm" name="searchSeeThisFilm" method="get"
-action='/seance/film-4019/recherche/'><label class="hide"
+action='/seance/film-29233/recherche/'><label class="hide"
 for="q">Rechercher</label> <input class="searchinput" type="text"
 name="q" id="q" size="48" maxlength="255" value='' /> <button
 type="submit" class="buttonform"><em
 class="btn"><span>Rechercher</span></em></button></form>
+<div class="">
+<p class="fs11 vpadding10t"><span class="bold">Film projeté dans
+591 cinémas :</span> <a class="underline"
+href="/seance/film-29233/">Voir les séances</a><br />
+ Film projeté dans <span class='bold'>292 cinémas <span
+class='insist'>en 3D relief</span></span> : <a class="underline"
+href="/seance/film-29233/?format=110003">Voir les séances</a><br />
+</p>
+</div>
 <!-- End rubric  -->
 </li>
 </ul>
@@ -674,26 +714,7 @@ class="btn"><span>Rechercher</span></em></button></form>
 </div>
 <div class="tab">
 <div class="contentzone">
-<div class="dvdshowroom">
-<div class="imagezone"><img
-src='http://images.allocine.fr/c_120_160/o_overlayVod120.png_x_c/medias/nmedia/18/36/04/15/18686563.jpg'
- alt='Die Hard : Piège de cristal' /></div>
-<!-- imagezone -->
-<div class="detailszone"><span class="lighten fs11">Téléchargez
-facilement et légalement "Piège de cristal" avec Canalplay !</span>
-
-<table class="noborder vmargin10b">
-<tr>
-<td class="tar vpadding10v"><span class="insist bold">3,99
-&nbsp;€</span></td>
-<td>Location - 48h (VF)</td>
-</tr>
-</table>
-<a class="btn" target="_blank"
-href="http://www.canalplay.com/pages/movies/detail.aspx?aid=297&amp;said=301&amp;mid=6381&amp;mkid=251"><img
- src="http://images.allocine.fr/r_120_x/commons/vod/canalplay.gif"
-alt="Canalplay" title="" /></a></div>
-<!-- /detailszone -->
+<div class="dvdshowroom"><!-- /detailszone -->
 </div>
 <!-- /dvdshowroom -->
 </div>
@@ -701,25 +722,7 @@ alt="Canalplay" title="" /></a></div>
 </div>
 <div class="tab">
 <div class="contentzone">
-<div class="dvdshowroom">
-<div class="imagezone"><img
-src='http://ecx.images-amazon.com/images/I/51D7UKduJpL._SL160_.jpg'
-alt='Piège de cristal' /></div>
-<div class="detailszone">
-<p><a class=""
-href="/film/fichefilm-4019/dvd-blu-ray/?cproduct=65991">Piège de
-cristal [Blu-ray]</a><br />
- à partir de <span class="insist bold">14&nbsp;€</span></p>
-<p><a class=""
-href="/film/fichefilm-4019/dvd-blu-ray/?cproduct=11844">Piège de
-cristal [Blu-ray]</a><br />
- à partir de <span class="insist bold">8&nbsp;€</span></p>
-<p><a class=""
-href="/film/fichefilm-4019/dvd-blu-ray/?cproduct=11848">Piège de
-cristal [DVD]</a><br />
- à partir de <span class="insist bold">3,89&nbsp;€</span></p>
-</div>
-<!-- /detailszone -->
+<div class="dvdshowroom"><!-- /detailszone -->
 </div>
 <!-- /dvdshowroom -->
 </div>
@@ -737,16 +740,16 @@ cristal [DVD]</a><br />
 <div class="datablock">
 <div class="mainzone videoview">
 <div class="picturezone"><a
-href="/video/emissions/faux-raccords/episode/?cmedia=19141136"><img
-src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/73/95/29/19141136_piege_cristal.jpg'
- alt='Faux Raccord N°22 - "Piège de Cristal"'
-title='Faux Raccord N°22 - "Piège de Cristal"' /></a></div>
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html"><img
+src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/71/75/38/19152307_fa4_vf.jpg'
+ alt='Tron l&#39;héritage Bande-annonce VF'
+title='Tron l&#39;héritage Bande-annonce VF' /></a></div>
 <!-- /picturezone -->
 <div class="contenzone">
 <div class="titlebar">
 <h3><a
-href="/video/emissions/faux-raccords/episode/?cmedia=19141136"><b>Faux
-Raccord N°22 - "Piège de Cristal"</b></a></h3>
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html"><b>Tron
+l'héritage</b> Bande-annonce VF</a></h3>
 </div>
 </div>
 <!-- /contenzone -->
@@ -756,16 +759,35 @@ Raccord N°22 - "Piège de Cristal"</b></a></h3>
 <div class="datablock">
 <div class="mainzone videoview">
 <div class="picturezone"><a
-href="/video/emissions/merciqui/episode/?cmedia=18873986"><img
-src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/67/45/96/18873986_merci_qui_piege_cristal.jpg'
- alt='Merci Qui? N°81 - "Piège de cristal"'
-title='Merci Qui? N°81 - "Piège de cristal"' /></a></div>
+href="/video/player_gen_cmedia=19175300&amp;cfilm=29233.html"><img
+src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/71/75/38/19175300_fa4_vost.jpg'
+ alt='Tron l&#39;héritage Bande-annonce (2) VO'
+title='Tron l&#39;héritage Bande-annonce (2) VO' /></a></div>
 <!-- /picturezone -->
 <div class="contenzone">
 <div class="titlebar">
 <h3><a
-href="/video/emissions/merciqui/episode/?cmedia=18873986"><b>Merci
-Qui? N°81 - "Piège de cristal"</b></a></h3>
+href="/video/player_gen_cmedia=19175300&amp;cfilm=29233.html"><b>Tron
+l'héritage</b> Bande-annonce (2) VO</a></h3>
+</div>
+</div>
+<!-- /contenzone -->
+</div>
+<!-- /datablock -->
+</div>
+<div class="datablock">
+<div class="mainzone videoview">
+<div class="picturezone"><a
+href="/video/player_gen_cmedia=19152306&amp;cfilm=29233.html"><img
+src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/71/75/38/19152306_fa3_vost.jpg'
+ alt='Tron l&#39;héritage Bande-annonce (2) VO'
+title='Tron l&#39;héritage Bande-annonce (2) VO' /></a></div>
+<!-- /picturezone -->
+<div class="contenzone">
+<div class="titlebar">
+<h3><a
+href="/video/player_gen_cmedia=19152306&amp;cfilm=29233.html"><b>Tron
+l'héritage</b> Bande-annonce (2) VO</a></h3>
 </div>
 </div>
 <!-- /contenzone -->
@@ -774,6 +796,20 @@ Qui? N°81 - "Piège de cristal"</b></a></h3>
 </div>
 </div>
 <!-- /microviews !-->
+<ul class="functionsmenu">
+<li><a class="fs11 underline"
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html"><img
+class="ico icoticka" alt=" " width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /><span>Toutes
+les vidéos</span></a></li>
+</ul>
+<ul class="functionsmenu">
+<li><a class="fs11 underline"
+href="/film/fichefilm-29233/interviews/?cmedia=19131134"><img
+class="ico icoticka" alt=" " width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /><span>Toutes
+les interviews</span></a></li>
+</ul>
 </div>
 <!-- /rubric !-->
 <!-- /rubric -->
@@ -785,16 +821,16 @@ Qui? N°81 - "Piège de cristal"</b></a></h3>
 <div class="datablock">
 <div class="mainzone miniview">
 <div class="picturezone"><a
-href="/personne/fichepersonne_gen_cpersonne=6693.html"><img
-src='http://images.allocine.fr/r_75_100/medias/nmedia/18/35/21/80/19457599.jpg'
- alt='Bruce Willis' title='Bruce Willis' /></a></div>
+href="/personne/fichepersonne_gen_cpersonne=1052.html"><img
+src='http://images.allocine.fr/r_75_100/medias/nmedia/18/35/34/23/19678491.jpg'
+ alt='Jeff Bridges' title='Jeff Bridges' /></a></div>
 <!-- /picturezone -->
 <div class="contenzone">
 <div class="titlebar">
-<h3><a href="/personne/fichepersonne_gen_cpersonne=6693.html">Bruce
-Willis</a></h3>
+<h3><a href="/personne/fichepersonne_gen_cpersonne=1052.html">Jeff
+Bridges</a></h3>
 </div>
-<p>Rôle : John McClane</p>
+<p>Rôle : Kevin Flynn / Clu 2.0</p>
 </div>
 <!-- /contenzone -->
 </div>
@@ -803,35 +839,17 @@ Willis</a></h3>
 <div class="datablock">
 <div class="mainzone miniview">
 <div class="picturezone"><a
-href="/personne/fichepersonne_gen_cpersonne=9805.html"><img
-src='http://images.allocine.fr/r_75_100/medias/nmedia/18/35/22/51/19362515.jpg'
- alt='Alan Rickman' title='Alan Rickman' /></a></div>
-<!-- /picturezone -->
-<div class="contenzone">
-<div class="titlebar">
-<h3><a href="/personne/fichepersonne_gen_cpersonne=9805.html">Alan
-Rickman</a></h3>
-</div>
-<p>Rôle : Hans Gruber</p>
-</div>
-<!-- /contenzone -->
-</div>
-<!-- /datablock -->
-</div>
-<div class="datablock">
-<div class="mainzone miniview">
-<div class="picturezone"><a
-href="/personne/fichepersonne_gen_cpersonne=1131.html"><img
-src='http://images.allocine.fr/r_75_100/commons/emptymedia/AffichetteAllocine.gif'
- alt='Alexander Godunov' title='Alexander Godunov' /></a></div>
+href="/personne/fichepersonne_gen_cpersonne=89322.html"><img
+src='http://images.allocine.fr/r_75_100/medias/nmedia/18/36/02/03/19370400.jpg'
+ alt='Garrett Hedlund' title='Garrett Hedlund' /></a></div>
 <!-- /picturezone -->
 <div class="contenzone">
 <div class="titlebar">
 <h3><a
-href="/personne/fichepersonne_gen_cpersonne=1131.html">Alexander
-Godunov</a></h3>
+href="/personne/fichepersonne_gen_cpersonne=89322.html">Garrett
+Hedlund</a></h3>
 </div>
-<p>Rôle : Karl</p>
+<p>Rôle : Sam Flynn</p>
 </div>
 <!-- /contenzone -->
 </div>
@@ -840,17 +858,35 @@ Godunov</a></h3>
 <div class="datablock">
 <div class="mainzone miniview">
 <div class="picturezone"><a
-href="/personne/fichepersonne_gen_cpersonne=9806.html"><img
-src='http://images.allocine.fr/r_75_100/medias/nmedia/18/79/43/86/19502979.jpg'
- alt='Bonnie Bedelia' title='Bonnie Bedelia' /></a></div>
+href="/personne/fichepersonne_gen_cpersonne=104785.html"><img
+src='http://images.allocine.fr/r_75_100/medias/nmedia/18/36/35/12/19598917.jpg'
+ alt='Olivia Wilde' title='Olivia Wilde' /></a></div>
 <!-- /picturezone -->
 <div class="contenzone">
 <div class="titlebar">
 <h3><a
-href="/personne/fichepersonne_gen_cpersonne=9806.html">Bonnie
-Bedelia</a></h3>
+href="/personne/fichepersonne_gen_cpersonne=104785.html">Olivia
+Wilde</a></h3>
 </div>
-<p>Rôle : Holly Gennero McClane</p>
+<p>Rôle : Quorra</p>
+</div>
+<!-- /contenzone -->
+</div>
+<!-- /datablock -->
+</div>
+<div class="datablock">
+<div class="mainzone miniview">
+<div class="picturezone"><a
+href="/personne/fichepersonne_gen_cpersonne=9768.html"><img
+src='http://images.allocine.fr/r_75_100/medias/nmedia/18/64/71/34/19538715.jpg'
+ alt='Bruce Boxleitner' title='Bruce Boxleitner' /></a></div>
+<!-- /picturezone -->
+<div class="contenzone">
+<div class="titlebar">
+<h3><a href="/personne/fichepersonne_gen_cpersonne=9768.html">Bruce
+Boxleitner</a></h3>
+</div>
+<p>Rôle : Alan Bradley / Tron</p>
 </div>
 <!-- /contenzone -->
 </div>
@@ -860,7 +896,7 @@ Bedelia</a></h3>
 <!-- /microviews !-->
 <ul class="functionsmenu">
 <li><a class="fs11 underline"
-href="/film/casting_gen_cfilm=4019.html"><img class="ico icoticka"
+href="/film/casting_gen_cfilm=29233.html"><img class="ico icoticka"
 alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /><span>Casting
 complet et équipe technique</span></a></li>
@@ -876,75 +912,66 @@ complet et équipe technique</span></a></li>
 <div class="newsfeedicon"><img class="icofile" alt=" " title=""
 width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /></div>
-<div class="newsfeedlabel"><span class="bold">2 nouvelles
+<div class="newsfeedlabel"><span class="bold">1 nouvelle
+actualité</span><br />
+</div>
+<!-- /newsfeedlabel -->
+<div class="rubric">
+<p class="vmargin10b purehtml"><a
+href='/article/fichearticle_gen_carticle=18601774.html'>Box-office
+: Dany Boon enfonce le clou</a><br />
+ <span class="lighten fs11">Ajouté par AlloCiné le 17 février
+2011</span></p>
+<!-- /vmargin10b-->
+</div>
+<!-- /rubric -->
+</div>
+<!-- /newsfeedzone -->
+<div class="newsfeedzone">
+<div class="newsfeedicon"><img class="icofile" alt=" " title=""
+width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /></div>
+<div class="newsfeedlabel"><span class="bold">1 nouveau
+dossier</span><br />
+</div>
+<!-- /newsfeedlabel -->
+<div class="rubric">
+<p class="vmargin10b"><a
+href='/article/dossiers/cinema/dossier-18591614/'>Bienvenue en 1982
+!</a><br />
+ <span class="fs11 lighten">Ajouté par AlloCiné le 14 février
+2011</span></p>
+<!-- /vmargin10b-->
+</div>
+<!-- /rubric -->
+</div>
+<!-- /newsfeedzone -->
+<div class="newsfeedzone">
+<div class="newsfeedicon"><img class="icofile" alt=" " title=""
+width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /></div>
+<div class="newsfeedlabel"><span class="bold">3 nouvelles
 actualités</span><br />
 </div>
 <!-- /newsfeedlabel -->
 <div class="rubric">
 <p class="vmargin10b purehtml"><a
-href='/article/fichearticle_gen_carticle=18600947.html'>Audiences :
-"Scènes de ménages" progresse</a><br />
- <span class="lighten fs11">Ajouté par AlloCiné le 18 janvier
+href='/article/fichearticle_gen_carticle=18601619.html'>L'équipe de
+"<b>Tron l'héritage</b>" au micro !</a><br />
+ <span class="lighten fs11">Ajouté par AlloCiné le 13 février
 2011</span></p>
 <!-- /vmargin10b-->
 <p class="vmargin10b purehtml"><a
-href='/article/fichearticle_gen_carticle=18598367.html'>Dans le
-panier de la rédac' : "90 films cultes à l'usage des personnes
-pressées".</a><br />
- <span class="lighten fs11">Ajouté par AlloCiné le 11 octobre
-2010</span></p>
+href='/article/fichearticle_gen_carticle=18601545.html'>1ères
+séances : un bon cygne pour "Black Swan"</a><br />
+ <span class="lighten fs11">Ajouté par AlloCiné le 9 février
+2011</span></p>
 <!-- /vmargin10b-->
-</div>
-<!-- /rubric -->
-</div>
-<!-- /newsfeedzone -->
-<div class="newsfeedzone">
-<div class="newsfeedicon"><img class="icovideo" alt=" " title=""
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" /></div>
-<div class="newsfeedlabel"><span class="bold">1 nouvelle
-vidéo</span><br />
-</div>
-<div class="rubric">
-<div class="datablock">
-<div class="mainzone videoview">
-<div class="picturezone"><a
-href="/video/emissions/faux-raccords/episode/?cmedia=19141136"><img
-src='http://images.allocine.fr/cx_120_90/b_1_x/o_play.png_5_se/medias/nmedia/18/73/95/29/19141136_piege_cristal.jpg'
- alt="Faux Raccord N°22 - &quot;Piège de Cristal&quot;" /></a></div>
-<!-- picturezone -->
-<div class="contenzone">
-<div class="titlebar purehtml"><a
-href='/video/emissions/faux-raccords/episode/?cmedia=19141136'>Faux
-Raccord N°22 - "Piège de Cristal"</a></div>
-<p class="fs11 lighten">Ajouté par AlloCiné le 7 septembre 2010</p>
-</div>
-<!-- /contenzone -->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
- <a
-href='/video/player_gen_cmedia=18873986&amp;cfilm=4019.html'>Voir
-toutes les vidéos de <span class="bold">Piège de
-cristal</span></a></div>
-<!-- /rubric -->
-</div>
-<!-- /newsfeedzone -->
-<div class="newsfeedzone">
-<div class="newsfeedicon"><img class="icoevent" alt=" " title=""
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" /></div>
-<div class="newsfeedlabel"><span class="bold">1 nouveau DVD ou
-blu-ray</span><br />
-</div>
-<!-- /newsfeedlabel -->
-<div class="rubric">
 <p class="vmargin10b purehtml"><a
-href='/film/fichefilm-4019/dvd-blu-ray/?cproduct=65991'>Blu-Ray&nbsp;<b>Piège
-de cristal</b></a><br />
- <span class="fs11 lighten">Ajouté par AlloCiné le 1 septembre
-2010</span></p>
+href='/article/fichearticle_gen_carticle=18601531.html'>Le Plein 2
+Ciné du 9 février est en ligne !</a><br />
+ <span class="lighten fs11">Ajouté par AlloCiné le 9 février
+2011</span></p>
 <!-- /vmargin10b-->
 </div>
 <!-- /rubric -->
@@ -955,7 +982,7 @@ de cristal</b></a><br />
 <div class="rubric">
 <div style="border: 1px solid #D3D8DE;"
 class="hpadding10 vpadding10" id="community_alert_div"
-parametername="cmovie" parametervalue="4019"><br
+parametername="cmovie" parametervalue="29233"><br
 id="community_alert_text" />
 <br />
 <div><a onclick="javascript:openRightOverlay('cmovie');"
@@ -967,10 +994,10 @@ mail</span></a></div>
 <div class="rubric vpadding10t">
 <ul class="functionsmenu">
 <li><a class="fs11 underline"
-href="/film/fichefilm-4019/actu/"><img class="ico icoticka" alt=" "
-width="0" height="0"
+href="/film/fichefilm-29233/actu/"><img class="ico icoticka"
+alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /><span>Voir
-toute l'actualité de Piège de cristal</span></a></li>
+toute l'actualité de Tron l'héritage</span></a></li>
 </ul>
 </div>
 <!-- /rubric -->
@@ -981,33 +1008,33 @@ toute l'actualité de Piège de cristal</span></a></li>
 <ul>
 <li style="float:left; display:block; padding:5px; line-height:0;">
 <em><a
-href="/film/fichefilm-4019/photos/detail/?cmediafile=18823852"><img
-src="http://images.allocine.fr/c_80_80/medias/nmedia/18/36/04/15/18823852.jpg"
- alt="Piège de cristal" title="Piège de cristal" /></a></em></li>
+href="/film/fichefilm-29233/photos/detail/?cmediafile=19640129"><img
+ src="http://images.allocine.fr/c_80_80/medias/nmedia/18/71/75/38/19640129.jpg"
+ alt="Tron l'héritage" title="Tron l'héritage" /></a></em></li>
 <li style="float:left; display:block; padding:5px; line-height:0;">
 <em><a
-href="/film/fichefilm-4019/photos/detail/?cmediafile=18823854"><img
-src="http://images.allocine.fr/c_80_80/medias/nmedia/18/36/04/15/18823854.jpg"
- alt="Piège de cristal" title="Piège de cristal" /></a></em></li>
+href="/film/fichefilm-29233/affiches/detail/?cmediafile=19640133"><img
+ src="http://images.allocine.fr/c_80_80/medias/nmedia/18/71/75/38/19640133.jpg"
+ alt="Tron l'héritage" title="Tron l'héritage" /></a></em></li>
 <li style="float:left; display:block; padding:5px; line-height:0;">
 <em><a
-href="/film/fichefilm-4019/photos/detail/?cmediafile=18777894"><img
-src="http://images.allocine.fr/c_80_80/medias/nmedia/18/36/04/15/18777894.jpg"
- alt="Piège de cristal" title="Piège de cristal" /></a></em></li>
+href="/film/fichefilm-29233/photos/detail/?cmediafile=19640127"><img
+ src="http://images.allocine.fr/c_80_80/medias/nmedia/18/71/75/38/19640127.jpg"
+ alt="Tron l'héritage" title="Tron l'héritage" /></a></em></li>
 <li style="float:left; display:block; padding:5px; line-height:0;">
 <em><a
-href="/film/fichefilm-4019/photos/detail/?cmediafile=18777892"><img
-src="http://images.allocine.fr/c_80_80/medias/nmedia/18/36/04/15/18777892.jpg"
- alt="Piège de cristal" title="Piège de cristal" /></a></em></li>
+href="/film/fichefilm-29233/affiches/detail/?cmediafile=19640130"><img
+ src="http://images.allocine.fr/c_80_80/medias/nmedia/18/71/75/38/19640130.jpg"
+ alt="Tron l'héritage" title="Tron l'héritage" /></a></em></li>
 <li style="float:left; display:block; padding:5px; line-height:0;">
 <em><a
-href="/film/fichefilm-4019/affiches/detail/?cmediafile=18686563"><img
- src="http://images.allocine.fr/c_80_80/medias/nmedia/18/36/04/15/18686563.jpg"
- alt="Piège de cristal" title="Piège de cristal" /></a></em></li>
+href="/film/fichefilm-29233/affiches/detail/?cmediafile=19640132"><img
+ src="http://images.allocine.fr/c_80_80/medias/nmedia/18/71/75/38/19640132.jpg"
+ alt="Tron l'héritage" title="Tron l'héritage" /></a></em></li>
 </ul>
 <ul class="functionsmenu">
 <li><a class="fs11 underline"
-href="/film/fichefilm-4019/photos/"><img class="ico icoticka"
+href="/film/fichefilm-29233/photos/"><img class="ico icoticka"
 alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /><span>Galerie
 Photos</span></a></li>
@@ -1021,28 +1048,28 @@ Photos</span></a></li>
 <div class="rubric">
 <div rel="v:rating">
 <div typeof="v:Review-aggregate">Note Moyenne: <img
-class="stareval n40 on5"
+class="stareval n35 on5"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /> &nbsp;<span class="lighten fs11">(<span
-property="v:average" content="3.9">3,9</span>)</span> pour <span
-property="v:count">18870</span> notes dont 613 critiques</div>
+height="0" alt="" /> &#160;<span class="lighten fs11">(<span
+property="v:average" content="3.6">3,6</span>)</span> pour <span
+property="v:count">3235</span> notes dont 1030 critiques</div>
 </div>
 <br />
  
-<div class="datablock member" id="rid_19972143'">
+<div class="datablock member" id="rid_19977430'">
 <div class="mainzone miniview"><!-- picturezone -->
 <div class="picturezone">
 <div class="avatarzone">
-<div class="avatar"><a href="/membre-tagazok45/"><img
-src="http://images.allocine.fr/c_60_65/users/02/9/8/7/Z20110127220936957898789/img/nijpznur.tow.jpg"
- alt="Tagazok45" title="" /></a> 
+<div class="avatar"><a href="/membre-max030/"><img
+src="http://images.allocine.fr/c_60_65/users/02/3/1/1/Z20070531183531920369113/img/1180629640_zed_animaux_00645.jpg"
+ alt="max030" title="" /></a> 
 <div class="status">déconnecté</div>
 </div>
 </div>
 </div>
 <div class="contenzone">
 <div class="titlebar"><a class="bold"
-href="/membre-tagazok45/">Tagazok45</a>&nbsp;</div>
+href="/membre-max030/">max030</a>&#160;</div>
 <!-- !! Existing template -->
 <div class="functionsbar fs11"><!-- On the left functions -->
 <div class="fleft">
@@ -1051,11 +1078,11 @@ href="/membre-tagazok45/">Tagazok45</a>&nbsp;</div>
 class="ico icofavadd"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="" /><span id="acid2"
-userid="Z20110127220936957898789" connectedpseudo=""
+userid="Z20070531183531920369113" connectedpseudo=""
 connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
 class="community_friendbuttonlink hide"></span></a></li>
 <li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110127220936957898789.html"><img
+href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20070531183531920369113.html"><img
  alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" />
 Discuter</a></li>
@@ -1063,12 +1090,12 @@ Discuter</a></li>
 </div>
 </div>
 <p>Aucun point<br />
- Membre depuis 27 jours | 57 critiques postées</p>
+ Membre depuis 1&#160;364 jours | 69 critiques postées</p>
 </div>
 <!-- /contenzone-->
 </div>
  <span class="bold fs11">Sa note :</span> <span
-id="ctl00_ctl00_MainContent_colcontent_ctl07_user_review_detailed_list_RepeaterList_ctl00_NotationBar1"><img
+id="ctl00_ctl00_body_colcontent_ctl07_user_review_detailed_list_RepeaterList_ctl00_NotationBar1"><img
  class="stareval n50 on5"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="5" title="5" /></span> <span
@@ -1076,49 +1103,55 @@ class="lighten fs11">(5)</span><br />
  <script type="text/javascript">
 //<![CDATA[
 $(function() {
-        $("a").fmToggleFadeSlide({ selector: '#rd_19972143', selector2: '#rd_2_19972143', heightInit:106, elmntClick: '#link_open_19972143', idLink: '#rtt_19972143', txtLinkInit: ac.global.collapsibleblock.readmore, txtLinkFinal: ac.global.collapsibleblock.close, idLinkImg: '#imgrtt_19972143', classLinkInit: 'icotickdown', classLinkFinal: 'icotickup', isLnkHiddenInit: true  });    
+        $("a").fmToggleFadeSlide({ selector: '#rd_19977430', selector2: '#rd_2_19977430', heightInit:106, elmntClick: '#link_open_19977430', idLink: '#rtt_19977430', txtLinkInit: ac.global.collapsibleblock.readmore, txtLinkFinal: ac.global.collapsibleblock.close, idLinkImg: '#imgrtt_19977430', classLinkInit: 'icotickdown', classLinkFinal: 'icotickup', isLnkHiddenInit: true  });    
 });
 //]]>
 </script>
  
-<div id='rd_19972143' style="overflow: hidden; height: 54px;">
-<div id='rd_2_19972143'>
-<p class="fs11"><span class="bold">Sa critique :</span> Très très
-bon film. Le premier Die Hard, dont la renommée n'est plus à faire
-est très bien orchestré par J.McTiernan. L'action est au
-rendez-vous, avec un très bon scénario. 19/20</p>
+<div id='rd_19977430' style="overflow: hidden; height: 54px;">
+<div id='rd_2_19977430'>
+<p class="fs11"><span class="bold">Sa critique :</span> Bon film
+qui exploite intelligemment son concept. Les scènes de combat en
+véhicules sont originales et bien rythmées. Les combats au disque
+sont peut-être un peu trop statiques, bien que cette absence de
+mouvement soit justifiée par l'inexpérience de Sam. La bande son
+est parfaitement en adéquation avec le film et la 3D est bien
+utilisée en distinguant d'une part le monde réel (en 2D) et le jeu
+(en 3D). Tantôt impressionnante et efficace, la 3D est moins utile
+dans les scènes de dialogue. Un dernier mot sur le scénario, assez
+entendu, il n'en reste pas moins mené d'une main de maître.</p>
 </div>
 </div>
-<ul id='link_open_19972143' class="functionsmenu fs11">
+<ul id='link_open_19977430' class="functionsmenu fs11">
 <li><img class="ico" alt=" " title="" width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /> <a
-id="rtt_19972143" class="underline" href="javascript:void(0);">Lire
-la suite</a>&nbsp;</li>
-<li><a href="javascript:void(0);"><img id='imgrtt_19972143'
+id="rtt_19977430" class="underline" href="javascript:void(0);">Lire
+la suite</a>&#160;</li>
+<li><a href="javascript:void(0);"><img id='imgrtt_19977430'
 class="ico icotickdown"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="" title="" /></a></li>
 </ul>
-<div><span class="lighten fs11">Ecrite le 17 févr. à
-19h02&nbsp;-&nbsp; <a class="lighten"
-href="javascript:OpenReportAbuseOverlay(19972143);">Signaler un
+<div><span class="lighten fs11">Ecrite le 22 févr. à
+11h40&#160;-&#160; <a class="lighten"
+href="javascript:OpenReportAbuseOverlay(19977430);">Signaler un
 abus</a></span></div>
 </div>
 <!-- /mainzone -->
-<div class="datablock member" id="rid_19965557'">
+<div class="datablock member" id="rid_19975587'">
 <div class="mainzone miniview"><!-- picturezone -->
 <div class="picturezone">
 <div class="avatarzone">
-<div class="avatar"><a href="/membre-moumounegiquel/"><img
+<div class="avatar"><a href="/membre-obiyann/"><img
 src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="remy d." title="" /></a> 
+ alt="obiyann" title="" /></a> 
 <div class="status">déconnecté</div>
 </div>
 </div>
 </div>
 <div class="contenzone">
 <div class="titlebar"><a class="bold"
-href="/membre-moumounegiquel/">remy d.</a>&nbsp;</div>
+href="/membre-obiyann/">obiyann</a>&#160;</div>
 <!-- !! Existing template -->
 <div class="functionsbar fs11"><!-- On the left functions -->
 <div class="fleft">
@@ -1127,24 +1160,24 @@ href="/membre-moumounegiquel/">remy d.</a>&nbsp;</div>
 class="ico icofavadd"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="" /><span id="acid3"
-userid="Z20090519153336627939267" connectedpseudo=""
+userid="Z20030413133515960491988" connectedpseudo=""
 connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
 class="community_friendbuttonlink hide"></span></a></li>
 <li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20090519153336627939267.html"><img
+href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20030413133515960491988.html"><img
  alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" />
 Discuter</a></li>
 </ul>
 </div>
 </div>
-<p>32 points<br />
- Membre depuis 645 jours | 53 critiques postées</p>
+<p>Aucun point<br />
+ Membre depuis 2&#160;873 jours | 11 critiques postées</p>
 </div>
 <!-- /contenzone-->
 </div>
  <span class="bold fs11">Sa note :</span> <span
-id="ctl00_ctl00_MainContent_colcontent_ctl07_user_review_detailed_list_RepeaterList_ctl01_NotationBar1"><img
+id="ctl00_ctl00_body_colcontent_ctl07_user_review_detailed_list_RepeaterList_ctl01_NotationBar1"><img
  class="stareval n50 on5"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="5" title="5" /></span> <span
@@ -1152,36 +1185,37 @@ class="lighten fs11">(5)</span><br />
  <script type="text/javascript">
 //<![CDATA[
 $(function() {
-        $("a").fmToggleFadeSlide({ selector: '#rd_19965557', selector2: '#rd_2_19965557', heightInit:106, elmntClick: '#link_open_19965557', idLink: '#rtt_19965557', txtLinkInit: ac.global.collapsibleblock.readmore, txtLinkFinal: ac.global.collapsibleblock.close, idLinkImg: '#imgrtt_19965557', classLinkInit: 'icotickdown', classLinkFinal: 'icotickup', isLnkHiddenInit: true  });    
+        $("a").fmToggleFadeSlide({ selector: '#rd_19975587', selector2: '#rd_2_19975587', heightInit:106, elmntClick: '#link_open_19975587', idLink: '#rtt_19975587', txtLinkInit: ac.global.collapsibleblock.readmore, txtLinkFinal: ac.global.collapsibleblock.close, idLinkImg: '#imgrtt_19975587', classLinkInit: 'icotickdown', classLinkFinal: 'icotickup', isLnkHiddenInit: true  });    
 });
 //]]>
 </script>
  
-<div id='rd_19965557' style="overflow: hidden; height: 54px;">
-<div id='rd_2_19965557'>
-<p class="fs11"><span class="bold">Sa critique :</span> Piège de
-Cristal ou Die hard, est un film d'action et ça personne ne peut en
-douté. Pour certains ce film est un remake de la tourne infernale
-pour dautres un film à part entière, ce dont on ne peut douter est
-que ce film est culte. Bruce Willis alias John McClane est policier
-à New York et rend visite à sa femme qui elle vit à Los Angeles.
-Malheureusement les fêtes de Noêl sont perturbées par une prise
-d'ôtage qui l'oblige à intervenir. Ce film est à voir</p>
+<div id='rd_19975587' style="overflow: hidden; height: 54px;">
+<div id='rd_2_19975587'>
+<p class="fs11"><span class="bold">Sa critique :</span> Réalisation
+Impeccable. Musique de Daft punk super bien maitrisé.
+Esthétiquement ce film est aussi propre qu'un matrix, très stylé,
+même les personnages au beaucoup de charisme. La 3D est trés bien
+exploité. Bref il m'a bien marqué par son originalité esthétique
+surtout, et propose un film qui sort vraiment du lot des films
+classiques de SF. Peut être pas un chef d'oeuvre, mais la volonté
+de faire un film soigné y est. J'aimerai voir plus souvent des
+films de cette qualité. A voir absolument.</p>
 </div>
 </div>
-<ul id='link_open_19965557' class="functionsmenu fs11">
+<ul id='link_open_19975587' class="functionsmenu fs11">
 <li><img class="ico" alt=" " title="" width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /> <a
-id="rtt_19965557" class="underline" href="javascript:void(0);">Lire
-la suite</a>&nbsp;</li>
-<li><a href="javascript:void(0);"><img id='imgrtt_19965557'
+id="rtt_19975587" class="underline" href="javascript:void(0);">Lire
+la suite</a>&#160;</li>
+<li><a href="javascript:void(0);"><img id='imgrtt_19975587'
 class="ico icotickdown"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
 height="0" alt="" title="" /></a></li>
 </ul>
-<div><span class="lighten fs11">Ecrite le 11 févr. à
-11h33&nbsp;-&nbsp; <a class="lighten"
-href="javascript:OpenReportAbuseOverlay(19965557);">Signaler un
+<div><span class="lighten fs11">Ecrite le 20 févr. à
+20h15&#160;-&#160; <a class="lighten"
+href="javascript:OpenReportAbuseOverlay(19975587);">Signaler un
 abus</a></span></div>
 </div>
 <!-- /mainzone -->
@@ -1189,7 +1223,7 @@ abus</a></span></div>
 <ul class="functionsmenu fleft">
 <li><img class="ico icoticka" alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /><a
-class="underline" href="/film/critiquepublic_gen_cfilm=4019.html"
+class="underline" href="/film/critiquepublic_gen_cfilm=29233.html"
 id="link_boxoffice_fr"><span class="fs11">Toutes les critiques
 spectateurs</span></a></li>
 </ul>
@@ -1203,8 +1237,8 @@ presse</span></a></li>
 </ul>
 </div>
 <div class="hpadding10l hpadding10l vmargin10b vpadding10t"
-style="border: 1px solid #d3d3d3;">Vous avez vu Piège de
-cristal&nbsp;? 
+style="border: 1px solid #d3d3d3;">Vous avez vu Tron
+l'héritage&#160;? 
 <div class="fleft"><br style="line-height: 10px;" />
  <a class="btn v2"
 href="javascript:openRightOverlay('cmovie');"><span>Publier ma
@@ -1214,25 +1248,227 @@ critique</span></a></div>
 <!-- /rubric -->
 <!-- /rubric -->
 <div class="titlebar">
-<h2>Secrets de tournage</h2>
+<h2>Revue de presse : les critiques</h2>
 </div>
 <div class="rubric">
-<p class="purehtml vpadding10b"><span class="bold">Ourson
-voyageur</span><br />
- Au début du film, lorsque John McClane (Bruce Willis) descend de
-l'avion, il tient dans ses bras un ours en peluche affublé d'un
-noeud papillon rouge. C'est également un ours en peluche portant un
-noeud papillon rouge qu'on a pu voir aux côtés d'un Jack Ryan (Alec
-Baldwin) assoupi dans un avion à la fin d'"A la Poursuite d'Octobre
-Rouge", film que le réalisateur John McTiernan réalisera ...</p>
-<p class="purehtml vpadding10b"><span class="bold">L'allemand par
-Alan Rickman</span><br />
- Toutes les lignes de dialogue où Alan Rickman parle en allemand
-sont fausses.</p>
+<p>Note moyenne : <span><img class="stareval n25 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2,7" title="2,7" /></span>(2,7) pour 22 titres de
+presse</p>
+<div class="vpadding10b">
+<div class="line">
+<div class="unit size1of2">
+<table class="pressratingdata prdataleft">
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963824">20
+Minutes</a></td>
+<td><span><img class="stareval n40 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="4" title="4" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19969761">Charlie
+Hebdo</a></td>
+<td><span><img class="stareval n40 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="4" title="4" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963706">Le
+Figaroscope</a></td>
+<td><span><img class="stareval n40 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="4" title="4" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19962284">Excessif</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19962116">Le
+Journal du Dimanche</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963726">Le
+Monde</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19958482">L'Ecran
+Fantastique</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963783">Les
+Inrockuptibles</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963759">Libération</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963805">Metro</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963645">Ouest
+France</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+</table>
+</div>
+<div class="unit size1of2">
+<table class="pressratingdata prdataright">
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963219">Première</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19947276">Studio
+Ciné Live</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963238">TéléCinéObs</a></td>
+<td><span><img class="stareval n30 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="3" title="3" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19949409">Brazil</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19959129">Cahiers
+du Cinéma</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963689">Critikat.com</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963643">Le
+Parisien</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19962123">Télé
+7 Jours</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963698">Télérama</a></td>
+<td><span><img class="stareval n20 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="2" title="2" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963721">L'Express</a></td>
+<td><span><img class="stareval n10 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="1" title="1" /></span></td>
+</tr>
+<tr>
+<td class="totalwidth"><a
+href="/film/revuedepresse_gen_cfilm=29233.html#pressreview19963140">Mad
+Movies</a></td>
+<td><span><img class="stareval n10 on5"
+src="http://images.allocine.fr/commons/empty.gif" width="0"
+height="0" alt="1" title="1" /></span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
 <img class="ico icoticka vam" alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /><a
 class="fs11 underline"
-href="/film/anecdote_gen_cfilm=4019.html">Tous les secrets de
+href="/film/revuedepresse_gen_cfilm=29233.html">Toutes les
+critiques presse</a><br />
+<img class="ico icoticka vam" alt=" " width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /><a
+class="fs11 underline"
+href="/film/meilleurs_gen_filtre=alaffiche&amp;critique=presse.html">Les
+meilleurs films au cinéma selon la presse</a></div>
+<!-- /rubric -->
+<!-- /rubric -->
+<div class="titlebar">
+<h2>Secrets de tournage</h2>
+</div>
+<div class="rubric">
+<p class="purehtml vpadding10b"><span class="bold">Nouvelle
+génération</span><br />
+ Près de 30 ans après le film-culte Tron, produit en 1982 par les
+studios Disney, l'histoire se poursuit avec Tron l'héritage. Le
+film d'origine, réalisé avec de gros moyens pour l'époque, ne
+rencontra au départ qu'un faible succès commercial. Présentant une
+technologie révolutionnaire, Tron n'en devint pas moins dans les
+années suivantes une référence de la culture geek et une influence
+majeure po...</p>
+<p class="purehtml vpadding10b"><span class="bold">Premier
+film</span><br />
+ Tron l'héritage est le premier film réalisé par Joseph Kosinski.
+Ce dernier signera également un remake du Trou noir, un autre film
+produit par les studios Disney en 1979, dans la veine du premier
+Tron.</p>
+<img class="ico icoticka vam" alt=" " width="0" height="0"
+src="http://images.allocine.fr/commons/empty.gif" /><a
+class="fs11 underline"
+href="/film/anecdote_gen_cfilm=29233.html">Tous les secrets de
 tournage</a></div>
 <!-- /rubric -->
 <!-- /rubric -->
@@ -1245,164 +1481,40 @@ tournage</a></div>
 <div class="unit size1of2">
 <table class="pressratingdata" id="tableid_tags">
 <tr>
-<td class="totalwidth"><a href="/tags/tag-1281/">action
-hero&nbsp;<span class="lighten fs11">(201)</span></a></td>
+<td class="totalwidth"><a href="/tags/tag-1280/">Disney&#160;<span
+class="lighten fs11">(565)</span></a></td>
 </tr>
 </table>
 </div>
 <div class="unit size1of2">
 <table class="pressratingdata" id="tableid_tags">
 <tr>
-<td class="totalwidth"><a href="/tags/tag-1108/">blockbusters /
-superproductions US&nbsp;<span
-class="lighten fs11">(463)</span></a></td>
+<td class="totalwidth"><a href="/tags/tag-130/">épisode
+2&#160;<span class="lighten fs11">(1171)</span></a></td>
 </tr>
 </table>
 </div>
 <div class="unit size1of2">
 <table class="pressratingdata" id="tableid_tags">
 <tr>
-<td class="totalwidth"><a href="/tags/tag-1270/">compte à
-rebours&nbsp;<span class="lighten fs11">(67)</span></a></td>
+<td class="totalwidth"><a href="/tags/tag-1229/">films en 3D - en
+relief&#160;<span class="lighten fs11">(318)</span></a></td>
 </tr>
 </table>
 </div>
 <div class="unit size1of2">
 <table class="pressratingdata" id="tableid_tags">
 <tr>
-<td class="totalwidth"><a href="/tags/tag-1266/">die hard - John
-McClane&nbsp;<span class="lighten fs11">(10)</span></a></td>
+<td class="totalwidth"><a href="/tags/tag-145/">hacker&#160;<span
+class="lighten fs11">(43)</span></a></td>
 </tr>
 </table>
 </div>
 <div class="unit size1of2">
 <table class="pressratingdata" id="tableid_tags">
 <tr>
-<td class="totalwidth"><a href="/tags/tag-117/">épisode
-1&nbsp;<span class="lighten fs11">(517)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-2839/">explosion /
-explosifs&nbsp;<span class="lighten fs11">(311)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-2283/">Film catastrophe /
-catastrophe&nbsp;<span class="lighten fs11">(270)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-904/">fusillade /
-fusillade d'enfer&nbsp;<span
-class="lighten fs11">(550)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1071/">hit au box-office
-US&nbsp;<span class="lighten fs11">(289)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-2886/">immeuble /
-gratte-ciel / appartement&nbsp;<span
-class="lighten fs11">(204)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1437/">les essentiels
-d'Alan Rickman&nbsp;<span class="lighten fs11">(35)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1235/">les essentiels de
-Bruce Willis&nbsp;<span class="lighten fs11">(26)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-15/">Los
-Angeles&nbsp;<span class="lighten fs11">(191)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-202/">Noël / fêtes de
-Noël&nbsp;<span class="lighten fs11">(225)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-475/">otage&nbsp;<span
-class="lighten fs11">(114)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1062/">personnage
-culte&nbsp;<span class="lighten fs11">(872)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1749/">Police /
-policier&nbsp;<span class="lighten fs11">(1544)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-894/">saga&nbsp;<span
-class="lighten fs11">(286)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-1070/">succès au
-box-office français&nbsp;<span
-class="lighten fs11">(405)</span></a></td>
-</tr>
-</table>
-</div>
-<div class="unit size1of2">
-<table class="pressratingdata" id="tableid_tags">
-<tr>
-<td class="totalwidth"><a href="/tags/tag-144/">terrorisme /
-terroristes&nbsp;<span class="lighten fs11">(182)</span></a></td>
+<td class="totalwidth"><a href="/tags/tag-2001/">jeu
+vidéo&#160;<span class="lighten fs11">(54)</span></a></td>
 </tr>
 </table>
 </div>
@@ -1412,7 +1524,7 @@ terroristes&nbsp;<span class="lighten fs11">(182)</span></a></td>
 href="javascript:void(0);"><img class="ico" alt=" " title=""
 width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" />Voir tous les
-tags</a>&nbsp;</li>
+tags</a>&#160;</li>
 <li><a href="javascript:void(0);"><img id="tags_bottom_img"
 class="ico icotickdown"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
@@ -1438,17 +1550,17 @@ src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocine.gif"
 </div>
 <div class="contenzone">
 <div class="titlebar"><span id="userNickName">un visiteur</span>
-<span class="lighten">- Le mercredi 23 février à 14:21</span></div>
+<span class="lighten">- Le mercredi 23 février à 13:37</span></div>
 <div class="vmargin5">
 <form id="PostComment"><input type="hidden" id="idflood"
-value='378161458' /> <textarea id="message"
+value='-461341713' /> <textarea id="message"
 class="expanding vmargin10b" rows="" cols=""></textarea><br />
  <span id="result"></span> 
 <div id="postcontainer"><span id="register"><a
 href="javascript:openRightOverlay();">Inscrivez-vous</a> pour
 pouvoir poster un commentaire</span> 
 <div class="vpadding5 hide"
-id="ctl00_ctl00_MainContent_colcontent_ctl12_ctl00_forum_message_post1_simpleButton"><a
+id="ctl00_ctl00_body_colcontent_ctl12_ctl00_forum_message_post1_simpleButton"><a
  class="btn v2" href="javascript:PostIt('');"><span>Poster un
 commentaire</span></a></div>
 </div>
@@ -1477,96 +1589,99 @@ commentaire</span></a></div>
 <li><img class="ico icoticka" alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /> <a
 class="fs11 underline"
-href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=4019.html"><span>Tous
-les sujets du forum "Piège de cristal"</span></a></li>
+href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=29233.html"><span>Tous
+les sujets du forum "Tron l'héritage"</span></a></li>
 </ul>
 </div>
 </div>
 </div>
-<!-- /colcontent -->
+<!-- /colcontent-->
 <div class="colleft">
 <div class="vmargin20b">
 <div class="poster"><em class="imagecontainer"><a
-href="/video/player_gen_cmedia=18873986&amp;cfilm=4019.html"><img
-src='http://images.allocine.fr/r_160_214/b_1_cfd7e1/medias/nmedia/18/36/04/15/18686563.jpg'
- alt="Piège de cristal" title="Piège de cristal" /><img
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html"><img
+src='http://images.allocine.fr/r_160_214/b_1_cfd7e1/medias/nmedia/18/71/75/38/19640130.jpg'
+ alt="Tron l'héritage" title="Tron l'héritage" /><img
 class="OverlayPlay" alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /></a></em>
 <div class="btn_trailer"><a class="btn"
-href='/video/emissions/merciqui/episode/?cmedia=18873986'><span>Voir
-l'émission</span></a></div>
+href='/video/player_gen_cmedia=19152307&amp;cfilm=29233.html'><span>Voir
+la bande-annonce</span></a></div>
 <img class="icoshadowbig" alt=" " width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" /></div>
 </div>
 <div class="nav_secondary">
 <ul>
 <li class="clmmastertopic"><a
-href="/film/fichefilm_gen_cfilm=4019.html">L'essentiel</a></li>
+href="/film/fichefilm_gen_cfilm=29233.html">L'essentiel</a></li>
 <li>
 <ul class="clmsubtopic">
 <li class="current"><a
-href="/film/fichefilm_gen_cfilm=4019.html"><img height="0"
+href="/film/fichefilm_gen_cfilm=29233.html"><img height="0"
 width="0" alt=""
 src="http://images.allocine.fr/commons/empty.gif" />Accueil</a></li>
-<li class=""><a href="/film/fichefilm-4019/bonnes-raisons/">Bonnes
-raisons</a></li>
+<li class=""><span>Bonnes raisons</span></li>
 <li class=""><a
-href="/film/casting_gen_cfilm=4019.html">Casting</a></li>
-<li class=""><a href="/film/fichefilm-4019/actu/">L'actu du
+href="/film/casting_gen_cfilm=29233.html">Casting</a></li>
+<li class=""><a href="/film/fichefilm-29233/actu/">L'actu du
 film</a></li>
-<li class=""><a href="/film/anecdote_gen_cfilm=4019.html">Secrets
+<li class=""><a href="/film/anecdote_gen_cfilm=29233.html">Secrets
 de tournage</a></li>
 </ul>
 </li>
-<li class="clmmastertopic"><a
-href="/film/fichefilm-4019/telecharger-vod/">Voir ce film</a></li>
+<li class="clmmastertopic"><a href="/seance/film-29233/">Voir ce
+film</a></li>
 <li>
 <ul class="clmsubtopic">
-<li class=""><span>Séances</span></li>
-<li class=""><a href="/film/fichefilm-4019/telecharger-vod/">VOD
-(télécharger)</a></li>
-<li class=""><a href="/film/fichefilm-4019/dvd-blu-ray/">DVD et
-Blu-ray</a></li>
-</ul>
-</li>
-<li class="clmmastertopic"><span>Vidéos</span></li>
-<li>
-<ul class="clmsubtopic">
-<li class=""><span>Bandes-annonces</span></li>
-<li class=""><span>Interviews</span></li>
+<li class=""><a href="/seance/film-29233/">Séances</a></li>
+<li class=""><span>VOD (télécharger)</span></li>
+<li class=""><span>DVD et Blu-ray</span></li>
 </ul>
 </li>
 <li class="clmmastertopic"><a
-href="/film/fichefilm-4019/affiches/">Photos</a></li>
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html">Vidéos</a></li>
 <li>
 <ul class="clmsubtopic">
 <li class=""><a
-href="/film/fichefilm-4019/affiches/">Affiches</a></li>
-<li class=""><a href="/film/fichefilm-4019/photos/">Photos du
+href="/video/player_gen_cmedia=19152307&amp;cfilm=29233.html">Bandes-annonces</a></li>
+<li class=""><a
+href="/film/fichefilm-29233/interviews/?cmedia=19131134">Interviews</a></li>
+</ul>
+</li>
+<li class="clmmastertopic"><a
+href="/film/fichefilm-29233/affiches/">Photos</a></li>
+<li>
+<ul class="clmsubtopic">
+<li class=""><a
+href="/film/fichefilm-29233/affiches/">Affiches</a></li>
+<li class=""><a href="/film/fichefilm-29233/photos/">Photos du
 film</a></li>
 </ul>
 </li>
 <li class="clmmastertopic"><a
-href="/film/critiquepublic_gen_cfilm=4019.html">Critiques</a></li>
+href="/film/revuedepresse_gen_cfilm=29233.html">Critiques</a></li>
 <li>
 <ul class="clmsubtopic">
-<li class=""><span>Critiques Presse</span></li>
 <li class=""><a
-href="/film/critiquepublic_gen_cfilm=4019.html">Critiques
+href="/film/revuedepresse_gen_cfilm=29233.html">Critiques
+Presse</a></li>
+<li class=""><a
+href="/film/critiquepublic_gen_cfilm=29233.html">Critiques
 Spectateurs</a></li>
 </ul>
 </li>
 <li class="clmmastertopic"><a
-href="/film/fichefilm-4019/sites-officiels-fans/">Pour aller plus
+href="/film/fichefilm-29233/sites-officiels-fans/">Pour aller plus
 loin</a></li>
 <li>
 <ul class="clmsubtopic">
 <li class=""><a
-href="/film/fichefilm-4019/sites-officiels-fans/">Sites officiels,
+href="/film/fichefilm-29233/sites-officiels-fans/">Sites officiels,
 de fans…</a></li>
-<li class=""><a href="/film/fichefilm-4019/technique/">Fiche
+<li class=""><a href="/film/fichefilm-29233/technique/">Fiche
 technique</a></li>
-<li class=""><span>Box-Office</span></li>
+<li class=""><a
+href="/film/fichefilm-29233/box-office/">Box-Office</a></li>
 </ul>
 </li>
 <li class="clmmastertopic"><span>Produits dérivés</span></li>
@@ -1577,13 +1692,13 @@ technique</a></li>
 </ul>
 </li>
 <li class="clmmastertopic"><a
-href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=4019.html">Communauté</a></li>
+href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=29233.html">Communauté</a></li>
 <li>
 <ul class="clmsubtopic">
 <li class=""><a
-href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=4019.html">Forums</a></li>
+href="http://www.allocine.fr/communaute/forum/forum_gen_cforumliste=3&amp;cfilm=29233.html">Forums</a></li>
 <li class=""><a
-href="/film/blog_gen_cfilm=4019.html">Blogs</a></li>
+href="/film/blog_gen_cfilm=29233.html">Blogs</a></li>
 </ul>
 </li>
 </ul>
@@ -1593,7 +1708,7 @@ href="/film/blog_gen_cfilm=4019.html">Blogs</a></li>
 <div class="ServicesColLeft">
 <ul>
 <li><a class="a2a_dd btn_share" rel="nofollow"
-href="http://www.addtoany.com/share_save?linkname=Pi%c3%a8ge+de+cristal&amp;linkurl=http%3a%2f%2fwww.allocine.fr/film/fichefilm_gen_cfilm=4019.html">Partager</a></li>
+href="http://www.addtoany.com/share_save?linkname=Tron+l'h%c3%a9ritage&amp;linkurl=http%3a%2f%2fwww.allocine.fr/film/fichefilm_gen_cfilm=29233.html">Partager</a></li>
 <li><a href="javascript:window.print();">Imprimer</a></li>
 <li><a class="btn_rss" href="/xml/rss/">RSS</a></li>
 </ul>
@@ -1632,11 +1747,7 @@ fiche :<br />
 <div id="contributor_block_visible_part"
 style="overflow: hidden; height: 14px;">
 <div id="contributor_block_full">
-<p><a class="underline"
-href="/membre-doofyth/">Doofyth</a>,&nbsp;<a class="underline"
-href="/membre-montana-5993/">montana_5993</a>,&nbsp;<a
-class="underline"
-href="/membre-happy-come-come/">Happy_Come_Come</a></p>
+<p><a class="underline" href="/membre-bertrand8/">BERTRAND8</a></p>
 </div>
 </div>
 <ul id="contributor_block_link_open"
@@ -1645,7 +1756,7 @@ class="functionsmenu fs11 hide">
 id="contributor_block_rtt"><img class="ico" alt=" " title=""
 width="0" height="0"
 src="http://images.allocine.fr/commons/empty.gif" />Voir la liste
-des contributeurs</a>&nbsp;</li>
+des contributeurs</a>&#160;</li>
 <li><a href="javascript:void(0);"><img
 id="contributor_block_imgrtt" class="ico icotickdown"
 src="http://images.allocine.fr/commons/empty.gif" width="0"
@@ -1656,8 +1767,8 @@ height="0" alt="" title="" /></a></li>
 <br />
 <strong>Merci à eux !</strong> 
 <p>Si vous voulez aussi contribuer ou que vous avez détecté une
-erreur, n'hésitez pas !&nbsp;<strong><a
-href="http://aop.allocine.fr/movie/movies/ficheedition.aspx?cfilm=4019">Commencez
+erreur, n'hésitez pas !&#160;<strong><a
+href="http://aop.allocine.fr/movie/movies/ficheedition.aspx?cfilm=29233">Commencez
 ici</a></strong></p>
 <p>Les contributions faites sur cette fiche sont mises à
 disposition sous un contrat <a
@@ -1666,11 +1777,15 @@ Commons</a>.</p>
 </div>
 </div>
 </div>
-<!-- /boxbasicctt --><!-- BOTTOM HORIZONTAL SEPARATOR -->
+<!-- /boxbasicctt -->
+<!-- BOTTOM HORIZONTAL SEPARATOR -->
+<!-- /boxftr -->
 </div>
-<!-- /boxbasic --></div>
 <!-- /colgeneral -->
-<div class="colright"><!-- RIGHT COLUMN WITH OVERFLOW -->
+</div>
+<!-- /pagelayout lysheet -->
+<div class="colright">
+<!-- RIGHT COLUMN WITH OVERFLOW (affiche la colonne de droite d'origine si la variable cobrandingColRightOverride n'est pas cobrandé, sinon affiche celle cobrandé-->
 <div id="ad_54_1" class="adbox adf_54"><script
 type="text/javascript">
 //<![CDATA[
@@ -1687,949 +1802,6 @@ ac.adManager.postRender("ad_54_1");
 </script>
  
 <div class="constraintzone"><!-- CONSTRAINT RIGHT COLUMN -->
-<!-- members -->
-<!-- blog list -->
-<!-- UserCardItemListBookmarkedMovie -->
-<!-- similar movies -->
-<!-- similar series -->
-<!-- allocine similar -->
-<div class="boxbasic bbasic"><!-- TOP HORIZONTAL SEPARATOR -->
-<div class="boxbasicctt">
-<div class="rubric">
-<div class="titlebar">
-<h4>Films similaires</h4>
-</div>
-<p>Dans la même série que <span class="bold">"Piège de
-cristal"</span> :</p>
-<p><a class="nounderline"
-href="/film/fichefilm_gen_cfilm=6028.html">58 minutes pour
-vivre</a> (prochain épisode)<br />
-</p>
-</div>
-</div>
-<!-- /boxbasicctt -->
-<!-- BOTTOM HORIZONTAL SEPARATOR -->
-</div>
-<!-- /boxbasic -->
-<div id="community_rightcolumn_friendlist"></div>
-<div class="boxbasic bbasic"><!-- TOP HORIZONTAL SEPARATOR -->
-<div class="boxbasicctt">
-<div class="rubric">
-<div class="titlebar">
-<p class="extralink"><a
-href="javascript:ManageBookmarkFan('BookmarkMasterButtonacid4');"><span
- parametername="cmovie" parametervalue="4019"
-class="BookmarkMasterButtonList" cuserbookmark="0"
-id="BookmarkMasterButtonacid4">Devenir Fan !</span></a></p>
-<span class="title">Fans</span></div>
-<p id="count_nbfan_main" class="hide"><span
-id="count_nbfan_right"></span> "<span
-class="community_moviename bold"
-id="usercard_list_right_moviename"></span>"<span
-id="count_nbfan_friend_right"></span></p>
-<div id="content_fan_list_right" class="">
-<div class="vpadding5"><!-- tabs bar -->
-<div class="tabs">
-<ul>
-<li class="current"><em><span>Tous les fans</span></em></li>
-<li class="tabmyfriends"><em><span>Mes Amis</span></em></li>
-</ul>
-</div>
-<!-- /tabs bar -->
-</div>
-<script type="text/javascript">
-//<![CDATA[
-                $(document).ready(function() {
-                    $("#carouselcontainer_06").fmBlockPaginator({
-                        genericSuffix: "_06",
-                        isAjax: false
-                    });
-                });
-            //]]>
-</script>
- 
-<div class="vpadding5">
-<div class="navbar fright">
-<ul class="fright">
-<li id="carouselprevbtn_06" class="navprevbtn"><a
-class="backward_06" href="javascript:void(0);"><em><img alt=" "
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />
-<span>&lt;&lt;</span></em></a></li>
-<li class="navcenterdata"><span id="carouselcurritem_06"
-class="navcurrpage"></span> / <span
-id="carouseltotalitem_06"></span></li>
-<!-- navbypage -->
-<li id="carouselnextbtn_06" class="navnextbtn"><a
-class="forward_06" href="javascript:void(0);"><em><img alt=" "
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" /><span>&gt;&gt;</span></em></a></li>
-</ul>
-</div>
-</div>
-<div id="carouselcontainer_06" class="carouselcontentvertical">
-<div id='carouseltabs_06'><a href='#'></a><a href='#'></a><a
-href='#'></a><a href='#'></a><a href='#'></a></div>
-<div class="slide">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-bo101/"><img
-src="http://images.allocine.fr/c_60_65/users/02/6/6/9/Z20110218175727933899966/img/ff510oqx.h5k.jpg"
- alt="bo101" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-bo101/">bo101</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid5"><a href="javascript:AddFriendClic('acid5');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid5"
-userid="Z20110218175727933899966" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110218175727933899966.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-yipikaye64/"><img
-src="http://images.allocine.fr/c_60_65/users/02/7/7/2/Z20110215202655760982277/img/aaizaypr.l3y.jpg"
- alt="Yipikaye64" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-yipikaye64/">Yipikaye64</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid6"><a href="javascript:AddFriendClic('acid6');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid6"
-userid="Z20110215202655760982277" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110215202655760982277.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-woofyharrelsonn/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="woofyharrelsonn" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-woofyharrelsonn/">woofyharrelsonn</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid7"><a href="javascript:AddFriendClic('acid7');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid7"
-userid="Z20110215163731060172588" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110215163731060172588.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-<div class="slide" style="display: none">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-mastercloud/"><img
-src="http://images.allocine.fr/c_60_65/users/02/2/3/9/Z20110206084425863587932/img/hnpzyila.i1y.jpg"
- alt="Mastercloud" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-mastercloud/">Mastercloud</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid8"><a href="javascript:AddFriendClic('acid8');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid8"
-userid="Z20110206084425863587932" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110206084425863587932.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-titeradine/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMrs.gif"
- alt="titeradine" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-titeradine/">titeradine</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid9"><a href="javascript:AddFriendClic('acid9');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid9"
-userid="Z20110205144228030425214" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110205144228030425214.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-spider-man48/"><img
-src="http://images.allocine.fr/c_60_65/users/02/5/4/2/Z20110205133941370531245/img/w1vac3jf.ylh.jpg"
- alt="Spider-Man48" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-spider-man48/">Spider-Man48</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid10"><a
-href="javascript:AddFriendClic('acid10');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid10"
-userid="Z20110205133941370531245" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110205133941370531245.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-<div class="slide" style="display: none">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-op45/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="OP45" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a href="/membre-op45/">OP45</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid11"><a
-href="javascript:AddFriendClic('acid11');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid11"
-userid="Z20110204223800320155219" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110204223800320155219.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-elfredo67/"><img
-src="http://images.allocine.fr/c_60_65/users/02/4/5/7/Z20110201080301630398754/img/pfs4lrmz.1ak.jpg"
- alt="elfredo67" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-elfredo67/">elfredo67</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid12"><a
-href="javascript:AddFriendClic('acid12');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid12"
-userid="Z20110201080301630398754" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110201080301630398754.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-blackbeard1990/"><img
-src="http://images.allocine.fr/c_60_65/users/02/6/4/4/Z20110126215434370777446/img/hveudyzv.weq.jpg"
- alt="Blackbeard1990" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-blackbeard1990/">Blackbeard1990</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid13"><a
-href="javascript:AddFriendClic('acid13');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid13"
-userid="Z20110126215434370777446" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110126215434370777446.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-<div class="slide" style="display: none">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-luckysebastien/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="LuckySebastien" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-luckysebastien/">LuckySebastien</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid14"><a
-href="javascript:AddFriendClic('acid14');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid14"
-userid="Z20110124190240770114195" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110124190240770114195.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-duss0051/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="Yann S." title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a href="/membre-duss0051/">Yann
-S.</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid15"><a
-href="javascript:AddFriendClic('acid15');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid15"
-userid="Z20110123142921760614676" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110123142921760614676.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-petitben69/"><img
-src="http://images.allocine.fr/c_60_65/users/02/1/1/8/Z20110119170627200362811/img/vyohxxd5.tt1.jpg"
- alt="PetitBen69" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-petitben69/">PetitBen69</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid16"><a
-href="javascript:AddFriendClic('acid16');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid16"
-userid="Z20110119170627200362811" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110119170627200362811.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-<div class="slide" style="display: none">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-kinoton38/"><img
-src="http://images.allocine.fr/c_60_65/users/02/4/1/2/Z20110118162320280612214/img/momkavzb.30x.jpg"
- alt="kinoton38" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-kinoton38/">kinoton38</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid17"><a
-href="javascript:AddFriendClic('acid17');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid17"
-userid="Z20110118162320280612214" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110118162320280612214.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-oui-oui-le-tox/"><img
-src="http://images.allocine.fr/c_60_65/users/02/5/5/3/Z20110116175046993855355/img/t4lsr001.gng.jpg"
- alt="Oui-Oui-le-tox" title="" /></a> 
-<div class="status connected">connecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-oui-oui-le-tox/">Oui-Oui-le-tox</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid18"><a
-href="javascript:AddFriendClic('acid18');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid18"
-userid="Z20110116175046993855355" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110116175046993855355.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-marienthal67/"><img
-src="http://images.allocine.fr/c_60_65/commons/emptymedia/AvatarAllocineMr.gif"
- alt="marienthal67" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><a
-href="/membre-marienthal67/">marienthal67</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid19"><a
-href="javascript:AddFriendClic('acid19');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid19"
-userid="Z20110114094557123741867" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20110114094557123741867.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>Aucun point<br />
-</p>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-</div>
-</div>
-<!-- end content_fan_list -->
-<div id="content_fan_list_friends_right" class="hide">
-<div><!-- tabs bar -->
-<div class="tabs">
-<ul>
-<li><a
-href="JavaScript:openNewTab(new%20Array('content_fan_list_right',%20'content_fan_list_friends_right'),%20'content_fan_list_right');"><span>Tous
-les fans</span></a></li>
-<li class="current tabmyfriends"><em><span>Mes
-Amis</span></em></li>
-</ul>
-</div>
-<!-- /tabs bar -->
-</div>
-<div id="content_fan_list_friends_right_2"></div>
-</div>
-<!--/overflow-->
-</div>
-</div>
-<!-- /boxbasicctt -->
-<!-- BOTTOM HORIZONTAL SEPARATOR -->
-</div>
-<!-- /boxbasic -->
-<div class="boxbasic bbasic"><!-- TOP HORIZONTAL SEPARATOR -->
-<div class="boxbasicctt">
-<div class="rubric">
-<div class="titlebar">
-<p class="extralink"><a
-href="http://www.allocine.fr/monallocine/aop/tutorial.html">Je veux
-contribuer !</a></p>
-<span class="title">Contributeurs</span></div>
-<p>Ils ont contribué à la rédaction de la fiche film "", et tout le
-monde les en remercie !</p>
-<script type="text/javascript">
-//<![CDATA[
-                            $(document).ready(function() {
-                                $("#carouselcontainer_02").fmBlockPaginator({
-                                    genericSuffix: "_02",
-                                    isAjax: false,
-                                    loadingMsg: ""
-                                });
-                            });
-                //]]>
-</script>
- 
-<div class="vpadding5">
-<div class="navbar fright">
-<ul class="fright">
-<li id="carouselprevbtn_02" class="navprevbtn"><a
-class="backward_02" href="javascript:void(0)"><em><img alt=" "
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />
-<span>&lt;&lt;</span></em></a></li>
-<li class="navcenterdata"><span id="carouselcurritem_02"
-class="navcurrpage"></span> / <span
-id="carouseltotalitem_02"></span></li>
-<!-- navbypage -->
-<li id="carouselnextbtn_02" class="navnextbtn"><a
-class="forward_02" href="javascript:void(0)"><em><img alt=" "
-width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" /><span>&gt;&gt;</span></em></a></li>
-</ul>
-</div>
-</div>
-<div id="carouselcontainer_02" class="carouselcontentvertical">
-<div id='carouseltabs_02'><a href='#'></a></div>
-<div class="slide">
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-happy-come-come/"><img
-src="http://images.allocine.fr/c_60_65/users/02/4/6/9/Z20060531150018240269964/img/1256478909_shiva.jpg"
- alt="Happy_Come_Come" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><span class="ordernum">1.</span> <a
-href="/membre-happy-come-come/">Happy_Come_Come</a>&nbsp; (Club 300
-Allociné)</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid20"><a
-href="javascript:AddFriendClic('acid20');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid20"
-userid="Z20060531150018240269964" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20060531150018240269964.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>35 112 points<br />
-</p>
-<div class="fs11">6 contributions</div>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-montana-5993/"><img
-src="http://images.allocine.fr/c_60_65/users/02/8/7/2/Z20090424121253710495278/img/edigbzu0.j21.jpg"
- alt="montana_5993" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><span class="ordernum">2.</span> <a
-href="/membre-montana-5993/">montana_5993</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid21"><a
-href="javascript:AddFriendClic('acid21');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid21"
-userid="Z20090424121253710495278" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20090424121253710495278.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>176 points<br />
-</p>
-<div class="fs11">3 contributions</div>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-<div class="datablock member">
-<div class="mainzone miniview"><!-- picturezone -->
-<div class="picturezone">
-<div class="avatarzone">
-<div class="avatar"><a href="/membre-doofyth/"><img
-src="http://images.allocine.fr/c_60_65/users/02/5/5/5/Z20031102145403947993555/img/1248263414_thomas_belair__retail_.jpg"
- alt="Doofyth" title="" /></a> 
-<div class="status">déconnecté</div>
-</div>
-</div>
-</div>
-<!-- /picturezone -->
-<!-- contenzone -->
-<div class="contenzone">
-<div class="titlebar"><span class="ordernum">3.</span> <a
-href="/membre-doofyth/">Doofyth</a>&nbsp;</div>
-<!-- !! Existing template -->
-<div class="functionsbar fs11"><!-- On the left functions -->
-<div class="fleft">
-<ul class="functionsmenu">
-<li id="li_acid22"><a
-href="javascript:AddFriendClic('acid22');"><img
-class="ico icofavadd"
-src="http://images.allocine.fr/commons/empty.gif" width="0"
-height="0" alt="" /><span id="acid22"
-userid="Z20031102145403947993555" connectedpseudo=""
-connecteduserid="" isrightcolumn="false" allowchangeopacity="false"
-class="community_friendbuttonlink hide"></span></a></li>
-<li class="vseparatorl"><a
-href="http://www.allocine.fr/monallocine/messagesprives/ecrire_gen_userid_to=Z20031102145403947993555.html"><img
- alt=" " width="0" height="0"
-src="http://images.allocine.fr/commons/empty.gif" />Discuter</a></li>
-</ul>
-</div>
-</div>
-<p>60 points<br />
-</p>
-<div class="fs11">1 contribution</div>
-</div>
-<!-- /contenzone-->
-</div>
-<!-- /mainzone -->
-</div>
-<!-- /datablock -->
-</div>
-</div>
-<!--/overflow-->
-</div>
-</div>
-<!-- /boxbasicctt -->
-<!-- BOTTOM HORIZONTAL SEPARATOR -->
-</div>
-<!-- /boxbasic -->
 <!-- autant de boxbasic que de rubriques à droite  -->
 </div>
 <!-- constraintzone -->
@@ -2681,9 +1853,9 @@ Boon</span></p>
 <p><span class="lighten">Film - Comédie</span></p>
 <p><a class="underline"
 href="/video/player_gen_cmedia=19150863&amp;cfilm=173528.html">Bande-annonce</a>
-<span class="lighten">&nbsp;|&nbsp;</span> <a class="underline"
-href="/seance/film-173528/">Séances</a>&nbsp;<span
-class="lighten">(928)</span></p>
+<span class="lighten">&#160;|&#160;</span> <a class="underline"
+href="/seance/film-173528/">Séances</a>&#160;<span
+class="lighten">(924)</span></p>
 </div>
 <!-- /contenzone-->
 </div>
@@ -2706,9 +1878,9 @@ id="minilist_moviepage1">Largo Winch II</a></span></div>
 <p><span class="lighten">Film - Aventure</span></p>
 <p><a class="underline"
 href="/video/player_gen_cmedia=19183289&amp;cfilm=135541.html">Bande-annonce</a>
-<span class="lighten">&nbsp;|&nbsp;</span> <a class="underline"
-href="/seance/film-135541/">Séances</a>&nbsp;<span
-class="lighten">(664)</span></p>
+<span class="lighten">&#160;|&#160;</span> <a class="underline"
+href="/seance/film-135541/">Séances</a>&#160;<span
+class="lighten">(663)</span></p>
 </div>
 <!-- /contenzone-->
 </div>
@@ -2732,9 +1904,9 @@ Carter</span></p>
 <p><span class="lighten">Film - Historique</span></p>
 <p><a class="underline"
 href="/video/player_gen_cmedia=19184475&amp;cfilm=175305.html">Bande-annonce</a>
-<span class="lighten">&nbsp;|&nbsp;</span> <a class="underline"
-href="/seance/film-175305/">Séances</a>&nbsp;<span
-class="lighten">(604)</span></p>
+<span class="lighten">&#160;|&#160;</span> <a class="underline"
+href="/seance/film-175305/">Séances</a>&#160;<span
+class="lighten">(602)</span></p>
 </div>
 <!-- /contenzone-->
 </div>
@@ -2867,8 +2039,8 @@ Hathaway</span></p>
 <p><span class="lighten">Film - Animation</span></p>
 <p><a class="underline"
 href="/video/player_gen_cmedia=19197926&amp;cfilm=146550.html">Bande-annonce</a>
-<span class="lighten">&nbsp;|&nbsp;</span> <a class="underline"
-href="/seance/film-146550/">Séances</a>&nbsp;<span
+<span class="lighten">&#160;|&#160;</span> <a class="underline"
+href="/seance/film-146550/">Séances</a>&#160;<span
 class="lighten">(5)</span></p>
 </div>
 <!-- /contenzone-->
@@ -2978,29 +2150,29 @@ alt="" /></div>
 <div class="vmargin5 fs11"><span
 class="lighten">23-02-2011</span><br />
  <a target="_blank"
-href="http://rss.leparisien.fr/item-1175294-1977040099.html">Disparitions
-à Lille : un corps repêché dans la Deûle</a></div>
+href="http://rss.leparisien.fr/item-1275394-1977538983.html">EN
+DIRECT. Libye : l'Europe s'apprête à évacuer 10 000
+ressortissants</a></div>
 <div class="vmargin5 fs11"><span
 class="lighten">23-02-2011</span><br />
  <a target="_blank"
-href="http://rss.leparisien.fr/item-1175294-1777440861.html">EN
-DIRECT. Libye : des milliers de migrants traversent la frontière
-tunisienne</a></div>
-<div class="vmargin5 fs11"><span
-class="lighten">23-02-2011</span><br />
- <a target="_blank"
-href="http://rss.leparisien.fr/item-1975394-1177933473.html">Libye
+href="http://rss.leparisien.fr/item-1975994-1177833473.html">Libye
 : les Français rapatriés accueillis cette nuit à Roissy</a></div>
 <div class="vmargin5 fs11"><span
 class="lighten">23-02-2011</span><br />
  <a target="_blank"
-href="http://rss.leparisien.fr/item-1375294-1777037608.html">Arabie
+href="http://rss.leparisien.fr/item-1975394-1977737608.html">Arabie
 : le roi Abdallah annonce des mesures sociales</a></div>
 <div class="vmargin5 fs11"><span
 class="lighten">23-02-2011</span><br />
  <a target="_blank"
-href="http://rss.leparisien.fr/item-1775494-1677342102.html">Bahreïn
-: 23 militants chiites libérés</a></div>
+href="http://rss.leparisien.fr/item-1975494-1877637859.html">Zemmour
+invité par l'UMP à débattre sur le trop-plein de normes</a></div>
+<div class="vmargin5 fs11"><span
+class="lighten">23-02-2011</span><br />
+ <a target="_blank"
+href="http://rss.leparisien.fr/item-1275094-1277434360.html">Hérault
+: un homme tué dans une fusillade avec les gendarmes</a></div>
 </div>
 <div class="vmargin5"><img class="ico icoticka vam"
 src="http://images.allocine.fr/commons/empty.gif" alt="" /><a
@@ -3011,11 +2183,12 @@ l'actualité sur www.leparisien.fr</a></div>
 </div>
 <!-- /boxbasicctt --><!-- BOTTOM HORIZONTAL SEPARATOR -->
 </div>
+<!-- /cobrandingColRightOverride -->
 </div>
 <!-- /colright -->
 </div>
-<!-- /lysheet -->
-<div class=""><!--  mainfooter  -->
+<!-- /pagecontainer -->
+<div class="mainfooter"><!--  mainfooter  -->
 <div class="mainfooter">
 <div class="topfooter">
 <div class="topfooterctt"><!-- /searchenginezone -->
@@ -3034,7 +2207,7 @@ href="/salle/cinemas-pres-de-87914/">Marseille</a>...</p>
 </div>
 <!-- / searchenginezone -->
 <p class="tfcextralinks"><a href="/film/tous/">Tous les films</a>
-&nbsp;|&nbsp;<a href="/salle/">Tous les cinémas</a> &nbsp;|&nbsp;
+&#160;|&#160;<a href="/salle/">Tous les cinémas</a> &#160;|&#160;
 <a href="/series/series.html">Toutes les séries</a></p>
 </div>
 <!-- /topfooterctt -->
@@ -3143,21 +2316,21 @@ href="http://windows.microsoft.com/ie9">Internet Explorer 9</a></p>
 <ul class="toplinks">
 <li style="list-style: none"><a
 href="http://www.allocine.fr/service/contact/">Contact</a></li>
-<li>&nbsp;|&nbsp;</li>
+<li>&#160;|&#160;</li>
 <li style="list-style: none"><a
 href="http://www.allocine.fr/service/apropos/">A propos
 d'AlloCiné</a></li>
-<li>&nbsp;|&nbsp;</li>
+<li>&#160;|&#160;</li>
 <li style="list-style: none"><a
 href="http://insider.blogs.allocine.fr/">AlloCiné Insider</a></li>
-<li>&nbsp;|&nbsp;</li>
+<li>&#160;|&#160;</li>
 <li style="list-style: none"><a
 href="http://insider.blogs.allocine.fr/insider-252203-allocine_recrute_.htm">AlloCiné
 recrute</a></li>
-<li>&nbsp;|&nbsp;</li>
+<li>&#160;|&#160;</li>
 <li style="list-style: none"><a
 href="http://regie.blogs.allocine.fr/">Publicité/Annonceur</a></li>
-<li>&nbsp;|&nbsp;</li>
+<li>&#160;|&#160;</li>
 <li style="list-style: none"><a
 href="http://www.allocine.fr/service/conditions.html">Conditions
 générales d'utilisation du site</a></li>
@@ -3165,38 +2338,38 @@ générales d'utilisation du site</a></li>
 <ul>
 <li><a target="_blank" href="http://www.filmstarts.de/">Filmstarts
 (Allemagne)</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank"
 href="http://www.screenrush.co.uk/">Screenrush
 (Angleterre)</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank" href="http://www.sensacine.com/">SensaCine
 (Espagne)</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank" href="http://www.kinopoisk.ru/">Kinopoisk
 (Russie)</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank" href="http://www.mtime.com/">Mtime
 (Chine)</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank" href="http://www.allocine.ca/">AlloCiné
 Canada</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank" href="http://pro.allocine.fr/">AlloCiné
 Pro</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank"
 href="http://allocine.spreadshirt.net/fr/FR/Shop">AlloCiné
 Shop</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank"
 href="http://www.allofamille.fr/">Allofamille</a></li>
-<li>&nbsp;-&nbsp;</li>
+<li>&#160;-&#160;</li>
 <li><a target="_blank"
 href="http://www.cinestore.com/">Cinéstore</a></li>
 </ul>
 <div class="addresszone">Copyright © 1993-2011 AlloCiné Tous droits
-réservés &nbsp;|&nbsp; 
+réservés &#160;|&#160; 
 <address>AlloCiné - 63 avenue des Champs Élysées - 75008 Paris,
 France</address>
 </div>
@@ -3272,8 +2445,7 @@ href="http://www.upconcert.fr">Up Concert (concerts)</a></p>
 </div>
 <!-- /mainfooter -->
 </div>
-</div>
-<!-- /pagecontainer -->
+<!-- /mainfooter -->
 </div>
 <!-- /ac_page -->
 </div>
@@ -3284,7 +2456,7 @@ href="http://www.upconcert.fr">Up Concert (concerts)</a></p>
     xtsd = 'http://logc188';
     xtsite = '427117';
     xtn2 = '1';
-    xtpage = 'film_page::4019-piege_de_cristal::main_page';
+    xtpage = 'film_page::29233-tron_l_heritage::main_page';
     xtdi = '';
 
     xtdmc = ac.domain;
@@ -3295,7 +2467,7 @@ href="http://www.upconcert.fr">Up Concert (concerts)</a></p>
 
 //]]>
 </script>
-<script type="text/javascript">
+ <script type="text/javascript">
 //<![CDATA[
 <!--
     //do not modify below
@@ -3311,9 +2483,9 @@ href="http://www.upconcert.fr">Up Concert (concerts)</a></p>
 //-->
 //]]>
 </script>
-<noscript><img width="1" height="1" alt=""
-src="http://logc188.xiti.com/hit.xiti?s=427117&amp;s2=1&amp;p=film_page::4019-piege_de_cristal::main_page&amp;di=&amp;an=&amp;ac=" /></noscript><script
- type="text/javascript">
+ <noscript><img width="1" height="1" alt=""
+src="http://logc188.xiti.com/hit.xiti?s=427117&amp;s2=1&amp;p=film_page::29233-tron_l_heritage::main_page&amp;di=&amp;an=&amp;ac=" /></noscript>
+<script type="text/javascript">
 //<![CDATA[
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-597605-13']);
@@ -3326,13 +2498,15 @@ src="http://logc188.xiti.com/hit.xiti?s=427117&amp;s2=1&amp;p=film_page::4019-pi
         })();
 //]]>
 </script>
-<script type="text/javascript">
+ <script type="text/javascript">
 //<![CDATA[
-$.Loader.loadScripts(["http://connect.facebook.net/fr_FR/all.js","/js/acScriptHandlerEx.ashx?p=697582153&acjsversion=634333770720337648"], function(){
-FB.init({appId:acInfos.facebook.apiKey,status:true,cookie:true,xfbml:true,session:true});connection_auto();$('textarea.expanding').autogrow();$("a.a2a_dd").fmAddToAny();});
+$.Loader.loadScripts(["/js/acScriptHandlerEx.ashx?p=-820191463&acjsversion=634333770720337648"], function(){
+window.fbAsyncInit=function(){FB.init({appId:acInfos.facebook.apiKey,status:true,cookie:true,xfbml:true,session:true});connection_auto();};$(document).ready(function(){var loadFacebookLib=function(){var ci='fr_FR';var e=document.createElement('script');if(e){e.async=true;e.src=document.location.protocol+"//connect.facebook.net/{0}/all.js".replace("{0}",ci);document.getElementById("fb-root").appendChild(e);}}
+loadFacebookLib();});$('textarea.expanding').autogrow();$("a.a2a_dd").fmAddToAny();});
 //]]>
 </script>
-<iframe src="/cedexis.html" style="display:none"></iframe> 
+ <iframe src="/cedexis.html" style="display:none"></iframe> 
 <div id="fb-root"></div>
+</div>
 </body>
 </html>
