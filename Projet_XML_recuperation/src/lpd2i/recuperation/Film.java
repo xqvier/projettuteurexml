@@ -25,6 +25,11 @@ public class Film {
     /** Liste des réalisateurs */
     private ArrayList<Personne> realisateurs;
 
+    
+    public Film(){
+        this.acteurs = new ArrayList<Personne>();
+        this.realisateurs = new ArrayList<Personne>();
+    }
     /*
      * (non-Javadoc)
      * 
@@ -43,6 +48,34 @@ public class Film {
         }
         str.append("]");
         return str.toString();
+    }
+
+    /**
+     * @return the titre
+     */
+    public String getTitre() {
+        return titre;
+    }
+
+    /**
+     * @param titre the titre to set
+     */
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    /**
+     * @return the duree
+     */
+    public int getDuree() {
+        return duree;
+    }
+
+    /**
+     * @param duree the duree to set
+     */
+    public void setDuree(int duree) {
+        this.duree = duree;
     }
 
 }
