@@ -19,6 +19,21 @@ public class Film {
     /** Durée du film */
     private int duree;
 
+    /** Année de sortie du film */
+    private int annee;
+    
+    /** Note moyenne donnée par les site */
+    private int noteSite;
+    
+    /** Résumé du film */
+    private String resume;
+    
+    /** Genres du film */
+    private ArrayList<String> genres;
+    
+    /** Commentaires du film */
+    private ArrayList<Commentaire> commentaires;
+    
     /** Liste des acteurs */
     private ArrayList<Personne> acteurs;
 
@@ -29,25 +44,8 @@ public class Film {
     public Film(){
         this.acteurs = new ArrayList<Personne>();
         this.realisateurs = new ArrayList<Personne>();
-    }
-    /*
-     * (non-Javadoc)
-     * 
-     * @see java.lang.Object#toString()
-     */
-    @Override
-    public String toString() {
-        StringBuffer str = new StringBuffer();
-        str.append("Film [titre=" + titre + ", duree=" + duree + ", acteurs=");
-        for (Personne acteur : acteurs) {
-            str.append(acteur);
-        }
-        str.append(", realisateurs=");
-        for (Personne realisateur : realisateurs) {
-            str.append(realisateur);
-        }
-        str.append("]");
-        return str.toString();
+        this.genres = new ArrayList<String>();
+        this.commentaires = new ArrayList<Commentaire>();
     }
 
     /**
@@ -76,6 +74,42 @@ public class Film {
      */
     public void setDuree(int duree) {
         this.duree = duree;
+    }
+
+    /* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        StringBuffer str = new StringBuffer();
+        str.append("Film [titre=" + titre + ", duree=" + duree + ", annee=" + annee
+                + ", noteSite=" + noteSite + ", resume=" + resume + ", genres=");
+        for(String genre : genres){
+            str.append(genre);
+        }
+        str.append(", commentaires=");
+        for(Commentaire com : commentaires){
+            str.append(com);
+        }
+        str.append(", acteurs=");
+        for(Personne acteur : acteurs){
+            str.append(acteur);
+        }
+        str.append(", realisateurs=");
+        for(Personne realisateur : realisateurs){
+            str.append(realisateur);
+        }
+        str.append("]");
+        return str.toString();
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param parseInt
+     */
+    public void setAnnee(int annee) {
+        this.annee = annee;
+        
     }
 
 }

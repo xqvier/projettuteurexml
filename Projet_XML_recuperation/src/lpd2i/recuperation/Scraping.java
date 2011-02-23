@@ -114,23 +114,33 @@ public class Scraping {
             // données
             this.setNoeud(this.search(this.xmlfile, "class", "colcontent",
                     Node.ATTRIBUTE_NODE));
+
             // on creer le nouveau document avec uniquement les infos utiles
             this.xmlfile = this.noeud.getOwnerDocument();
+
             // on parse ensuite toutes les données une a une
+
             // premierement le titre
-            this.setNoeud(search(this.xmlfile, "p", "Titre original",
+            this.setNoeud(search(this.xmlfile, "#text", "Titre original",
                     Node.TEXT_NODE));
+            this.setNoeud(nextNode(noeud));
             this.setNoeud(search(this.noeud, "em", null, Node.TEXT_NODE));
-            this.film.setTitre(this.extractText());
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            this.film.setTitre(this.noeud.getNodeValue());
+
             // deuxiemement la durée du film
-            this.setNoeud(this.xmlfile);
-            this.setNoeud(search(this.xmlfile, "p", " Durée", Node.TEXT_NODE));
-            String[] durees = this.extractText(5).split(" ");
-            durees = durees[3].split("h");
+            this.setNoeud(search(this.xmlfile, "#text", "Durée", Node.TEXT_NODE));
+            String[] datas = this.noeud.getNodeValue().split(" ");
+            String[] durees = datas[3].split("h");
             int heure = Integer.parseInt(durees[0]);
             int min = Integer.parseInt(durees[1].split("min")[0]);
-            this.film.setDuree((heure * 60)+min);
-            
+            this.film.setDuree((heure * 60) + min);
+
+            // annee
+            this.setNoeud(nextNode(this.noeud, "a"));
+            this.setNoeud(search(this.noeud,"#text", null, Node.TEXT_NODE));
+            film.setAnnee(Integer.parseInt(this.noeud.getNodeValue()));
+
         }
     }
 
@@ -199,14 +209,16 @@ public class Scraping {
                     if (contains == null) {
                         return noeud;
                     } else {
-                        String text;
-                        this.setNoeud(noeud);
-                        do {
-                            text = extractNextText();
-                            if (text.startsWith(contains)) {
-                                return noeud;
-                            }
-                        } while (!text.equals(""));
+                        if (noeud.getNodeValue().contains(contains)) {
+                            return noeud;
+                        }
+                        // this.setNoeud(noeud);
+                        // Node text = extractNextText();
+                        // while ((text = extractNextText())!= null) {
+                        // if (text.getNodeValue().startsWith(contains)) {
+                        // return text;
+                        // }
+                        // }
                     }
                 }
             }
@@ -223,6 +235,87 @@ public class Scraping {
     }
 
     /**
+     * Renvoie le noeud frere suivant qui a le meme nom que celui fourni en
+     * parametre
+     * 
+     * @param noeud
+     *            le noeud a partir du quelle on navigue
+     * @return le noeud frere de meme nom suivant
+     */
+    private Node nextSameNode(Node noeud) {
+        String nodeName = noeud.getNodeName();
+        do {
+            noeud = noeud.getNextSibling();
+        } while (noeud != null && !noeud.getNodeName().equals(nodeName));
+        return noeud;
+    }
+
+    /**
+     * Renvoie le noeud frere suivant en sautant les freres correspondant au
+     * nombre passer en parametre
+     * 
+     * @param noeud
+     *            le noeud a partir duquel on navigue
+     * @param saut
+     *            le nombre de saut
+     * @return le noeud frere de meme nom
+     */
+    private Node nextSameNode(Node noeud, int saut) {
+        Node retour = null;
+        saut++;
+        for (int i = 0; i < saut; i++) {
+            retour = nextSameNode(noeud);
+        }
+        return retour;
+    }
+
+    /**
+     * Renvoie el frere suivant ayant le nom passer en parametre
+     * 
+     * @param noeud
+     *            le noeud a partir duquel on navigue
+     * @param nodeName
+     *            le nom du noeud frere suivant que l'on souhaite
+     * @return le noeud frere dont le nom correspond a la recherche
+     */
+    private Node nextNode(Node noeud, String nodeName) {
+        do {
+            noeud = noeud.getNextSibling();
+
+        } while (noeud != null && !noeud.getNodeName().equals(nodeName));
+        return noeud;
+    }
+
+    /**
+     * Renvoie le noeud directement frere a celui qu'on envoie en parametre
+     * 
+     * @param noeud
+     *            a partir duquel on navigue
+     * @return le noeud frere suivant
+     */
+    private Node nextNode(Node noeud) {
+        return noeud.getNextSibling();
+    }
+
+    /**
+     * Retourne le noeud frere suivant en sautant certain noeud
+     * 
+     * @param noeud
+     *            le noeud a partir duquel on navigue
+     * @param saut
+     *            le nombre de frere a sauter
+     * @return le frere suivant apres le nombre de saut voulu
+     */
+    private Node nextNode(Node noeud, int saut) {
+        Node retour = null;
+        saut++;
+        for (int i = 0; i < saut; i++) {
+            retour = nextNode(noeud);
+        }
+        return retour;
+    }
+
+    /**
      * Extrait le premier texte brut trouvé directement en dessous du noeud
      * donnée Si aucun texte n'est trouvé la méthode renvoie une chaine vide
      * 
@@ -230,7 +323,7 @@ public class Scraping {
      *            le noeud sur lequel on cherche du texte brut
      * @return le texte trouvé ou une chaine vide le cas échéant
      */
-    private String extractText() {
+    private Node extractText() {
         this.setIterateur(0);
         return extractNextText();
     }
@@ -244,7 +337,7 @@ public class Scraping {
      *            le noeud sur lequel on cherche du texte brut
      * @return le texte trouvé ou une chaine vide le cas échéant
      */
-    private String extractText(int iterateur) {
+    private Node extractText(int iterateur) {
         this.setIterateur(iterateur);
         return extractNextText();
     }
@@ -257,7 +350,7 @@ public class Scraping {
      *            le noeud sur lequel on cherche du texte brut
      * @return le texte trouvé ou une chaine vide le cas échéant
      */
-    private String extractNextText() {
+    private Node extractNextText() {
         NodeList listeFils = this.noeud.getChildNodes();
         Node fils;
         int j = 0;
@@ -266,16 +359,15 @@ public class Scraping {
             if ("#text".equals(fils.getNodeName())) {
                 if (this.iterateur == j) {
                     this.iterateur++;
-                    return fils.getNodeValue();
+                    return fils;
                 }
                 j++;
             }
         }
-        return "";
+        return null;
 
     }
 
-    
     /**
      * Setter de l'attribut noeud, remet l'iterateur de texte a zero lorsque le
      * noeud est modifié
