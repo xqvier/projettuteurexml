@@ -23,7 +23,7 @@ public class Film {
     private int annee;
     
     /** Note moyenne donnée par les site */
-    private int noteSite;
+    private float noteSite;
     
     /** Résumé du film */
     private String resume;
@@ -76,6 +76,39 @@ public class Film {
         this.duree = duree;
     }
 
+    /**
+     * TODO Commenter cette méthode
+     * @param parseInt
+     */
+    public void setAnnee(int annee) {
+        this.annee = annee;
+        
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param f
+     */
+    public void setNoteSite(float note) {
+        this.noteSite = note;
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param nodeValue
+     */
+    public void setResume(String resume) {
+        this.resume = resume;
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param nodeValue
+     */
+    public void addGenre(String genre) {
+        genres.add(genre);
+    }
+
     /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */
@@ -85,7 +118,7 @@ public class Film {
         str.append("Film [titre=" + titre + ", duree=" + duree + ", annee=" + annee
                 + ", noteSite=" + noteSite + ", resume=" + resume + ", genres=");
         for(String genre : genres){
-            str.append(genre);
+            str.append("," +genre);
         }
         str.append(", commentaires=");
         for(Commentaire com : commentaires){
@@ -102,14 +135,6 @@ public class Film {
         str.append("]");
         return str.toString();
     }
-
-    /**
-     * TODO Commenter cette méthode
-     * @param parseInt
-     */
-    public void setAnnee(int annee) {
-        this.annee = annee;
-        
-    }
+    
 
 }

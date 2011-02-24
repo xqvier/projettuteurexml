@@ -4,6 +4,7 @@
  */
 package lpd2i.recuperation.tests;
 
+import lpd2i.recuperation.Film;
 import lpd2i.recuperation.Scraping;
 
 /**
@@ -24,11 +25,7 @@ public class TestScraping {
                 "http://www.allocine.fr/film/fichefilm_gen_cfilm=29233.html",
                 Scraping.ALLOCINE);
 
-        System.out.println("loadContent():");
-        scrap.loadContent();
-
-        System.out.println("parseContent():");
-        scrap.parseContent();
+        Film film = scrap.extractFilm();
 
         System.out.println(scrap);
     }

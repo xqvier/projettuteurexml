@@ -20,7 +20,7 @@ import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
 
 /**
- * Classe statique permettant de récuperer les informations a partir d'un site
+ * Classe utilitaire permettant de récuperer les informations a partir d'un site
  * TODO Commenter cette classe
  * 
  * @author Xavier Mourgues
@@ -67,11 +67,17 @@ public class Scraping {
         this.site = site;
     }
 
+    public Film extractFilm(){
+        this.loadContent();
+        this.parseFilmContent();
+        return this.film;
+    }
+    
     /**
      * Charge les éléments de la page web et nettoie le fichier pour le rendre
      * parseable
      */
-    public void loadContent() {
+    private void loadContent() {
         Tidy ti = new Tidy();
         try {
             // Connection via le proxy de l'iut
@@ -107,7 +113,10 @@ public class Scraping {
      * Retire les information du fichier pour en retirer toutes les information
      * du film referencé.
      */
-    public void parseContent() {
+    /**
+     * TODO Commenter cette méthode
+     */
+    private void parseFilmContent() {
         this.film = new Film();
         if (this.site == Scraping.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
@@ -140,7 +149,31 @@ public class Scraping {
             this.setNoeud(nextNode(this.noeud, "a"));
             this.setNoeud(search(this.noeud,"#text", null, Node.TEXT_NODE));
             film.setAnnee(Integer.parseInt(this.noeud.getNodeValue()));
-
+            
+            // note du site
+            // TODO gérer si aucune note n'a été donné
+            this.setNoeud(search(this.xmlfile, "class", "notationbar", Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "class", "notezone", Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "class", "moreinfo", Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            film.setNoteSite(Float.parseFloat(this.noeud.getNodeValue().split("[(]")[1].split("[)]")[0].replace(',', '.'))*2);
+            
+            // Synopsis
+            this.setNoeud(search(this.xmlfile,"property","v:summary", Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud,"#text", null, Node.TEXT_NODE));
+            film.setResume(this.noeud.getNodeValue());
+            
+            // Genres
+            this.setNoeud(search(this.xmlfile, "#text", "Genre :", Node.TEXT_NODE));
+            this.setNoeud(this.noeud.getParentNode());
+            this.setNoeud(search(this.noeud,"href", "/film/tous/genre-", Node.ATTRIBUTE_NODE));
+            Node noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+            film.addGenre(noeud.getNodeValue());
+            while((this.noeud=nextSameNode(this.noeud))!=null && this.noeud.hasAttributes() && this.noeud.getAttributes().item(0).getNodeValue().contains("/film/tous/genre-")){
+                noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+                film.addGenre(noeud.getNodeValue());
+            }
+                
         }
     }
 
@@ -148,8 +181,6 @@ public class Scraping {
      * Recherche a partir des parametres un noeud d'un fichier xml correspondant
      * aux element de recherche et retourne ce noeud. Marche recursivement pour
      * naviguer dans les noeud en profondeur.
-     * 
-     * @param start
      * 
      * @param start
      *            le noeud a partir duquel il faut creuser (cela peut etre
@@ -162,10 +193,7 @@ public class Scraping {
      * @param type
      *            le type d'élément rechercher, si c'est par la valeur d'un
      *            attribut ou si c'est par la valeur du noeud
-     * @return
      * @return le point d'ancrage où toutes les informations interessantes sont
-     * @throws BadAttributeValueExpException
-     *             si l'element n'a pas ete trouve
      */
     private Node search(Node start, String element, String contains, short type) {
 
@@ -191,7 +219,8 @@ public class Scraping {
                         if (element.equals(attr.getNodeName())) {
                             // on regarde si l'attribut a la valeur recherchée
                             // (contains)
-                            if (contains.equals(attr.getNodeValue())) {
+//                            if (contains.equals(attr.getNodeValue())) {
+                            if(attr.getNodeValue().contains(contains)){
                                 return noeud;
                             }
                         }
@@ -276,7 +305,8 @@ public class Scraping {
      *            le noeud a partir duquel on navigue
      * @param nodeName
      *            le nom du noeud frere suivant que l'on souhaite
-     * @return le noeud frere dont le nom correspond a la recherche
+     * @return <li>le noeud frere dont le nom correspond a la recherche</li>
+     *         <li>null sinon</li>
      */
     private Node nextNode(Node noeud, String nodeName) {
         do {
