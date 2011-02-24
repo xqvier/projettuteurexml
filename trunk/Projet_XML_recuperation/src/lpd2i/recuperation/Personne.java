@@ -24,6 +24,16 @@ public class Personne {
     /** liste des films dont la personne est actrice */
     private ArrayList<Film> joue;
 
+    /**
+     * TODO Commenter le constructeur
+     * @param string
+     * @param string2
+     */
+    public Personne(String prenom, String nom) {
+        this.prenom = prenom;
+        this.nom = nom;
+    }
+
     /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */

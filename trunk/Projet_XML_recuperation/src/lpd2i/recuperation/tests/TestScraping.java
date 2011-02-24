@@ -4,6 +4,8 @@
  */
 package lpd2i.recuperation.tests;
 
+import java.net.MalformedURLException;
+
 import lpd2i.recuperation.Film;
 import lpd2i.recuperation.Scraping;
 
@@ -19,15 +21,17 @@ public class TestScraping {
      * TODO Commenter cette méthode
      * 
      * @param args
+     * @throws MalformedURLException 
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
         Scraping scrap = new Scraping(
-                "http://www.allocine.fr/film/fichefilm_gen_cfilm=29233.html",
+                "http://www.allocine.fr/film/fichefilm_gen_cfilm=19776.html",
                 Scraping.ALLOCINE);
-
-        Film film = scrap.extractFilm();
-
         System.out.println(scrap);
+        
+        Film film = scrap.extractFilm();
+        System.out.println(film);
+
     }
 
 }
