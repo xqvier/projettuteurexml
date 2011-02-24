@@ -1,0 +1,1 @@
+<?php	echo "<div style='margin:20px auto auto auto; width:300px;'>";	echo "<a href='index.php?numpage=".$i."'><div class='pagination'>";	echo $i;	echo "</div></a></div>";?>

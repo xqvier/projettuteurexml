@@ -1,0 +1,1 @@
+<?phpclass Xml {	function decoupage ($chaine, $couperA){		$tab = explode("&lt;".$couperA."&gt;", $chaine);		for($i=0; $i<count($tab); $i++){			$tab[$i] = str_replace("&lt;/".$couperA."&gt;","",$tab[$i]);		}		unset($tab[0]);		$tab = array_values($tab);				return $tab;	}	}?>
