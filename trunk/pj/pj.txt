@@ -1,0 +1,10 @@
+
+<input type="text" autocomplete="off" name="recherche" size="30" maxlength="30" id="idrecherche" 
+onkeyup="sendData('recherche='+this.value,'ajaxRecherche.php','span_recherche');">
+
+
+<span id="span_recherche">
+</span> <!--
+<script type="text/javascript">
+			sendData('recherche=%','ajaxRecherche.php','span_recherche');
+</script> -->
