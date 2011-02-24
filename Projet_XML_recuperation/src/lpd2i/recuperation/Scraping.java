@@ -13,6 +13,7 @@ import java.net.InetSocketAddress;
 import java.net.MalformedURLException;
 import java.net.Proxy;
 import java.net.URL;
+import java.util.ArrayList;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -28,10 +29,13 @@ import org.w3c.tidy.Tidy;
  */
 public class Scraping {
     /** URL de la page contenant les informations */
-    private String url;
+    private URL url;
 
-    /** Le film retiré des informations de la page */
-    private Film film;
+    /**
+     * Base URL du site (exemple url : http://www.google.fr/index.php , baseurl
+     * : http://www.google.fr/)
+     */
+    private String baseurl;
 
     /** Le fichier contenant uniquement les informations nécessaires */
     private String basenamefile;
@@ -59,20 +63,41 @@ public class Scraping {
      * 
      * @param url
      *            l'url du film
+     * @throws MalformedURLException
+     *             TODO
      */
-    public Scraping(String url, int site) {
+    public Scraping(String url, int site) throws MalformedURLException {
         super();
-        this.url = url;
-        this.basenamefile = "test";
+        this.url = new URL(url);
+        this.baseurl = this.url.getProtocol() + "://" + this.url.getHost();
+        this.basenamefile = this.url.getPath().substring(1).replace("/", "-");
+//        this.basenamefile = "test";
         this.site = site;
     }
 
-    public Film extractFilm(){
+    /**
+     * 
+     * TODO Commenter cette méthode
+     * 
+     * @return
+     */
+    public Film extractFilm() {
         this.loadContent();
-        this.parseFilmContent();
-        return this.film;
+        return this.parseFilmContent();
     }
-    
+
+    /**
+     * 
+     * TODO Commenter cette méthode
+     * 
+     * @return
+     */
+    public ArrayList<Personne> extractActors() {
+        this.loadContent();
+        return this.parseActorsContent();
+
+    }
+
     /**
      * Charge les éléments de la page web et nettoie le fichier pour le rendre
      * parseable
@@ -83,11 +108,11 @@ public class Scraping {
             // Connection via le proxy de l'iut
             Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress(
                     "proxy", 8080));
-            URL u = new URL(url);
-            HttpURLConnection uc = (HttpURLConnection) u.openConnection(proxy);
+            HttpURLConnection uc = (HttpURLConnection) this.url
+                    .openConnection(proxy);
 
             // configuration du parsage
-            ti.setConfigurationFromFile("tidyconfig.txt");
+            ti.setConfigurationFromFile("tidyconfig.txt"); // DO NOT DELETE THIS LINE !!!
             ti.setInputEncoding("utf8");
             ti.setOutputEncoding("utf8");
             ti.setErrout(new PrintWriter(this.basenamefile + ".err"));
@@ -115,9 +140,126 @@ public class Scraping {
      */
     /**
      * TODO Commenter cette méthode
+     * 
+     * @return
      */
-    private void parseFilmContent() {
-        this.film = new Film();
+    private Film parseFilmContent() {
+        Node noeud;
+        Film film = new Film();
+        if (this.site == Scraping.ALLOCINE) {
+            // on accede d'abord au noeud (tableau/div) contenant toutes les
+            // données
+            this.setNoeud(this.search(this.xmlfile, "class", "boxbasicctt",
+                    Node.ATTRIBUTE_NODE));
+
+            // on creer le nouveau document avec uniquement les infos utiles
+            this.xmlfile = this.noeud.getOwnerDocument();
+
+            // on parse ensuite toutes les données une a une
+
+            // Titre du film
+            this.setNoeud(search(this.xmlfile, "property", "v:name",
+                    Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            film.setTitre(this.noeud.getNodeValue());
+            // Titre original du film :
+            // this.setNoeud(search(this.xmlfile, "#text", "Titre original",
+            // Node.TEXT_NODE));
+            // this.setNoeud(nextNode(this.noeud));
+            // this.setNoeud(search(this.noeud, "em", null, Node.TEXT_NODE));
+            // this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            // this.film.setTitre(this.noeud.getNodeValue());
+
+            // durée du film
+            this.setNoeud(search(this.xmlfile, "#text", "Durée", Node.TEXT_NODE));
+            String[] datas = this.noeud.getNodeValue().split(" ");
+            String[] durees = datas[3].split("h");
+            int heure = Integer.parseInt(durees[0]);
+            int min = Integer.parseInt(durees[1].split("min")[0]);
+            film.setDuree((heure * 60) + min);
+
+            // annee
+            this.setNoeud(nextNode(this.noeud, "a"));
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            film.setAnnee(Integer.parseInt(this.noeud.getNodeValue()));
+
+            // note du site
+            // TODO gérer si aucune note n'a été donné
+            this.setNoeud(search(this.xmlfile, "class", "notationbar",
+                    Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "class", "notezone",
+                    Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "class", "moreinfo",
+                    Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            film.setNoteSite(Float.parseFloat(this.noeud.getNodeValue().split(
+                    "[(]")[1].split("[)]")[0].replace(',', '.')) * 2);
+
+            // Synopsis
+            this.setNoeud(search(this.xmlfile, "property", "v:summary",
+                    Node.ATTRIBUTE_NODE));
+            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
+            film.setResume(this.noeud.getNodeValue());
+
+            // Genres
+            this.setNoeud(search(this.xmlfile, "#text", "Genre :",
+                    Node.TEXT_NODE));
+            this.setNoeud(this.noeud.getParentNode());
+            this.setNoeud(search(this.noeud, "href", "/film/tous/genre-",
+                    Node.ATTRIBUTE_NODE));
+            noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+            film.addGenre(noeud.getNodeValue());
+            while ((this.noeud = nextSameNode(this.noeud)) != null
+                    && this.noeud.hasAttributes()
+                    && this.noeud.getAttributes().item(0).getNodeValue()
+                            .contains("/film/tous/genre-")) {
+                noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+                film.addGenre(noeud.getNodeValue());
+            }
+
+            // Réalisateurs
+            this.setNoeud(search(this.xmlfile, "rel", "v:directedBy",
+                    Node.ATTRIBUTE_NODE));
+            noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+            String[] realisateur = noeud.getNodeValue().split(" ");
+            film.addRealisateur(new Personne(realisateur[0], realisateur[1]));
+            while ((this.noeud = nextSameNode(this.noeud)) != null
+                    && this.noeud.hasAttributes()
+                    && getAttribute(this.noeud, "rel").getNodeValue().equals(
+                            "v:directedBy")) {
+                noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
+                realisateur = noeud.getNodeValue().split(" ");
+                film.addRealisateur(new Personne(realisateur[0], realisateur[1]));
+
+            }
+
+            // Acteurs
+            this.setNoeud(search(this.xmlfile, "#text", "Avec", Node.TEXT_NODE));
+            Scraping acteurs;
+            while((this.noeud = nextNode(this.noeud, "a")) != null && this.noeud.hasAttributes() && !getAttribute(this.noeud, "href").getNodeValue().startsWith("/film/casting_gen_cfilm="));
+
+            System.err.println();
+
+            try {
+                acteurs = new Scraping(baseurl + getAttribute(this.noeud, "href").getNodeValue(),
+                        this.site);
+                System.out.println(acteurs);
+                film.setActeurs(acteurs.extractActors());
+            } catch (MalformedURLException e) {
+//                 TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+        return film;
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * 
+     * @return
+     */
+    private ArrayList<Personne> parseActorsContent() {
+        ArrayList<Personne> acteurs = new ArrayList<Personne>();
         if (this.site == Scraping.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
             // données
@@ -126,55 +268,22 @@ public class Scraping {
 
             // on creer le nouveau document avec uniquement les infos utiles
             this.xmlfile = this.noeud.getOwnerDocument();
-
-            // on parse ensuite toutes les données une a une
-
-            // premierement le titre
-            this.setNoeud(search(this.xmlfile, "#text", "Titre original",
-                    Node.TEXT_NODE));
-            this.setNoeud(nextNode(noeud));
-            this.setNoeud(search(this.noeud, "em", null, Node.TEXT_NODE));
-            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
-            this.film.setTitre(this.noeud.getNodeValue());
-
-            // deuxiemement la durée du film
-            this.setNoeud(search(this.xmlfile, "#text", "Durée", Node.TEXT_NODE));
-            String[] datas = this.noeud.getNodeValue().split(" ");
-            String[] durees = datas[3].split("h");
-            int heure = Integer.parseInt(durees[0]);
-            int min = Integer.parseInt(durees[1].split("min")[0]);
-            this.film.setDuree((heure * 60) + min);
-
-            // annee
-            this.setNoeud(nextNode(this.noeud, "a"));
-            this.setNoeud(search(this.noeud,"#text", null, Node.TEXT_NODE));
-            film.setAnnee(Integer.parseInt(this.noeud.getNodeValue()));
             
-            // note du site
-            // TODO gérer si aucune note n'a été donné
-            this.setNoeud(search(this.xmlfile, "class", "notationbar", Node.ATTRIBUTE_NODE));
-            this.setNoeud(search(this.noeud, "class", "notezone", Node.ATTRIBUTE_NODE));
-            this.setNoeud(search(this.noeud, "class", "moreinfo", Node.ATTRIBUTE_NODE));
-            this.setNoeud(search(this.noeud, "#text", null, Node.TEXT_NODE));
-            film.setNoteSite(Float.parseFloat(this.noeud.getNodeValue().split("[(]")[1].split("[)]")[0].replace(',', '.'))*2);
+            // d'abord les acteurs dont la vue est avec une image (listofmicroviews)
+            this.setNoeud(this.search(this.xmlfile, "id", "actors", Node.ATTRIBUTE_NODE));
+            this.setNoeud(parentNode(this.noeud, "div"));
+            this.setNoeud(nextNode(this.noeud));
+            Node listofmicroviews = this.search(this.noeud, "class", "listofmicroviews", Node.ATTRIBUTE_NODE);
+            Node noeud = this.search(listofmicroviews, "div", null, Node.TEXT_NODE);
+            do {
+                this.setNoeud(this.search(noeud,"h3", null, Node.TEXT_NODE));
+                this.setNoeud(this.search(this.noeud, "a", null, Node.TEXT_NODE));
+                this.setNoeud(this.search(this.noeud, "#text", null, Node.TEXT_NODE));
+                System.err.println(this.noeud.getNodeValue());
+            } while((noeud = nextNode(noeud))!= null);
             
-            // Synopsis
-            this.setNoeud(search(this.xmlfile,"property","v:summary", Node.ATTRIBUTE_NODE));
-            this.setNoeud(search(this.noeud,"#text", null, Node.TEXT_NODE));
-            film.setResume(this.noeud.getNodeValue());
-            
-            // Genres
-            this.setNoeud(search(this.xmlfile, "#text", "Genre :", Node.TEXT_NODE));
-            this.setNoeud(this.noeud.getParentNode());
-            this.setNoeud(search(this.noeud,"href", "/film/tous/genre-", Node.ATTRIBUTE_NODE));
-            Node noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
-            film.addGenre(noeud.getNodeValue());
-            while((this.noeud=nextSameNode(this.noeud))!=null && this.noeud.hasAttributes() && this.noeud.getAttributes().item(0).getNodeValue().contains("/film/tous/genre-")){
-                noeud = search(this.noeud, "#text", null, Node.TEXT_NODE);
-                film.addGenre(noeud.getNodeValue());
-            }
-                
         }
+        return acteurs;
     }
 
     /**
@@ -219,8 +328,8 @@ public class Scraping {
                         if (element.equals(attr.getNodeName())) {
                             // on regarde si l'attribut a la valeur recherchée
                             // (contains)
-//                            if (contains.equals(attr.getNodeValue())) {
-                            if(attr.getNodeValue().contains(contains)){
+                            // if (contains.equals(attr.getNodeValue())) {
+                            if (attr.getNodeValue().contains(contains)) {
                                 return noeud;
                             }
                         }
@@ -257,6 +366,22 @@ public class Scraping {
                 noeud = this.search(noeud, element, contains, type);
                 if (noeud != null) {
                     return noeud;
+                }
+            }
+        }
+        return null;
+    }
+
+    private Node getAttribute(Node noeud, int i) {
+        return noeud.hasAttributes() ? noeud.getAttributes().item(i) : null;
+    }
+
+    private Node getAttribute(Node noeud, String attributeName) {
+        if (noeud.hasAttributes()) {
+            NamedNodeMap attributes = noeud.getAttributes();
+            for (int i = 0; i < attributes.getLength(); i++) {
+                if (attributes.item(i).getNodeName().equals(attributeName)) {
+                    return attributes.item(i);
                 }
             }
         }
@@ -305,8 +430,8 @@ public class Scraping {
      *            le noeud a partir duquel on navigue
      * @param nodeName
      *            le nom du noeud frere suivant que l'on souhaite
-     * @return <li>le noeud frere dont le nom correspond a la recherche</li>
-     *         <li>null sinon</li>
+     * @return <li>le noeud frere dont le nom correspond a la recherche</li> <li>
+     *         null sinon</li>
      */
     private Node nextNode(Node noeud, String nodeName) {
         do {
@@ -321,7 +446,8 @@ public class Scraping {
      * 
      * @param noeud
      *            a partir duquel on navigue
-     * @return le noeud frere suivant
+     * @return <li>le noeud frere suivant</li>
+     *         <li>null sinon </li>
      */
     private Node nextNode(Node noeud) {
         return noeud.getNextSibling();
@@ -334,7 +460,8 @@ public class Scraping {
      *            le noeud a partir duquel on navigue
      * @param saut
      *            le nombre de frere a sauter
-     * @return le frere suivant apres le nombre de saut voulu
+     * @return <li>le frere suivant apres le nombre de saut voulu</li>
+     *         <li>null sinon </li>
      */
     private Node nextNode(Node noeud, int saut) {
         Node retour = null;
@@ -345,6 +472,13 @@ public class Scraping {
         return retour;
     }
 
+    private Node parentNode(Node noeud, String nodeName){
+        do{
+            noeud = noeud.getParentNode();
+        }
+        while(noeud != null && !noeud.getNodeName().equals(nodeName));
+        return noeud;
+    }
     /**
      * Extrait le premier texte brut trouvé directement en dessous du noeud
      * donnée Si aucun texte n'est trouvé la méthode renvoie une chaine vide
@@ -428,6 +562,6 @@ public class Scraping {
      */
     @Override
     public String toString() {
-        return "Scraping [url=" + url + ", film=" + film + "]";
+        return "Scraping [url=" + url + "]";
     }
 }

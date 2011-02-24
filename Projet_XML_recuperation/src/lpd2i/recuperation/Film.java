@@ -135,6 +135,23 @@ public class Film {
         str.append("]");
         return str.toString();
     }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param personne
+     */
+    public void addRealisateur(Personne personne) {
+        this.realisateurs.add(personne);
+        
+    }
+
+    /**
+     * TODO Commenter cette méthode
+     * @param parseActorsContent
+     */
+    public void setActeurs(ArrayList<Personne> acteurs) {
+        this.acteurs = acteurs;
+    }
     
 
 }
