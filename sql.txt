@@ -137,8 +137,7 @@ CREATE OR REPLACE TRIGGER moyenne
 AFTER INSERT OR UPDATE ON film
 FOR EACH ROW
 	BEGIN
-		UPDATE film
-		SET notes_util = (SELECT AVG(extract(value(note),'note/text()').getNumberVal()) AS moyenne
+		NEW.notes_util := (SELECT AVG(extract(value(note),'note/text()').getNumberVal())
 				FROM film f,
  				table(xmlsequence(extract(f.commentaire,'/film/commentaire/note'))) AS note
 				WHERE id_film = NEW.id_film)
