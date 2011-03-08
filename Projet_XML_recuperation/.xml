@@ -1,0 +1,4186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="generator" content=
+"HTML Tidy for Java (vers. 2009-12-01), see jtidy.sourceforge.net">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=iso-8859-1">
+<title>Le cinéma sur Cinéfil : Sorties, horaires,
+bandes-annonces</title>
+<meta name="description" content=
+"Toute l actualité du cinéma : les avis des internautes, les sorties cinéma de la semaine, les films à l affiche, les horaires, les bandes annonces, le box-office et les stars de l écran">
+<meta name="keywords" content="Cinéma, cinema,">
+<link rel="stylesheet" href=
+"http://css.cityvox.fr/styles/cinefil/9--stylev2.css" type=
+"text/css">
+<link rel="stylesheet" href=
+"http://css.cityvox.fr/styles/cinefil/9--scrolls.css" type=
+"text/css">
+<link rel="stylesheet" href=
+"http://css.cityvox.fr/styles/cinefil/9--tabs.css" type="text/css">
+<link rel="stylesheet" href=
+"http://css.cityvox.fr/styles/cinefil/9--chaines.css" type=
+"text/css"><!--[if IE 6]>
+                                                         <link rel="stylesheet" href="http://css.cityvox.fr/styles/cinefil/9==styleIE6.css" type="text/css">
+                                                <![endif]-->
+<!--[if lte IE 7]>
+                                                         <link rel="stylesheet" href="http://css.cityvox.fr/styles/cinefil/9==styleIE7.css" type="text/css">
+                                                <![endif]-->
+<!--[if lte IE 8]>
+                                                         <link rel="stylesheet" href="http://css.cityvox.fr/styles/cinefil/9==styleIE8.css" type="text/css">
+                                                <![endif]--><script
+rel="nofollow" type="text/javascript" src=
+"http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+</script>
+<script src=
+"http://js.cityvox.fr/js/cinefil/9--tools.scrollableAvecTabs.min.js"
+ type="text/javascript" charset="utf-8">
+</script>
+<script src="http://js.cityvox.fr/js/cinefil/9--cinefil.js" type=
+"text/javascript">
+</script>
+<script src=
+"http://js.cityvox.fr/js/cinefil/9--jquery.autocomplete.js" type=
+"text/javascript">
+</script>
+<script src="http://js.cityvox.fr/js/common/9--commonUtils.js"
+type="text/javascript">
+</script>
+<script src="http://js.cityvox.fr/js/common/9--favoris.js" type=
+"text/javascript">
+</script>
+<script type='text/javascript' src=
+'http://js.cityvox.fr/js/common/9--wpub.js'>
+</script>
+<script type='text/javascript'>
+v_getWunderloop();
+</script>
+<script type="text/javascript" src=
+"http://js.cityvox.fr/js/cinefil/9--customInput.jquery.js">
+</script>
+<script type="text/javascript" src=
+"http://js.cityvox.fr/js/common/9--swfobject.js">
+</script>
+<link rel="shortcut icon" href=
+"http://www.cinefil.com/images/cinefil/favicon.ico" type=
+"image/x-icon"><script type="text/javascript">
+<!--
+//
+function goNewWin() {           
+        var nav = BrowserDetect.browser; 
+        var ischrome = false;
+        if(nav === "Chrome"){
+                var ischrome = true;
+        } 
+        if(nav === "Opera"){
+                var ischrome = true;
+        }                       
+        var capping     = 1;
+        var jourCapping = 7;
+        var today  = new Date;
+        var nbDisp = LireCookie("popunderCIT");
+        if (nbDisp === null){   
+                nbDisp = 1;                             
+        }
+        if (nbDisp<=capping) {                  
+                try{
+                        nbDisp++;
+                        var date = new Date;
+                        date.setDate(eval(date.getDate() + jourCapping));
+                        date.setHours(0,1,0);
+                        EcrireCookie("popunderCIT", nbDisp, date, "/");
+                        var test =  LireCookie("popunderCIT");
+                        if(test && test !== null){
+                                if(ischrome===false){
+                                        TheNewWin = window.open("http://www.cityvox.fr",'PopUnder','toolbar=1,location=1,directories=1,status=1,menubar=1,scrollbars=1,resizable=1');
+                                        TheNewWin.blur();
+                                }
+                        }
+                }                       
+                catch(err) {
+                }       
+        } 
+}
+--> 
+</script>
+<script type="text/javascript">
+                                                                <!--
+                                                                var link = "http://www.m.cinefil.com/Accueil/";
+                                                                var ua = navigator.userAgent;
+                                                                if((ua.indexOf("iPhone") != -1 || ua.indexOf("iPod") != -1) && "FRA" == "FRA") {
+                                                                        window.location=link;
+                                                                }
+                                                                //-->
+                                                        </script>
+</head>
+<body onload="goNewWin()">
+<center>
+<div id="header"><a href="/" title=""><img src=
+"http://photos.cityvox.com/photos_original/112/147/430960.jpg" alt=
+"Cinéma" class="logoCinefil"></a> <script type="text/javascript"
+language="JavaScript">
+ord=Math.random()*10000000000000000;
+                                                document.write('<SCRI'+'PT LANGUAGE="JavaScript" SRC="http://ad.fr.doubleclick.net/adj/cin_ban_1_468x60_hp/;sz=468x60;ord='+ord+'?" ><\/SCR'+'IPT>');
+                                                </script>
+ <noscript><a href=
+"http://ad.fr.doubleclick.net/jump/cin_ban_1_468x60_hp/;sz=468x60;ord='+ord+'?"
+ target="_blank"><img src=
+"http://ad.fr.doubleclick.net/ad/cin_ban_1_468x60_hp/;sz=468x60;ord=123456789?"
+ width="468" height="60" border="0" alt=""></a></noscript>
+<div class="facebookBouton"><script type="text/javascript" src=
+"http://static.ak.connect.facebook.com/connect.php/fr_FR">
+</script>
+ <script type="text/javascript">
+FB.init("a1dd00510b6114a5f0ae1650af9bde23");
+</script>
+ </div>
+</div>
+<div id="navigation">
+<ul id="nav" class="ong0">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';" id="onglet_0"><a href="/">ACCUEIL</a></li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/films">FILMS</a> 
+<ul class="ong1">
+<li><a href="/sorties-cinema-de-la-semaine" title=
+"Sorties de la semaine">Sorties de la semaine</a></li>
+<li><a href="/films-a-l-affiche" title="A l'affiche">A
+l'affiche</a></li>
+<li><a href="/films-attendus" title="Les plus attendus">Les plus
+attendus</a></li>
+<li><a href="/les-meilleurs-films-cinema" title=
+"Meilleurs films">Meilleurs films</a></li>
+<li><a href="/les-avant-premieres" title=
+"Avant-premières">Avant-premières</a></li>
+</ul>
+</li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema">SEANCES &amp;
+SALLES</a> 
+<ul class="ong0">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/paris" title=
+"Les séances&nbsp;à Paris"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Paris"> Paris</a> 
+<ul class="ong4">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Paris" title=
+"Paris">Toutes les salles&nbsp;à Paris</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/le-grand-rex-cinema-paris/programmation" title=
+"Le Grand Rex - cinéma">Le Grand Rex - cinéma</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-les-halles-paris/programmation" title=
+"UGC Ciné Cité Les Halles">UGC Ciné Cité Les Halles</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-bercy-paris/programmation" title=
+"UGC Ciné Cité Bercy">UGC Ciné Cité Bercy</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-wepler-paris/programmation" title=
+"Pathé Wepler">Pathé Wepler</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/mk2-bibliotheque-paris/programmation" title=
+"Mk2 Bibliothèque">Mk2 Bibliothèque</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-aquaboulevard-paris/programmation" title=
+"Gaumont Aquaboulevard">Gaumont Aquaboulevard</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/cinema/bretagne-paris/programmation"
+title="Bretagne">Bretagne</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-montparnasse-paris/programmation" title=
+"UGC Montparnasse">UGC Montparnasse</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-parnasse-paris/programmation" title=
+"Gaumont Parnasse">Gaumont Parnasse</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-marignan-paris/programmation" title=
+"Gaumont Champs-Elysées Marignan">Gaumont Champs-Elysées
+Marignan</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-george-v-paris/programmation" title="UGC George V">UGC
+George V</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-opera-paris/programmation" title=
+"Gaumont Opéra">Gaumont Opéra</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/lyon" title=
+"Les séances&nbsp;à Lyon"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Lyon"> Lyon</a> 
+<ul class="ong5">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Lyon" title=
+"Lyon">Toutes les salles&nbsp;à Lyon</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-lyon/programmation" title=
+"UGC Ciné Cité Lyon">UGC Ciné Cité Lyon</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-lyon-bellecour-lyon/programmation" title=
+"Pathé Lyon Bellecour">Pathé Lyon Bellecour</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/cinema/mega-cgr-lyon/programmation"
+title="Mega CGR Brignais">Mega CGR Brignais</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-lyon-cordeliers-lyon-2/programmation" title=
+"Pathé Lyon Cordeliers">Pathé Lyon Cordeliers</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-lyon-part-dieu-niveau-2-lyon/programmation" title=
+"UGC Lyon Part Dieu Niveau 2">UGC Lyon Part Dieu Niveau 2</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/marseille" title=
+"Les séances&nbsp;à Marseille"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Marseille"> Marseille</a> 
+<ul class="ong6">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Marseille" title=
+"Marseille">Toutes les salles&nbsp;à Marseille</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/les-varietes-marseille/programmation" title=
+"Les Variétés">Les Variétés</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/le-cesar-marseille/programmation" title="Le César">Le
+César</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cinema-le-prado-marseille/programmation" title=
+"Cinéma le Prado">Cinéma le Prado</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/les-3-palmes-marseille/programmation" title=
+"Les 3 Palmes">Les 3 Palmes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-madeleine-marseille/programmation" title=
+"Pathé Madeleine">Pathé Madeleine</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-plan-de-campagne-marseille/programmation" title=
+"Pathé Plan de Campagne">Pathé Plan de Campagne</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cinema-bonneveine-marseille/programmation" title=
+"Cinéma Bonneveine">Cinéma Bonneveine</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/avignon" title=
+"Les séances&nbsp;à Avignon"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Avignon"> Avignon</a> 
+<ul class="ong7">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Avignon" title=
+"Avignon">Toutes les salles&nbsp;à Avignon</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-cap-sud-avignon/programmation" title=
+"Pathé Cap Sud">Pathé Cap Sud</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/capitole-avignon/programmation" title=
+"Capitole">Capitole</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cinema-vox-avignon/programmation" title=
+"Cinéma Vox">Cinéma Vox</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/utopia-manutention-avignon/programmation" title=
+"Utopia Manutention">Utopia Manutention</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/utopia-republique-avignon/programmation" title=
+"Utopia-République">Utopia-République</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/bordeaux" title=
+"Les séances&nbsp;à Bordeaux"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Bordeaux"> Bordeaux</a> 
+<ul class="ong8">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Bordeaux" title=
+"Bordeaux">Toutes les salles&nbsp;à Bordeaux</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-bordeaux/programmation" title=
+"UGC Ciné Cité Bordeaux">UGC Ciné Cité Bordeaux</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cinema-megarama-bordeaux-2/programmation" title=
+"Cinéma Mégarama">Cinéma Mégarama</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/mega-cgr-bordeaux/programmation" title=
+"Mega CGR Villenave d'Ornon">Mega CGR Villenave d'Ornon</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-talence-universites-talence/programmation" title=
+"Gaumont Talence">Gaumont Talence</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/lille" title=
+"Les séances&nbsp;à Lille"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Lille"> Lille</a> 
+<ul class="ong9">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Lille" title=
+"Lille">Toutes les salles&nbsp;à Lille</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/kinepolis-lomme-lille/programmation" title=
+"Kinépolis Lomme">Kinépolis Lomme</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-lille/programmation" title=
+"UGC Ciné Cité Lille">UGC Ciné Cité Lille</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/cinema/majestic-lille/programmation"
+title="Majestic">Majestic</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/le-metropole-lille/programmation" title="Le Métropole">Le
+Métropole</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/montpellier" title=
+"Les séances&nbsp;à Montpellier"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Montpellier"> Montpellier</a> 
+<ul class="ong10">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Montpellier" title=
+"Montpellier">Toutes les salles&nbsp;à Montpellier</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-multiplexe-millenaire-montpellie-mont/programmation"
+ title="Gaumont Multiplexe Millénaire Montpellier">Gaumont
+Multiplexe Millénaire Montpellier</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/diagonal-capitole-montpellier/programmation" title=
+"Diagonal Capitole ">Diagonal Capitole</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-montpellier-comedie-montpellier/programmation"
+title="Gaumont Comédie">Gaumont Comédie</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/multiplexe-mega-cgr-montpellier/programmation" title=
+"Mega CGR Lattes">Mega CGR Lattes</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/nantes" title=
+"Les séances&nbsp;à Nantes"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Nantes"> Nantes</a> 
+<ul class="ong11">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Nantes" title=
+"Nantes">Toutes les salles&nbsp;à Nantes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-nantes-nantes/programmation" title=
+"Gaumont Nantes">Gaumont Nantes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/le-katorza-nantes/programmation" title="Le Katorza">Le
+Katorza</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cine-pole-sud-nantes/programmation" title=
+"Ciné Pole Sud">Ciné Pole Sud</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cineville-saint-sebastien-nantes/programmation" title=
+"Cinéville Saint-Sébastien">Cinéville Saint-Sébastien</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-atlantis-nantes/programmation" title=
+"UGC Ciné Cité Atlantis">UGC Ciné Cité Atlantis</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/pathe-atlantis-nantes/programmation" title=
+"Pathé Atlantis">Pathé Atlantis</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/le-cinematographe-nantes/programmation" title=
+"Le Cinématographe">Le Cinématographe</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/rennes" title=
+"Les séances&nbsp;à Rennes"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Rennes"> Rennes</a> 
+<ul class="ong12">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Rennes" title=
+"Rennes">Toutes les salles&nbsp;à Rennes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cineville-rennes-colombier-rennes/programmation" title=
+"Cinéville Rennes Colombier">Cinéville Rennes Colombier</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-rennes-rennes-2/programmation" title=
+"Gaumont Rennes">Gaumont Rennes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cinema-arvor--rennes/programmation" title=
+"Cinéma Arvor ">Cinéma Arvor</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/cine-tnb-rennes/programmation" title="Ciné TNB">Ciné
+TNB</a></li>
+</ul>
+</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/toulouse" title=
+"Les séances&nbsp;à Toulouse"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" alt=
+"Toulouse"> Toulouse</a> 
+<ul class="ong13">
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/seances-cinema/Toulouse" title=
+"Toulouse">Toutes les salles&nbsp;à Toulouse</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-toulouse-wilson-toulouse/programmation" title=
+"Gaumont Wilson">Gaumont Wilson</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/gaumont-toulouse-labege-toulouse/programmation" title=
+"Gaumont Labège">Gaumont Labège</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/mega-cgr-toulouse/programmation" title=
+"Mega CGR Blagnac">Mega CGR Blagnac</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/ugc-cine-cite-toulouse/programmation" title=
+"UGC Ciné Cité Toulouse">UGC Ciné Cité Toulouse</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/cinema/utopia-toulouse/programmation" title=
+"Utopia">Utopia</a></li>
+</ul>
+</li>
+<li><a href="/seances-cinema" title="Autres villes">Autres
+villes</a></li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/reseau"><img src=
+"http://photos.cityvox.com/photos_original/219/98/418523.gif" id=
+"plus" alt="Les salles par réseaux">Les salles par réseaux</a> 
+<ul class="ong14">
+<li><a href="/reseau/ugc" title="Les séances&nbsp;UGC">UGC</a></li>
+<li><a href="/reseau/gaumont" title=
+"Les séances&nbsp;Gaumont">Gaumont</a></li>
+<li><a href="/reseau/cgr" title="Les séances&nbsp;CGR">CGR</a></li>
+<li><a href="/reseau/pathe" title=
+"Les séances&nbsp;Pathé">Pathé</a></li>
+<li><a href="/reseau/cineville" title=
+"Les séances&nbsp;Cinéville">Cinéville</a></li>
+<li><a href="/reseau/mk2" title="Les séances&nbsp;Mk2">Mk2</a></li>
+<li><a href="/reseau/kinepolis" title=
+"Les séances&nbsp;Kinepolis">Kinepolis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href=
+"/bandes-annonces-cinema">BANDES-ANNONCES</a> 
+<ul class="ong2">
+<li><a href="/bandes-annonces-cinema/nouvelles-videos" title=
+"Nouveautés">Nouveautés</a></li>
+<li><a href="/bandes-annonces-cinema/prochainement-au-cinema"
+title="Prochainement">Prochainement</a></li>
+<li><a href="/bandes-annonces-cinema/toujours-a-l-affiche" title=
+"A l'affiche">A l'affiche</a></li>
+<li><a href="http://video.cinefil.com/" target="kewego" title=
+"Toutes les vidéos">Toutes les vidéos</a></li>
+</ul>
+</li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/films-pour-enfants">ENFANTS</a></li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/actualite-cinema">ACTU</a> 
+<ul class="ong3">
+<li><a href="/dossiers-cinema" title="Dossiers">Diaporamas</a></li>
+<li><a href="/depeche" title="L'actu en direct">L'actu en
+direct</a></li>
+<li><a href="/sondages" title="Sondages">Sondages</a></li>
+</ul>
+</li>
+<li class="separateurListe">|</li>
+<li onmouseover="this.className='sfhover';" onmouseout=
+"this.className='';"><a href="/tv">A LA TÉLÉ</a> 
+<ul class="ong6">
+<li><a href="/tv/film-du-soir" title="Les films ce soir">Les films
+ce soir</a></li>
+<li><a href="/tv/film-de-la-semaine" title=
+"Les films de cette semaine">Les films de cette semaine</a></li>
+<li><a href="/tv/film-pour-enfants" title=
+"Les films pour enfants">Les films pour enfants</a></li>
+<li><a href="/tv/chaines-cinema" title="Les chaînes cinéma">Les
+chaînes cinéma</a></li>
+<li><a href="http://www.cityvox-tv.fr/" title=
+"Tous les programmes télé" target="_blank">Tous les programmes
+télé</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="containerRecherche">
+<div class="rechercher">
+<form action="#" id="rechercheAll" name="request" method="post"
+onsubmit=
+"return validationFormMC(document.request, 'Film, salle, ville, acteur...')">
+<div class="txtRechercher">Rechercher</div>
+<input type="text" id="kwBox" name="KEYWORDS" value=
+"Film, salle, ville, acteur..." onfocus=
+"if(this.value=='Film, salle, ville, acteur...')this.value=''; else this.value=this.value;"
+ onblur=
+"if(this.value=='')this.value='Film, salle, ville, acteur...'"> 
+<div id="completionBox"></div>
+<input type="submit" value="OK" class="buttonokHeader"></form>
+</div>
+<div class="deposAvis"><a href="/depot-avis">Ecrire un
+avis</a></div>
+<br clear="all">
+</div>
+<script type="text/javascript">
+                        <!--
+                                        var goToFindAll = true;
+                                        data = '/completionrecherche?type=LEA';
+                        $("#kwBox").autocomplete(data, {cellSeparator: "|",width:287,selectFirst:false,
+                                          formatItem: function(item) {
+                                            return item[0];
+                                          }
+                                        }).result(function(event, item) {
+                                                if(item[1]!="#"){       
+                                                        $("#rechercheAll").attr("action", item[1]);
+                                                        goToFindAll = false; 
+                                                }
+                                        });
+
+                                        //Si pas de resultats trouves par autocomplete  
+                                        if(goToFindAll){
+                                                $("#rechercheAll").attr("action", "/Findall");
+                                        }
+                                        -->
+              </script>
+<div id="container"><script rel="nofollow" type="text/javascript">
+document.write("<div class=\"depechesHoriz\"><div class=\"depechesTete\"><a href=\"/depeche\" class=\"textPreScroll\">L'actu ciné en direct</a> :</div><div class=\"scrollContainerHoriz\"><marquee id=\"scrollHoriz\" behavior=\"scroll\" align=\"center\" direction=\"left\" height=\"12\" scrollamount=\"3\" scrolldelay=\"1\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\">");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17862/saturn-awards--inception-et-the-walking-dead-domin\">Saturn Awards : \"Inception\" et The Walking Dead\" dominent les nominations</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17861/le-realisateur-du-discours-d-un-roi-se-pencherait-\">Le réalisateur du \"Discours d'un roi\" se pencherait sur \"Les misérables\"</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17860/les-francais-preferent-les-films-francais-aux-film\">Les Français préfèrent les films français aux films américains</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17859/la-danoise-susanne-bier-dirigera-le-remake-de-rapt\">La Danoise Susanne Bier dirigera le remake de \"Rapt\"</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17856/olivier-dahan-prepare-une-comedie-sur-le-football-\">Olivier Dahan prépare une comédie sur le football avec José Garcia et Gad Elmaleh</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17857/la-creature-d-alien-au-top-des-mechants-les-plus-e\">La créature d'\"Alien\" au top des méchants les plus effrayants de l'histoire du cinéma</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17853/un-remake-de-bodyguard-en-preparation\">Un remake de \"Bodyguard\" en préparation</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">24/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17854/oscars-les-13-films-les-plus-recompenses-de-l-hist\">Oscars : les 13 films les plus récompensés de l'histoire</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">23/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17855/hausse-de-8-du-box-office-mondial-en-2010\">Hausse de 8% du box-office mondial en 2010</a>");
+document.write("&nbsp;&nbsp;<span class=\"tiretBlanc\">-</span>&nbsp;&nbsp;");
+document.write("<span class=\"depecheTimeHoriz\">23/02</span>&nbsp;");
+document.write("<a class=\"scrollHorizA\"  href=\"/depeche/17844/justin-timberlake-pourrait-integrer-la-prochaine-c\">Justin Timberlake pourrait intégrer la prochaine comédie des frères Farrelly</a>");
+document.write("</marquee></div>");
+document.write("<br clear=\"all\" />");
+document.write("</div>");
+</script>
+<div id="containerCentre"><script type="text/javascript">
+                                        var flashvars = {};
+                                        flashvars.xmlUrl = "http://www.cinefil.com/xmlflashaccueil";
+                                        var params = {};
+                                        params.menu = "false";
+                                        params.wmode = "opaque";
+                                        params.allowscriptaccess = "always";
+                                        params.allownetworking = "all";
+                                        params.bgcolor = "#000000";
+                                        params.quality = "high";
+                                        params.movie = "http://photos.cityvox.com/flash/243/169/436723.swf";
+                                        var attributes = {};
+                                        attributes.id = "flashCinefilHP";
+                                        swfobject.embedSWF("http://photos.cityvox.com/flash/243/169/436723.swf", "flashCinefilHPAlternative", "665", "260", "9.0.115", false, flashvars, params, attributes);
+                                </script>
+ 
+<div id="flashCinefilHPContainer">
+<div id="flashCinefilHPAlternative"><br>
+<br>
+ <a href="http://get.adobe.com/flashplayer/"> <img src=
+"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+ alt="Get Adobe Flash player">
+</a></div>
+</div>
+<div class="blocLarge" id="accScrollArea">
+<div class="tabsContainer">
+<h1>LES FILMS</h1>
+<ul class="tabs">
+<li><a href="javascript:void(0);"><span>Sorties de la
+semaine</span></a></li>
+<li><a href="javascript:void(0);"><span>A l'affiche</span></a></li>
+<li><a href=
+"javascript:void(0);"><span>Prochainement</span></a></li>
+</ul>
+<br clear="all">
+ 
+<hr>
+<!-- tab "panes" -->
+<div class="panes">
+<div class="sortiesSemaine"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="positionPhotos"><a href=
+"/film/les-voyages-de-gulliver-3d"><img src=
+"http://photos.cityvox.com/photos_gd/203/174/503499_120x.jpg" alt=
+"Les voyages de Gulliver 3D" title="© 20th century fox"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/les-voyages-de-gulliver-3d">Les
+voyages de Gulliver 3D</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/les-voyages-de-gulliver-3d/critiques">1 avis</a> 
+<div class="c20">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/true-grit-2"><img src=
+"http://photos.cityvox.com/photos_gd/182/196/509110_120x.jpg" alt=
+"True Grit" title="© Paramount Pictures France"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/true-grit-2">True Grit</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/true-grit-2/critiques">1 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/sanctum-3d"><img src=
+"http://photos.cityvox.com/photos_gd/77/225/516429_120x.jpg" alt=
+"Sanctum 3D" title="© Metropolitan FilmExport"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/sanctum-3d">Sanctum 3D</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/requiem-pour-une-tueuse"><img src=
+"http://photos.cityvox.com/photos_gd/145/171/502673_120x.jpg" alt=
+"Requiem pour une tueuse" title="© Studiocanal"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/requiem-pour-une-tueuse">Requiem
+pour une tueuse</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/requiem-pour-une-tueuse/critiques">1 avis</a> 
+<div class="c20">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/127-heures"><img src=
+"http://photos.cityvox.com/photos_gd/252/201/510460_120x.jpg" alt=
+"127 Heures" title="© DR - Pa"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/127-heures">127 Heures</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/127-heures/critiques">1 avis</a> 
+<div class="c50">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/toi-moi-les-autres"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Toi, moi, les autres..." title=
+"http://photos.cityvox.com/photos_gd/95/167/501599_120x.jpg || © Mars Distribution"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/toi-moi-les-autres">Toi, moi, les
+autres...</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/justin-bieber-never-say-never"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Justin Bieber : never say never " title=
+"http://photos.cityvox.com/photos_gd/189/198/509629_120x.jpg || © Paramount pictures"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/justin-bieber-never-say-never">Justin Bieber : never say
+never</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/la-flute-et-le-grelot"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"La flûte et le grelot" title=
+"http://photos.cityvox.com/photos_gd/122/208/512122_120x.jpg || © Gebeka films "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/la-flute-et-le-grelot">La flûte et
+le grelot</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/rio-sex-comedy"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Rio sex comedy" title=
+"http://photos.cityvox.com/photos_gd/110/214/513646_120x.jpg || © Océan Films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/rio-sex-comedy">Rio sex
+comedy</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/mais-y-va-ou-le-monde"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Mais y va où le monde ?" title=
+"http://photos.cityvox.com/photos_gd/210/216/514258_120x.jpg || © DR-"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/mais-y-va-ou-le-monde">Mais y va
+où le monde ?</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/amours-salees-et-plaisirs-sucres"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Amours salées et plaisirs sucrés" title=
+"http://photos.cityvox.com/photos_gd/214/223/516054_120x.jpg || © DR - Zootrope films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/amours-salees-et-plaisirs-sucres">Amours salées et plaisirs
+sucrés</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/winter-vacation"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Winter vacation " title=
+"http://photos.cityvox.com/photos_gd/231/224/516327_120x.jpg || © DR - Capricci Films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/winter-vacation">Winter
+vacation</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/monsieur-arkadin"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Monsieur Arkadin" title=
+"http://photos.cityvox.com/photos_gd/44/219/514860_120x.jpg || © DR - Les Acacias"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/monsieur-arkadin">Monsieur
+Arkadin</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/exit-une-histoire-personnelle"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Exit : une histoire personnelle" title=
+"http://photos.cityvox.com/photos_gd/33/197/509217_120x.jpg || © Les Grands films classiques"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/exit-une-histoire-personnelle">Exit : une histoire
+personnelle</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/butch-cassidy-et-le-kid"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Butch Cassidy et le Kid" title=
+"http://photos.cityvox.com/photos_gd/146/202/510610_120x.jpg || © Swashbuckler Films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/butch-cassidy-et-le-kid">Butch
+Cassidy et le Kid</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/butch-cassidy-et-le-kid/critiques">1 avis</a> 
+<div class="c50">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+<br clear="all">
+ <a href="/rss-sorties-cinema-de-la-semaine" class="pictoRss"
+target="_blank"></a><a class="lienFleche" href=
+"/sorties-cinema-de-la-semaine">Toutes les sorties de la
+semaine</a><br clear="all">
+<br>
+</div>
+<!-- fin scroll sortiesSemaine -->
+<div class="affiche"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="positionPhotos"><a href="/film/rien-a-declarer"><img
+src="http://photos.cityvox.com/photos_gd/24/132/492568_120x.jpg"
+alt="Rien à déclarer" title="© Pathé Distribution"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/rien-a-declarer">Rien à
+déclarer</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/rien-a-declarer/critiques">159 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/animaux-et-cie-3d"><img
+src="http://photos.cityvox.com/photos_gd/224/179/504800_120x.jpg"
+alt="Animaux et cie 3D" title="© DR - Metropolitan Filmexport"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/animaux-et-cie-3d">Animaux et cie
+3D</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/animaux-et-cie-3d/critiques">5 avis</a> 
+<div class="c20">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/largo-winch-ii"><img
+src="http://photos.cityvox.com/photos_gd/168/192/508072_120x.jpg"
+alt="Largo Winch II" title="© Wild Bunch Distribution"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/largo-winch-ii">Largo Winch
+II</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/largo-winch-ii/critiques">19 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/tron-l-heritage"><img
+src="http://photos.cityvox.com/photos_gd/245/102/485109_120x.jpg"
+alt="Tron l'héritage" title="© Walt Disney Pictures "></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/tron-l-heritage">Tron
+l'héritage</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/tron-l-heritage/critiques">28 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/le-discours-d-un-roi"><img src=
+"http://photos.cityvox.com/photos_gd/192/180/505024_120x.jpg" alt=
+"Le Discours d'un roi " title="© Wild Bunch Distribution"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/le-discours-d-un-roi">Le Discours
+d'un roi</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/le-discours-d-un-roi/critiques">62 avis</a> 
+<div class="c45">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/gnomeo-et-juliette-3d"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Gnomeo et Juliette (3D)" title=
+"http://photos.cityvox.com/photos_gd/17/167/501521_120x.jpg || © Walt Disney pictures "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/gnomeo-et-juliette-3d">Gnomeo et
+Juliette (3D)</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/gnomeo-et-juliette-3d/critiques">2 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/halal-police-d-etat"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Halal Police d'Etat " title=
+"http://photos.cityvox.com/photos_gd/154/180/504986_120x.jpg || © EuropaCorp"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/halal-police-d-etat">Halal Police
+d'Etat</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/halal-police-d-etat/critiques">20 avis</a> 
+<div class="c15">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/les-femmes-du-6e-etage"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Les Femmes du 6e étage" title=
+"http://photos.cityvox.com/photos_gd/151/190/507543_120x.jpg || © SND"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/les-femmes-du-6e-etage">Les Femmes
+du 6e étage</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/les-femmes-du-6e-etage/critiques">25 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/black-swan-3"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Black Swan" title=
+"http://photos.cityvox.com/photos_gd/180/181/505268_120x.jpg || © 20th century fox "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/black-swan-3">Black Swan</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/black-swan-3/critiques">43 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/yogi-l-ours"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Yogi l'ours" title=
+"http://photos.cityvox.com/photos_gd/242/198/509682_120x.jpg || © Warner Bros. Pictures France"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/yogi-l-ours">Yogi l'ours</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/yogi-l-ours/critiques">1 avis</a> 
+<div class="c20">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/sex-friends"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Sex friends " title=
+"http://photos.cityvox.com/photos_gd/83/186/506451_120x.jpg || © DR-"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/sex-friends">Sex friends</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/sex-friends/critiques">7 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/au-dela-3"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Au-delà" title=
+"http://photos.cityvox.com/photos_gd/97/182/505441_120x.jpg || © Warners Bros."></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/au-dela-3">Au-delà</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/au-dela-3/critiques">87 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/last-night-4"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Last night" title=
+"http://photos.cityvox.com/photos_gd/176/179/504752_120x.jpg || © Gaumont "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/last-night-4">Last night</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/last-night-4/critiques">5 avis</a> 
+<div class="c30">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/arrietty-le-petit-monde-des-chapardeurs"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Arrietty le petit monde des chapardeurs " title=
+"http://photos.cityvox.com/photos_gd/243/173/503283_120x.jpg || © Walt Disney "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/arrietty-le-petit-monde-des-chapardeurs">Arrietty le petit
+monde des chapardeurs</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/arrietty-le-petit-monde-des-chapardeurs/critiques">11
+avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/les-chemins-de-la-liberte-2"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Les chemins de la liberté" title=
+"http://photos.cityvox.com/photos_gd/192/192/508096_120x.jpg || © DR - Metropolitan FIlmexport"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/les-chemins-de-la-liberte-2">Les
+chemins de la liberté</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/les-chemins-de-la-liberte-2/critiques">32 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/le-marchand-de-sable-l-aventure-au-pays-"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Le Marchand de Sable - L'aventure au pays des rêves" title=
+"http://photos.cityvox.com/photos_gd/211/154/498387_120x.jpg || © 2010 - Scopas Medias AG"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/le-marchand-de-sable-l-aventure-au-pays-">Le Marchand de
+Sable - L'aventure au pays des rêves</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/le-fils-a-jo"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Le fils à Jo" title=
+"http://photos.cityvox.com/photos_gd/172/179/504748_120x.jpg || © Gaumont "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/le-fils-a-jo">Le fils à
+Jo</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/le-fils-a-jo/critiques">62 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/angele-et-tony"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Angèle et Tony" title=
+"http://photos.cityvox.com/photos_gd/77/178/504397_120x.jpg || © Pyramide Films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/angele-et-tony">Angèle et
+Tony</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/angele-et-tony/critiques">11 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/une-vie-de-chat-2"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Une vie de chat" title=
+"http://photos.cityvox.com/photos_gd/244/113/487924_120x.jpg || © Folimage"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/une-vie-de-chat-2">Une vie de
+chat</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/une-vie-de-chat-2/critiques">7 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/des-hommes-et-des-dieux-2"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Des Hommes et des Dieux" title=
+"http://photos.cityvox.com/photos_gd/75/55/472907_120x.jpg || © Mars Distribution"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/des-hommes-et-des-dieux-2">Des
+Hommes et des Dieux</a></h3>
+<div class="avis"><a class="texteVif" href=
+"/film/des-hommes-et-des-dieux-2/critiques">99 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+<br clear="all">
+ <a href="/rss-films-a-l-affiche" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href="/films-a-l-affiche">Tous
+les films à l'affiche</a><br clear="all">
+<br>
+</div>
+<!-- fin scroll affiche -->
+<div class="prochainement"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="positionPhotos"><a href="/film/paul-1882"><img src=
+"http://photos.cityvox.com/photos_gd/89/193/508249_120x.jpg" alt=
+"Paul" title="© DR - Universal Pictures France"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/paul-1882">Paul</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/une-pure-affaire"><img
+src="http://photos.cityvox.com/photos_gd/121/202/510585_120x.jpg"
+alt="Une Pure affaire" title="© Bac Films"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/une-pure-affaire">Une Pure
+affaire</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/avant-l-aube-2"><img
+src="http://photos.cityvox.com/photos_gd/222/213/513502_120x.jpg"
+alt="Avant l'aube" title="© DR - UGC Distribution"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/avant-l-aube-2">Avant
+l'aube</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/correspondances-7"><img
+src="http://photos.cityvox.com/photos_gd/41/219/514857_120x.jpg"
+alt="Correspondances" title="© DR - Les films du Paradoxe"></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href=
+"/film/correspondances-7">Correspondances</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/faster-72"><img src=
+"http://photos.cityvox.com/photos_gd/79/170/502351_120x.jpg" alt=
+"Faster" title="© Sony pictures "></a> 
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/faster-72">Faster</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/la-permission-de-minuit"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"La permission de minuit" title=
+"http://photos.cityvox.com/photos_gd/255/215/514047_120x.jpg || © © Jessica Forde / Les Productions Balthazar"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/la-permission-de-minuit">La
+permission de minuit</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/le-roman-de-ma-femme"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Le roman de ma femme" title=
+"http://photos.cityvox.com/photos_gd/155/213/513435_120x.jpg || © Ad Vitam"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/le-roman-de-ma-femme">Le roman de
+ma femme</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/never-let-me-go"><img
+src="http://photos.cityvox.com/photos_original/19/254/458259.jpg"
+alt="Never let me go" title=
+"http://photos.cityvox.com/photos_gd/112/226/516720_120x.jpg || © 20th century fox"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/never-let-me-go">Never let me
+go</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href=
+"/film/sale-temps-pour-les-pecheurs"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Sale temps pour les pêcheurs " title=
+"http://photos.cityvox.com/photos_gd/97/178/504417_120x.jpg || © Heliotrope films"></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/sale-temps-pour-les-pecheurs">Sale
+temps pour les pêcheurs</a></h3>
+<br clear="all">
+</div>
+</div>
+<div class="positionPhotos"><a href="/film/sans-identite"><img src=
+"http://photos.cityvox.com/photos_original/19/254/458259.jpg" alt=
+"Sans identité " title=
+"http://photos.cityvox.com/photos_gd/217/187/506841_120x.jpg || © Studio canal "></a>
+
+<div class="detailsScroll">
+<h3><a class="titre" href="/film/sans-identite">Sans
+identité</a></h3>
+<br clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+<br clear="all">
+ <a href="/rss-prochainement-affiche" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href=
+"/prochaines-sorties-cinema">Tous les films de la semaine
+prochaine</a><br clear="all">
+<br>
+</div>
+<!-- fin scroll prochainement -->
+</div>
+<!-- fin tab "panes" -->
+</div>
+</div>
+<script type="text/javascript">
+                $(function() {
+                        $("div.blocLarge ul.tabs").tabs("div.blocLarge div.panes > div");ScrollDynamique("div.sortiesSemaine div.scrollable", "div.sortiesSemaine div.scrollable .positionPhotos",4);ScrollDynamique("div.affiche div.scrollable", "div.affiche div.scrollable .positionPhotos",4);ScrollDynamique("div.prochainement div.scrollable", "div.prochainement div.scrollable .positionPhotos",4);
+                });
+        </script>
+ 
+<div class="blocSmallLeft">
+<h1><a href="/dossiers-cinema">L'ACTU CINÉMA</a></h1>
+<br clear="all">
+ 
+<div class="bgGradient containerScroll"><!-- debut scroll --><a
+class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="actuAccDiv">
+<div id="div492604" style="width:220px;"><a href=
+"/dossiers-cinema/22-02-2011-diaporama-127-heures-avec-danny-bo"><img
+ id="img492604" src=
+"http://photos.cityvox.com/photos_gd/60/132/492604_220x.jpg" alt=
+"Diaporama : 127 heures avec Danny Boyle " title=
+"© DR - Pathé Distribution" width="220"></a></div>
+</div>
+<div class="actuAccDiv">
+<div id="div387947" style="width:220px;"><a href=
+"/dossiers-cinema/11-02-2011-vacances-selection-cine-pour-petit"><img
+ id="img387947" src=
+"http://photos.cityvox.com/photos_gd/107/235/387947_220x.jpg" alt=
+"Vacances : sélection ciné pour petits et grands !" title=
+"© Eric Charbonneau/Le Studio/Wireimage" width="220"></a></div>
+</div>
+<div class="actuAccDiv">
+<div id="div387947" style="width:220px;"><a href=
+"/dossiers-cinema/11-02-2011-vacances-selection-cine-pour-petit"><img
+ id="img387947" src=
+"http://photos.cityvox.com/photos_gd/107/235/387947_220x.jpg" alt=
+"Vacances : sélection ciné pour petits et grands !" title=
+"© Eric Charbonneau/Le Studio/Wireimage" width="220"></a></div>
+</div>
+<div class="actuAccDiv">
+<div id="div436328" style="width:220px;"><a href=
+"/dossiers-cinema/21-02-2011-le-tour-d-une-oeuvre--les-freres-c"><img
+ id="img436328" src=
+"http://photos.cityvox.com/photos_gd/104/168/436328_220x.jpg" alt=
+"Le tour d’une œuvre… Les frères Coen" title="© Studio canal "
+width="220"></a></div>
+</div>
+</div>
+<!-- items -->
+<br clear="all">
+<div id="transtext" class="texteTransition">&nbsp;</div>
+<div id="textContainer" class="textContainer"></div>
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action --><br
+clear="all">
+<br>
+</div>
+<br clear="all">
+ <a href="/rss-actualite-cinema" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href="/dossiers-cinema">Toute
+l'actu ciné</a><br clear="all">
+<br>
+ <!-- fin scroll bgGradient containerScroll -->
+</div>
+<script type="text/javascript">
+                $(function() {
+                         var texteAffiche = new Array();texteAffiche[0]="<a href='/dossiers-cinema/22-02-2011-diaporama-127-heures-avec-danny-bo'>Diaporama : 127 heures avec Danny Boyle <\/a><br>";texteAffiche[1]="<a href='/dossiers-cinema/11-02-2011-vacances-selection-cine-pour-petit'>Vacances : sélection ciné pour petits et grands !<\/a><br>";texteAffiche[2]="<a href='/dossiers-cinema/11-02-2011-vacances-selection-cine-pour-petit'>Vacances : sélection ciné pour petits et grands !<\/a><br>";texteAffiche[3]="<a href='/dossiers-cinema/21-02-2011-le-tour-d-une-oeuvre--les-freres-c'>Le tour d’une œuvre… Les frères Coen<\/a><br>";
+                                        tt1=jQuery("#transtext");
+                                        tt=jQuery("#textContainer");
+                                        tt1.css({opacity: 0.7});
+                                        tt.html(texteAffiche[0]);
+                                                                                
+                                        // initialize scrollable
+                                        jQuery("div.containerScroll .scrollable").scrollable({
+                                                clickable: false,
+                                                size: 1,
+                                                onBeforeSeek: function(a,b){
+                                                        tt1.animate({top: 150},300);
+                                                        tt.animate({top: 150},300);
+                                                },
+                                                onSeek: function(a,b){
+                                                        tt1.animate({top: 120},300);
+                                                        tt.animate({top: 120},300);
+                                                        tt.html(texteAffiche[b]);
+                                                }
+                                        });
+                        
+                });
+        </script>
+ 
+<div id="accTitreFilmBA" class="blocMediumRight">
+<div class="tabsContainer">
+<h1><a href="/bandes-annonces-cinema">BANDES-ANNONCES</a></h1>
+<ul class="tabs">
+<li><a href="javascript:void(0);"><span>Nouveautés</span></a></li>
+<li><a href="javascript:void(0);"><span>Les + vues</span></a></li>
+</ul>
+<br clear="all">
+ 
+<hr>
+<!-- tab "panes" -->
+<div class="panes">
+<div>
+<div class="nouveautes"><!-- debut scroll -->
+<!-- root element for scrollable -->
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/une-pure-affaire/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/121/202/510585.jpg" alt=
+"Une Pure affaire" title="©&nbsp;Bac Films" height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/une-pure-affaire/bande-annonce">Une Pure Affaire</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;02/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/alexandre-coffre" title=
+"Alexandre Coffre" class="texteVif">Alexandre Coffre</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/francois-damiens" title=
+"François Damiens" class="texteVif">François Damiens</a>, <a href=
+"/star/pascale-arbillot" title="Pascale Arbillot" class=
+"texteVif">Pascale Arbillot</a>, <a href="/star/gilles-cohen-2"
+title="Gilles Cohen" class="texteVif">Gilles Cohen</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/une-pure-affaire/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/pollen-3/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/173/209/512429.jpg" alt=
+"Pollen" title="©&nbsp;Walt Disney pictures " height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/pollen-3/bande-annonce">Pollen</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/louie-schwartzberg" title=
+"Louie Schwartzberg" class="texteVif">Louie Schwartzberg</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/melanie-laurent" title=
+"Mélanie Laurent" class="texteVif">Mélanie Laurent</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/pollen-3/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/big-mamma-de-pere-en-fils/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/227/225/516579.jpg" alt=
+"Big mamma : de père en fils" title="©&nbsp;20 th century fox "
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/big-mamma-de-pere-en-fils/bande-annonce">Big Mamma : De Père
+En Fils</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;30/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/john-whitesell" title=
+"John Whitesell" class="texteVif">John Whitesell</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/martin-lawrence" title=
+"Martin Lawrence" class="texteVif">Martin Lawrence</a>, <a href=
+"/star/brandon-t-jackson" title="Brandon T. Jackson" class=
+"texteVif">Brandon T. Jackson</a>, <a href="/star/jessica-lucas"
+title="Jessica Lucas" class="texteVif">Jessica Lucas</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/big-mamma-de-pere-en-fils/bande-annonce">&nbsp;</a><br
+clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/country-strong/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/5/205/511237.jpg" alt=
+"Country strong " title="©&nbsp;Sony pictures" height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/country-strong/bande-annonce">Country Strong</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;04/05/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/shana-feste" title=
+"Shana Feste" class="texteVif">Shana Feste</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/gwyneth-paltrow" title=
+"Gwyneth Paltrow" class="texteVif">Gwyneth Paltrow</a>, <a href=
+"/star/tim-mcgraw" title="Tim Mcgraw" class="texteVif">Tim
+Mcgraw</a>, <a href="/star/garrett-hedlund" title="Garrett Hedlund"
+class="texteVif">Garrett Hedlund</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/country-strong/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/easy-money/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/178/205/511410.jpg" alt=
+"Easy money" title="©&nbsp;MK2 Diffusion" height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/easy-money/bande-annonce">Easy Money</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;30/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/daniel-espinosa" title=
+"Daniel Espinosa" class="texteVif">Daniel Espinosa</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/joel-kinnaman" title=
+"Joel Kinnaman" class="texteVif">Joel Kinnaman</a>, <a href=
+"/star/matias-padin" title="Matias Padin" class="texteVif">Matias
+Padin</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/easy-money/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/les-yeux-de-sa-mere/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/99/221/515427.jpg" alt=
+"Les Yeux de sa mère" title="©&nbsp;DR - Mars Distribution" height=
+"120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/les-yeux-de-sa-mere/bande-annonce">Les Yeux De Sa
+Mère</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/thierry-klifa" title=
+"Thierry Klifa" class="texteVif">Thierry Klifa</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/catherine-deneuve" title=
+"Catherine Deneuve" class="texteVif">Catherine Deneuve</a>, <a
+href="/star/nicolas-duvauchelle" title="Nicolas Duvauchelle" class=
+"texteVif">Nicolas Duvauchelle</a>, <a href=
+"/star/geraldine-pailhas" title="Géraldine Pailhas" class=
+"texteVif">Géraldine Pailhas</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/les-yeux-de-sa-mere/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/rio-3d/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/111/175/503663.jpg" alt=
+"Rio (3D) " title="©&nbsp;20th century fox " height="120"></a> 
+<h3><a class="titreBlanc" href="/film/rio-3d/bande-annonce">Rio
+(3D)</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;13/04/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/carlos-saldanha" title=
+"Carlos Saldanha" class="texteVif">Carlos Saldanha</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/laetitia-casta" title=
+"Laetitia Casta" class="texteVif">Laetitia Casta</a>, <a href=
+"/star/lorant-deutsch" title="Lorànt Deutsch" class=
+"texteVif">Lorànt Deutsch</a>, <a href="/star/anne-hathaway" title=
+"Anne Hathaway" class="texteVif">Anne Hathaway</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/rio-3d/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/captain-america-the-first-avenger/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Captain America : The first avenger" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/captain-america-the-first-avenger/bande-annonce">Captain
+America : The First Avenger</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;17/08/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/joe-johnston" title=
+"Joe Johnston" class="texteVif">Joe Johnston</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/chris-evans" title="Chris Evans"
+class="texteVif">Chris Evans</a>, <a href="/star/samuel-l-jackson"
+title="Samuel L. Jackson" class="texteVif">Samuel L. Jackson</a>,
+<a href="/star/hugo-weaving" title="Hugo Weaving" class=
+"texteVif">Hugo Weaving</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/captain-america-the-first-avenger/bande-annonce">&nbsp;</a><br
+ clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/kung-fu-panda-2-the-kaboom-of-doom/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Kung Fu Panda 2 : The Kaboom of Doom " title=
+"http://photos.cityvox.com/photos_120_90/89/166/501337.jpg||© paramount pictures "
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/kung-fu-panda-2-the-kaboom-of-doom/bande-annonce">Kung Fu
+Panda 2 : The Kaboom Of Doom</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;15/06/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/jennifer-yuh" title=
+"Jennifer Yuh" class="texteVif">Jennifer Yuh</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/jack-black" title="Jack Black"
+class="texteVif">Jack Black</a>, <a href="/star/angelina-jolie"
+title="Angelina Jolie" class="texteVif">Angelina Jolie</a>, <a
+href="/star/gary-oldman" title="Gary Oldman" class="texteVif">Gary
+Oldman</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/kung-fu-panda-2-the-kaboom-of-doom/bande-annonce">&nbsp;</a><br
+ clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/cowboys-envahisseurs/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Cowboys &amp; envahisseurs" title=
+"http://photos.cityvox.com/photos_120_90/160/199/509856.jpg||© Paramount pictures"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/cowboys-envahisseurs/bande-annonce">Cowboys &amp;
+Envahisseurs</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;31/08/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/jon-favreau" title=
+"Jon Favreau" class="texteVif">Jon Favreau</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/daniel-craig" title="Daniel Craig"
+class="texteVif">Daniel Craig</a>, <a href="/star/olivia-wilde"
+title="Olivia Wilde" class="texteVif">Olivia Wilde</a>, <a href=
+"/star/harrison-ford" title="Harrison Ford" class=
+"texteVif">Harrison Ford</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/cowboys-envahisseurs/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/mon-pere-est-femme-de-menage/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Mon père est femme de ménage" title=
+"http://photos.cityvox.com/photos_120_90/245/173/503285.jpg||© ARP Selection"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/mon-pere-est-femme-de-menage/bande-annonce">Mon Père Est
+Femme De Ménage</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;13/04/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/saphia-azzedine" title=
+"Saphia Azzedine" class="texteVif">Saphia Azzedine</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/francois-cluzet" title=
+"François Cluzet" class="texteVif">François Cluzet</a>, <a href=
+"/star/jules-sitruk" title="Jules Sitruk" class="texteVif">Jules
+Sitruk</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/mon-pere-est-femme-de-menage/bande-annonce">&nbsp;</a><br
+clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/le-rite-2/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le rite" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href="/film/le-rite-2/bande-annonce">Le
+Rite</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp; <a href=
+"/star/mickael-hafstrom-mickael-hafstrom" title=" Mickael Hafstrom"
+class="texteVif">Mickael Hafstrom</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/anthony-hopkins" title=
+"Anthony Hopkins" class="texteVif">Anthony Hopkins</a>, <a href=
+"/star/alice-braga" title="Alice Braga" class="texteVif">Alice
+Braga</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/le-rite-2/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/sucker-punch/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Sucker Punch" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/sucker-punch/bande-annonce">Sucker Punch</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;30/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/zack-snyder" title=
+"Zack Snyder" class="texteVif">Zack Snyder</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/jena-malone" title="Jena Malone"
+class="texteVif">Jena Malone</a>, <a href="/star/abbie-cornish"
+title="Abbie Cornish" class="texteVif">Abbie Cornish</a>, <a href=
+"/star/jamie-chung" title="Jamie Chung" class="texteVif">Jamie
+Chung</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/sucker-punch/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/bonobos/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Bonobos" title=
+"http://photos.cityvox.com/photos_120_90/15/219/514831.jpg||© SND"
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/bonobos/bande-annonce">Bonobos</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;30/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/alain-tixier" title=
+"Alain Tixier" class="texteVif">Alain Tixier</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/sandrine-bonnaire" title=
+"Sandrine Bonnaire" class="texteVif">Sandrine Bonnaire</a><br
+clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/bonobos/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/route-irish/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Route Irish" title=
+"http://photos.cityvox.com/photos_120_90/10/219/514826.jpg||© Diaphana"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/route-irish/bande-annonce">Route Irish</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/ken-loach" title="Ken Loach"
+class="texteVif">Ken Loach</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/mark-womack" title="Mark Womack"
+class="texteVif">Mark Womack</a>, <a href="/star/andrea-lowe"
+title="Andrea Lowe" class="texteVif">Andrea Lowe</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/route-irish/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/fast-five/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Fast Five" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href="/film/fast-five/bande-annonce">Fast
+Five</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;04/05/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/justin-lin" title=
+"Justin Lin" class="texteVif">Justin Lin</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/vin-diesel" title="Vin Diesel"
+class="texteVif">Vin Diesel</a>, <a href="/star/paul-walker" title=
+"Paul Walker" class="texteVif">Paul Walker</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/fast-five/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/les-moomins-et-la-chasse-a-la-comete/bande-annonce"><img
+src="http://photos.cityvox.com/photos_120_90/72/123/424776.jpg"
+alt="Les Moomins et la chasse à la comète" title=
+"http://photos.cityvox.com/photos_120_90/12/206/511500.jpg||© MK2 Diffusion"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/les-moomins-et-la-chasse-a-la-comete/bande-annonce">Les
+Moomins Et La Chasse À La Comète</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/maria-lindberg" title=
+"Maria Lindberg" class="texteVif">Maria Lindberg</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/max-von-sydow" title=
+"Max Von Sydow" class="texteVif">Max Von Sydow</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/les-moomins-et-la-chasse-a-la-comete/bande-annonce">&nbsp;</a><br
+ clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/hop-2009/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Hop" title=
+"http://photos.cityvox.com/photos_120_90/25/221/515353.jpg||© DR - Universal Pictures France"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/hop-2009/bande-annonce">Hop</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;06/07/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/tim-hill" title="Tim Hill"
+class="texteVif">Tim Hill</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/russell-brand" title=
+"Russell Brand" class="texteVif">Russell Brand</a>, <a href=
+"/star/james-marsden" title="James Marsden" class="texteVif">James
+Marsden</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/hop-2009/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/jimmy-riviere/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jimmy Rivière " title=
+"http://photos.cityvox.com/photos_120_90/40/219/514856.jpg||© Pyramide Films"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/jimmy-riviere/bande-annonce">Jimmy Rivière</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/teddy-lussi-modeste" title=
+"Teddy Lussi-Modeste" class="texteVif">Teddy Lussi-Modeste</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/guillaume-gouix" title=
+"Guillaume Gouix" class="texteVif">Guillaume Gouix</a>, <a href=
+"/star/beatrice-dalle" title="Béatrice Dalle" class=
+"texteVif">Béatrice Dalle</a>, <a href="/star/hafsia-herzi" title=
+"Hafsia Herzi" class="texteVif">Hafsia Herzi</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/jimmy-riviere/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/devil-2/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Devil" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/devil-2/bande-annonce">Devil</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;20/04/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/john-erick-dowdle" title=
+"John Erick Dowdle" class="texteVif">John Erick Dowdle</a>, <a
+href="/star/drew-dowdle" title="Drew Dowdle" class="texteVif">Drew
+Dowdle</a><br>
+<br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/devil-2/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/sale-temps-pour-les-pecheurs/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Sale temps pour les pêcheurs " title=
+"http://photos.cityvox.com/photos_120_90/97/178/504417.jpg||© Heliotrope films"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/sale-temps-pour-les-pecheurs/bande-annonce">Sale Temps Pour
+Les Pêcheurs</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;02/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/alvaro-brechner" title=
+"Alvaro Brechner" class="texteVif">Alvaro Brechner</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/cesar-troncoso" title=
+"Cesar Troncoso" class="texteVif">Cesar Troncoso</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/sale-temps-pour-les-pecheurs/bande-annonce">&nbsp;</a><br
+clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+</div>
+<!-- fin scroll nouveautes -->
+<div class="nouveautesVignettes"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPosition active"><img src=
+"http://photos.cityvox.com/photos_120_90/121/202/510585.jpg" alt=
+"Une Pure affaire" title="Une Pure affaire" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/173/209/512429.jpg" alt=
+"Pollen" title="Pollen" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/227/225/516579.jpg" alt=
+"Big mamma : de père en fils" title="Big mamma : de père en fils"
+height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/5/205/511237.jpg" alt=
+"Country strong " title="Country strong " height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/178/205/511410.jpg" alt=
+"Easy money" title="Easy money" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/99/221/515427.jpg" alt=
+"Les Yeux de sa mère" title="Les Yeux de sa mère" height=
+"45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/111/175/503663.jpg" alt=
+"Rio (3D) " title="Rio (3D) " height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Captain America : The first avenger" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Captain America : The first avenger"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Kung Fu Panda 2 : The Kaboom of Doom " title=
+"http://photos.cityvox.com/photos_120_90/89/166/501337.jpg||Kung Fu Panda 2 : The Kaboom of Doom "
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Cowboys &amp; envahisseurs" title=
+"http://photos.cityvox.com/photos_gd/160/199/509856_90x120.jpg||Cowboys &amp; envahisseurs"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Mon père est femme de ménage" title=
+"http://photos.cityvox.com/photos_120_90/245/173/503285.jpg||Mon père est femme de ménage"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le rite" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Le rite"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Sucker Punch" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Sucker Punch"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Bonobos" title=
+"http://photos.cityvox.com/photos_120_90/15/219/514831.jpg||Bonobos"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Route Irish" title=
+"http://photos.cityvox.com/photos_120_90/10/219/514826.jpg||Route Irish"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Fast Five" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Fast Five"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Les Moomins et la chasse à la comète" title=
+"http://photos.cityvox.com/photos_120_90/12/206/511500.jpg||Les Moomins et la chasse à la comète"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Hop" title=
+"http://photos.cityvox.com/photos_120_90/25/221/515353.jpg||Hop"
+height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jimmy Rivière " title=
+"http://photos.cityvox.com/photos_120_90/40/219/514856.jpg||Jimmy Rivière "
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Devil" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Devil"
+height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Sale temps pour les pêcheurs " title=
+"http://photos.cityvox.com/photos_120_90/97/178/504417.jpg||Sale temps pour les pêcheurs "
+ height="45"></div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+</div>
+<!-- fin scroll nouveautesVignettes -->
+<br clear="all">
+ <a href="/rss-nouvelles-bandes-annonces" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href=
+"/bandes-annonces-cinema/nouvelles-videos">Les dernières
+bandes-annonces</a><br clear="all">
+<br>
+</div>
+<div>
+<div class="attendus"><!-- debut scroll -->
+<!-- root element for scrollable -->
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/les-voyages-de-gulliver-3d/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/203/174/503499.jpg" alt=
+"Les voyages de Gulliver 3D" title="©&nbsp;20th century fox"
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/les-voyages-de-gulliver-3d/bande-annonce">Les Voyages De
+Gulliver 3D</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/rob-letterman" title=
+"Rob Letterman" class="texteVif">Rob Letterman</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/jack-black" title="Jack Black"
+class="texteVif">Jack Black</a>, <a href="/star/emily-blunt" title=
+"Emily Blunt" class="texteVif">Emily Blunt</a>, <a href=
+"/star/jason-segel" title="Jason Segel" class="texteVif">Jason
+Segel</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/les-voyages-de-gulliver-3d/bande-annonce">&nbsp;</a><br
+clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/animaux-et-cie-3d/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/224/179/504800.jpg" alt=
+"Animaux et cie 3D" title="©&nbsp;DR - Metropolitan Filmexport"
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/animaux-et-cie-3d/bande-annonce">Animaux Et Cie 3D</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/reinhard-klooss" title=
+"Reinhard Klooss" class="texteVif">Reinhard Klooss</a>, <a href=
+"/star/holger-tappe" title="Holger Tappe" class="texteVif">Holger
+Tappe</a><br>
+<br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/animaux-et-cie-3d/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/gnomeo-et-juliette-3d/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/17/167/501521.jpg" alt=
+"Gnomeo et Juliette (3D)" title="©&nbsp;Walt Disney pictures "
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/gnomeo-et-juliette-3d/bande-annonce">Gnomeo Et Juliette
+(3D)</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/kelly-asbury" title=
+"Kelly Asbury" class="texteVif">Kelly Asbury</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/james-mcavoy" title="James Mcavoy"
+class="texteVif">James Mcavoy</a>, <a href="/star/emily-blunt"
+title="Emily Blunt" class="texteVif">Emily Blunt</a>, <a href=
+"/star/ozzy-osbourne" title="Ozzy Osbourne" class="texteVif">Ozzy
+Osbourne</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/gnomeo-et-juliette-3d/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/rien-a-declarer/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/24/132/492568.jpg" alt=
+"Rien à déclarer" title="©&nbsp;Pathé Distribution" height=
+"120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/rien-a-declarer/bande-annonce">Rien À Déclarer</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;02/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/dany-boon" title="Dany Boon"
+class="texteVif">Dany Boon</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/dany-boon" title="Dany Boon" class=
+"texteVif">Dany Boon</a>, <a href="/star/benoit-poelvoorde" title=
+"Benoît Poelvoorde" class="texteVif">Benoît Poelvoorde</a>, <a
+href="/star/karin-viard" title="Karin Viard" class="texteVif">Karin
+Viard</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/rien-a-declarer/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/sex-friends/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/83/186/506451.jpg" alt=
+"Sex friends " title="©&nbsp;DR-" height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/sex-friends/bande-annonce">Sex Friends</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/ivan-reitman" title=
+"Ivan Reitman" class="texteVif">Ivan Reitman</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/natalie-portman" title=
+"Natalie Portman" class="texteVif">Natalie Portman</a>, <a href=
+"/star/ashton-kutcher-2" title="Ashton Kutcher" class=
+"texteVif">Ashton Kutcher</a>, <a href="/star/kevin-kline" title=
+"Kevin Kline" class="texteVif">Kevin Kline</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/sex-friends/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/sanctum-3d/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/77/225/516429.jpg" alt=
+"Sanctum 3D" title="©&nbsp;Metropolitan FilmExport" height=
+"120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/sanctum-3d/bande-annonce">Sanctum 3D</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/alister-grierson" title=
+"Alister Grierson" class="texteVif">Alister Grierson</a><br>
+<br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/sanctum-3d/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/halal-police-d-etat/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/154/180/504986.jpg" alt=
+"Halal Police d'Etat " title="©&nbsp;EuropaCorp" height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/halal-police-d-etat/bande-annonce">Halal Police
+D'Etat</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/rachid-dhibou" title=
+"Rachid Dhibou" class="texteVif">Rachid Dhibou</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/ramzy-bedia" title="Ramzy Bedia"
+class="texteVif">Ramzy Bedia</a>, <a href="/star/eric-judor" title=
+"Eric Judor" class="texteVif">Eric Judor</a>, <a href=
+"/star/philippe-girard-3" title="Philippe Girard" class=
+"texteVif">Philippe Girard</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/halal-police-d-etat/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/black-swan-3/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Black Swan" title=
+"http://photos.cityvox.com/photos_120_90/180/181/505268.jpg||© 20th century fox "
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/black-swan-3/bande-annonce">Black Swan</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/darren-aronofsky" title=
+"Darren Aronofsky" class="texteVif">Darren Aronofsky</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/natalie-portman" title=
+"Natalie Portman" class="texteVif">Natalie Portman</a>, <a href=
+"/star/mila-kunis-2" title="Mila Kunis" class="texteVif">Mila
+Kunis</a>, <a href="/star/vincent-cassel" title="Vincent Cassel"
+class="texteVif">Vincent Cassel</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/black-swan-3/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/yogi-l-ours/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Yogi l'ours" title=
+"http://photos.cityvox.com/photos_120_90/242/198/509682.jpg||© Warner Bros. Pictures France"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/yogi-l-ours/bande-annonce">Yogi L'Ours</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/eric-brevig" title=
+"Eric Brevig" class="texteVif">Eric Brevig</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/anna-faris" title="Anna Faris"
+class="texteVif">Anna Faris</a>, <a href="/star/justin-timberlake"
+title="Justin Timberlake" class="texteVif">Justin Timberlake</a>,
+<a href="/star/dan-aykroyd" title="Dan Aykroyd" class=
+"texteVif">Dan Aykroyd</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/yogi-l-ours/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/les-femmes-du-6e-etage/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Les Femmes du 6e étage" title=
+"http://photos.cityvox.com/photos_120_90/151/190/507543.jpg||© SND"
+height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/les-femmes-du-6e-etage/bande-annonce">Les Femmes Du 6E
+Étage</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/philippe-le-guay" title=
+"Philippe Le Guay" class="texteVif">Philippe Le Guay</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/fabrice-luchini" title=
+"Fabrice Luchini" class="texteVif">Fabrice Luchini</a>, <a href=
+"/star/sandrine-kiberlain" title="Sandrine Kiberlain" class=
+"texteVif">Sandrine Kiberlain</a>, <a href="/star/natalia-verbeke"
+title="Natalia Verbeke" class="texteVif">Natalia Verbeke</a><br
+clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/les-femmes-du-6e-etage/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/true-grit-2/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"True Grit" title=
+"http://photos.cityvox.com/photos_120_90/182/196/509110.jpg||© Paramount Pictures France"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/true-grit-2/bande-annonce">True Grit</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/ethan-coen" title=
+"Ethan Coen" class="texteVif">Ethan Coen</a>, <a href=
+"/star/joel-coen" title="Joel Coen" class="texteVif">Joel
+Coen</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/jeff-bridges" title="Jeff Bridges"
+class="texteVif">Jeff Bridges</a>, <a href="/star/matt-damon"
+title="Matt Damon" class="texteVif">Matt Damon</a>, <a href=
+"/star/josh-brolin" title="Josh Brolin" class="texteVif">Josh
+Brolin</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/true-grit-2/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/justin-bieber-never-say-never/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Justin Bieber : never say never " title=
+"http://photos.cityvox.com/photos_120_90/189/198/509629.jpg||© Paramount pictures"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/justin-bieber-never-say-never/bande-annonce">Justin Bieber :
+Never Say Never</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/davis-guggenheim" title=
+"Davis Guggenheim" class="texteVif">Davis Guggenheim</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/justin-bieber" title=
+"Justin Bieber" class="texteVif">Justin Bieber</a>, <a href=
+"/star/miley-cyrus" title="Miley Cyrus" class="texteVif">Miley
+Cyrus</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/justin-bieber-never-say-never/bande-annonce">&nbsp;</a><br
+clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/127-heures/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"127 Heures" title=
+"http://photos.cityvox.com/photos_120_90/252/201/510460.jpg||© DR - Pa"
+ height="120"></a> 
+<h3><a class="titreBlanc" href="/film/127-heures/bande-annonce">127
+Heures</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/danny-boyle" title=
+"Danny Boyle" class="texteVif">Danny Boyle</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/james-franco" title="James Franco"
+class="texteVif">James Franco</a>, <a href="/star/lizzy-caplan"
+title="Lizzy Caplan" class="texteVif">Lizzy Caplan</a>, <a href=
+"/star/clemence-poesy" title="Clémence Poésy" class=
+"texteVif">Clémence Poésy</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/127-heures/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/toi-moi-les-autres/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Toi, moi, les autres..." title=
+"http://photos.cityvox.com/photos_120_90/95/167/501599.jpg||© Mars Distribution"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/toi-moi-les-autres/bande-annonce">Toi, Moi, Les
+Autres...</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp; <a href="/star/audrey-estrougo" title=
+" Audrey Estrougo" class="texteVif">Audrey Estrougo</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/leila-bekhti" title="Leïla Bekhti"
+class="texteVif">Leïla Bekhti</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/toi-moi-les-autres/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/largo-winch-ii/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Largo Winch II" title=
+"http://photos.cityvox.com/photos_120_90/168/192/508072.jpg||© Wild Bunch Distribution"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/largo-winch-ii/bande-annonce">Largo Winch Ii</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/jerome-salle" title=
+"Jérôme Salle" class="texteVif">Jérôme Salle</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/tomer-gazit-sisley-2" title=
+"Tomer Gazit Sisley" class="texteVif">Tomer Gazit Sisley</a>, <a
+href="/star/sharon-stone" title="Sharon Stone" class=
+"texteVif">Sharon Stone</a>, <a href="/star/ulrich-tukur" title=
+"Ulrich Tukur" class="texteVif">Ulrich Tukur</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/largo-winch-ii/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/tron-l-heritage/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Tron l'héritage" title=
+"http://photos.cityvox.com/photos_120_90/132/233/387460.jpg||© Walt Disney Pictures"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/tron-l-heritage/bande-annonce">Tron L'Héritage</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/joseph-kosinski" title=
+"Joseph Kosinski" class="texteVif">Joseph Kosinski</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/jeff-bridges" title="Jeff Bridges"
+class="texteVif">Jeff Bridges</a>, <a href="/star/garrett-hedlund"
+title="Garrett Hedlund" class="texteVif">Garrett Hedlund</a>, <a
+href="/star/michael-sheen" title="Michael Sheen" class=
+"texteVif">Michael Sheen</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/tron-l-heritage/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/rango-2/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Rango " title=
+"http://photos.cityvox.com/photos_120_90/92/226/516700.jpg||© Paramount pictures"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/rango-2/bande-annonce">Rango</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/gore-verbinski" title=
+"Gore Verbinski" class="texteVif">Gore Verbinski</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/johnny-depp" title="Johnny Depp"
+class="texteVif">Johnny Depp</a>, <a href="/star/abigail-breslin"
+title="Abigail Breslin" class="texteVif">Abigail Breslin</a>, <a
+href="/star/isla-fisher" title="Isla Fisher" class="texteVif">Isla
+Fisher</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/rango-2/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/last-night-4/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Last night" title=
+"http://photos.cityvox.com/photos_120_90/176/179/504752.jpg||© Gaumont "
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/last-night-4/bande-annonce">Last Night</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;16/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/massy-tadjedin" title=
+"Massy Tadjedin" class="texteVif">Massy Tadjedin</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/keira-knightley" title=
+"Keira Knightley" class="texteVif">Keira Knightley</a>, <a href=
+"/star/eva-mendes" title="Eva Mendes" class="texteVif">Eva
+Mendes</a>, <a href="/star/guillaume-canet" title="Guillaume Canet"
+class="texteVif">Guillaume Canet</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/last-night-4/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/pirates-des-caraibes-la-fontaine-de-jouv/bande-annonce"><img
+src="http://photos.cityvox.com/photos_120_90/72/123/424776.jpg"
+alt="Pirates des Caraïbes : la fontaine de jouvence" title=
+"http://photos.cityvox.com/photos_120_90/84/174/503380.jpg||© Walt Disney pictures"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/pirates-des-caraibes-la-fontaine-de-jouv/bande-annonce">Pirates
+Des Caraïbes : La Fontaine De Jouvence</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;18/05/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/rob-marshall" title=
+"Rob Marshall" class="texteVif">Rob Marshall</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/johnny-depp" title="Johnny Depp"
+class="texteVif">Johnny Depp</a>, <a href="/star/geoffrey-rush"
+title="Geoffrey Rush" class="texteVif">Geoffrey Rush</a>, <a href=
+"/star/penelope-cruz" title="Penélope Cruz" class=
+"texteVif">Penélope Cruz</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/pirates-des-caraibes-la-fontaine-de-jouv/bande-annonce">&nbsp;</a><br
+ clear="all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/requiem-pour-une-tueuse/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Requiem pour une tueuse" title=
+"http://photos.cityvox.com/photos_120_90/145/171/502673.jpg||© Studiocanal"
+ height="120"></a> 
+<h3><a class="titreBlanc" href=
+"/film/requiem-pour-une-tueuse/bande-annonce">Requiem Pour Une
+Tueuse</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;23/02/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/jerome-le-gris" title=
+"Jérôme Le Gris" class="texteVif">Jérôme Le Gris</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/melanie-laurent" title=
+"Mélanie Laurent" class="texteVif">Mélanie Laurent</a>, <a href=
+"/star/clovis-cornillac" title="Clovis Cornillac" class=
+"texteVif">Clovis Cornillac</a>, <a href="/star/tcheky-karyo"
+title="Tcheky Karyo" class="texteVif">Tcheky Karyo</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/requiem-pour-une-tueuse/bande-annonce">&nbsp;</a><br clear=
+"all">
+</div>
+</div>
+<div id="accBAContainer" class="photosPosition">
+<div class="largeContentAvecPhoto"><a href=
+"/film/le-rite-2/bande-annonce"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le rite" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"
+ height="120"></a> 
+<h3><a class="titreBlanc" href="/film/le-rite-2/bande-annonce">Le
+Rite</a></h3>
+<br>
+ 
+<div class="impairSansBordeur">
+<p>Date de sortie&nbsp;09/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp; <a href=
+"/star/mickael-hafstrom-mickael-hafstrom" title=" Mickael Hafstrom"
+class="texteVif">Mickael Hafstrom</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/anthony-hopkins" title=
+"Anthony Hopkins" class="texteVif">Anthony Hopkins</a>, <a href=
+"/star/alice-braga" title="Alice Braga" class="texteVif">Alice
+Braga</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+</div>
+<div class="pictoDiv" style=
+"width:50px;height:50px;position:relative;float:left;top:-110px;left:50px;"><a
+ class="pictoPlayFondBlanc" href=
+"/film/le-rite-2/bande-annonce">&nbsp;</a><br clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+</div>
+<!-- fin scroll attendus -->
+<div class="attendusVignettes"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPosition active"><img src=
+"http://photos.cityvox.com/photos_120_90/203/174/503499.jpg" alt=
+"Les voyages de Gulliver 3D" title="Les voyages de Gulliver 3D"
+height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/224/179/504800.jpg" alt=
+"Animaux et cie 3D" title="Animaux et cie 3D" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/17/167/501521.jpg" alt=
+"Gnomeo et Juliette (3D)" title="Gnomeo et Juliette (3D)" height=
+"45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/24/132/492568.jpg" alt=
+"Rien à déclarer" title="Rien à déclarer" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/83/186/506451.jpg" alt=
+"Sex friends " title="Sex friends " height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/77/225/516429.jpg" alt=
+"Sanctum 3D" title="Sanctum 3D" height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/154/180/504986.jpg" alt=
+"Halal Police d'Etat " title="Halal Police d'Etat " height=
+"45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Black Swan" title=
+"http://photos.cityvox.com/photos_120_90/180/181/505268.jpg||Black Swan"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Yogi l'ours" title=
+"http://photos.cityvox.com/photos_120_90/242/198/509682.jpg||Yogi l'ours"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Les Femmes du 6e étage" title=
+"http://photos.cityvox.com/photos_gd/151/190/507543_90x120.jpg||Les Femmes du 6e étage"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"True Grit" title=
+"http://photos.cityvox.com/photos_120_90/182/196/509110.jpg||True Grit"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Justin Bieber : never say never " title=
+"http://photos.cityvox.com/photos_120_90/189/198/509629.jpg||Justin Bieber : never say never "
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"127 Heures" title=
+"http://photos.cityvox.com/photos_120_90/252/201/510460.jpg||127 Heures"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Toi, moi, les autres..." title=
+"http://photos.cityvox.com/photos_120_90/95/167/501599.jpg||Toi, moi, les autres..."
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Largo Winch II" title=
+"http://photos.cityvox.com/photos_120_90/168/192/508072.jpg||Largo Winch II"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Tron l'héritage" title=
+"http://photos.cityvox.com/photos_120_90/132/233/387460.jpg||Tron l'héritage"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Rango " title=
+"http://photos.cityvox.com/photos_gd/92/226/516700_90x120.jpg||Rango "
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Last night" title=
+"http://photos.cityvox.com/photos_120_90/176/179/504752.jpg||Last night"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Pirates des Caraïbes : la fontaine de jouvence" title=
+"http://photos.cityvox.com/photos_120_90/84/174/503380.jpg||Pirates des Caraïbes : la fontaine de jouvence"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Requiem pour une tueuse" title=
+"http://photos.cityvox.com/photos_120_90/145/171/502673.jpg||Requiem pour une tueuse"
+ height="45"></div>
+<div class="photosPosition"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le rite" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||Le rite"
+ height="45"></div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+</div>
+<!-- fin scroll attendusVignettes -->
+<br clear="all">
+ <a href="/rss-top-bandes-annonces" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href=
+"/bandes-annonces-cinema/les-plus-vues">Les bandes-annonces les +
+vues</a><br clear="all">
+<br>
+</div>
+</div>
+<!-- fin tab "panes" -->
+</div>
+</div>
+<br clear="all">
+ <script type="text/javascript">
+                $(function() {
+                        $("div.blocMediumRight ul.tabs").tabs("div.blocMediumRight div.panes > div");DoubleScrollDynamique("div.nouveautesVignettes div.scrollable", "div.nouveautesVignettes div.scrollable .photosPosition","div.nouveautes div.scrollable", "div.nouveautes div.scrollable .photosPosition",7);DoubleScrollDynamique("div.attendusVignettes div.scrollable", "div.attendusVignettes div.scrollable .photosPosition","div.attendus div.scrollable", "div.attendus div.scrollable .photosPosition",7);
+                });
+        </script>
+<div class="colSmallLeft">
+<div id="topFiveContainer" class="containerBloc">
+<div class="tabsContainer">
+<h1>TOP 5</h1>
+<ul class="tabs">
+<li><a href="javascript:void(0);"><span>Meilleurs
+films</span></a></li>
+<li><a href="javascript:void(0);"><span>Box office</span></a></li>
+</ul>
+<br clear="all">
+ 
+<hr>
+<!-- tab "panes" -->
+<div class="panes">
+<div>
+<ul>
+<li class="pair">
+<div class="pictoTop1">&nbsp;</div>
+<a class="titre" href="/film/le-discours-d-un-roi">Le Discours D'Un
+Roi</a><br>
+<div class="avis"><a href="/film/le-discours-d-un-roi/critiques">62
+avis</a> 
+<div class="c45">&nbsp;</div>
+</div>
+<br clear="all">
+</li>
+<li class="impair">
+<div class="pictoTop2">&nbsp;</div>
+<a class="titre" href="/film/le-fils-a-jo">Le Fils À Jo</a><br>
+<div class="avis"><a href="/film/le-fils-a-jo/critiques">62
+avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+</li>
+<li class="pair">
+<div class="pictoTop3">&nbsp;</div>
+<a class="titre" href="/film/black-swan-3">Black Swan</a><br>
+<div class="avis"><a href="/film/black-swan-3/critiques">43
+avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+</li>
+<li class="impair">
+<div class="pictoTop4">&nbsp;</div>
+<a class="titre" href="/film/les-chemins-de-la-liberte-2">Les
+Chemins De La Liberté</a><br>
+<div class="avis"><a href=
+"/film/les-chemins-de-la-liberte-2/critiques">32 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+</li>
+<li class="pair">
+<div class="pictoTop5">&nbsp;</div>
+<a class="titre" href="/film/les-femmes-du-6e-etage">Les Femmes Du
+6E Étage</a><br>
+<div class="avis"><a href=
+"/film/les-femmes-du-6e-etage/critiques">25 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+</li>
+</ul>
+<br clear="all">
+ <a href="/rss-les-meilleurs-films-cinema" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href=
+"/les-meilleurs-films-cinema">Les meilleurs films</a><br clear=
+"all">
+<br>
+</div>
+<div>
+<ul>
+<li class="pair">
+<div class="pictoTop1">&nbsp;</div>
+<a class="titre" href="/film/rien-a-declarer">Rien À
+Déclarer</a><br>
+<div>(992 304 Entrées)</div>
+</li>
+<li class="impair">
+<div class="pictoTop2">&nbsp;</div>
+<a class="titre" href="/film/largo-winch-ii">Largo Winch Ii</a><br>
+<div>(475 663 Entrées)</div>
+</li>
+<li class="pair">
+<div class="pictoTop3">&nbsp;</div>
+<a class="titre" href="/film/black-swan-3">Black Swan</a><br>
+<div>(458 357 Entrées)</div>
+</li>
+<li class="impair">
+<div class="pictoTop4">&nbsp;</div>
+<a class="titre" href="/film/les-femmes-du-6e-etage">Les Femmes Du
+6E Étage</a><br>
+<div>(376 296 Entrées)</div>
+</li>
+<li class="pair">
+<div class="pictoTop5">&nbsp;</div>
+<a class="titre" href="/film/halal-police-d-etat">Halal Police
+D'Etat</a><br>
+<div>(321 588 Entrées)</div>
+</li>
+</ul>
+<br clear="all">
+ <a href="/rss-box-office" class="pictoRss" target="_blank"></a><a
+class="lienFleche" href="/box-office">Box office complet</a><br
+clear="all">
+<br>
+</div>
+</div>
+<!-- fin tab "panes" -->
+</div>
+</div>
+<br clear="all">
+ <script type="text/javascript">
+                $(function() {
+                        $("div.containerBloc ul.tabs").tabs("div.containerBloc div.panes > div");
+                });
+        </script>
+<div id="questionSondage"></div>
+<div id="reponseSondage"></div>
+<script type="text/javascript" src=
+"http://js.cityvox.fr/js/common/9--popup.js">
+</script>
+<script type="text/javascript">
+                                        var cookieVal = LireCookie('sondage');
+                                        if(cookieVal != null){//**** Les resultats du sondage ****
+                                                $.ajax({
+                                                url: "/ajaxsondage",
+                                                        data:"",
+                                                type: "post",
+                                                beforeSend: function(){
+                                               },
+                                                success: function(data){
+                                                 $("#reponseSondage").html(data);
+                                                         $("#questionSondage").hide();
+                                               }
+                                              });
+                                        }else{//**** Les Question du sondage ****
+                                                $.ajax({
+                                                url: "/ajaxsondagequestions",
+                                                        data:"",
+                                                type: "post",
+                                                beforeSend: function(){
+                                               },
+                                                success: function(data){
+                                                 $("#questionSondage").html(data);
+                                                         $("#reponseSondage").hide();
+                                               }
+                                              });
+                                        }
+                                        //Insertion des cookie
+                                        function ValidateForm(numSondage){
+                                                var valueRadio = $('input[name=rep[]]:checked').val(); 
+                                                var numeroSondage =numSondage;
+                                                var numUser = LireCookie('idUser');
+                                                if(numUser != null){
+                                                        id = numUser;
+                                                }else{
+                                                        id= new Date().getTime();
+                                                }
+                                                if(typeof(valueRadio)!="undefined" && valueRadio != ''){
+                                                        var today = new Date();
+                                                        today.setDate(today.getDate()+1);
+                                                        today.setHours(0,1,0);
+                                                        EcrireCookie('sondage', numSondage, today, "/");
+                                                        EcrireCookie('idUser', id, today, "/");
+                                                        $.ajax({
+                                                                url: "/ajaxsondage",
+                                                                data: "reponse="+valueRadio+"&numSondage="+numeroSondage+"&idUser="+id,
+                                                                type: "post",
+                                                                beforeSend: function(){
+                                                               },
+                                                                success: function(data){
+                                                                 $("#reponseSondage").html(data);
+                                                                         $("#reponseSondage").show();
+                                                                 $("#questionSondage").hide();
+                                                               }
+                                                              });
+                                                        }else{
+                                                                return false;
+                                                        }
+                                                }
+                           </script>
+<div id="col_hotspot_services">
+<table border="0" width="314" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td align="left"><a href=
+"http://www.cinefil.com/iphone-presentation" target="_blank"><img
+src="http://photos.cityvox.com/photos_original/216/232/387288.gif"
+border="0"></a></td>
+<td width="15">&nbsp;</td>
+<td width="145"><a href="http://www.ebuyclub.com" target=
+"_blank"><img src=
+"http://photos.cityvox.com/photos_original/75/27/400203.jpg"
+border="0"></a></td>
+</tr>
+</table>
+</div>
+<br>
+</div>
+<div class="colSmallRight">
+<div class="blocTele">
+<h1>CE SOIR À LA TÉLÉ</h1>
+<div class="pictoALaTele">&nbsp;</div>
+<div class="blocBordure"><br>
+<br>
+ 
+<div class="tele"><!-- debut scroll -->
+<!-- root element for scrollable -->
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href="/film/le-concert-2">Le
+concert</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/le-concert-2/critiques">144
+avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/le-concert/44526451/em"
+class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/le-concert/44526451/em"
+class="texteGris" target="_blank">à 22:45</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/canal-family/ch" target=
+"_blank">Canal+ Family</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href="/film/le-concert-2"><img
+src="http://photos.cityvox.com/photos_120_90/115/67/410483.jpg"
+alt="Le concert" title="©&nbsp;EuropaCorp"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/bridget-jones-l-age-de-raison">Bridget Jones : l'âge de
+raison</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href=
+"/film/bridget-jones-l-age-de-raison/critiques">134 avis</a> 
+<div class="c35">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/bridget-jones-l-age-de-raison/44533577/em"
+ class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/bridget-jones-l-age-de-raison/44533577/em"
+ class="texteGris" target="_blank">à 21:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/cinecinema-emotion/ch"
+target="_blank">Cinecinema Emotion</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/bridget-jones-l-age-de-raison"><img src=
+"http://photos.cityvox.com/photos_120_90/140/69/148876.jpg" alt=
+"Bridget Jones : l'âge de raison" title=
+"©&nbsp;DR - Bridget Jones : l'âge de raison"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href="/film/las-vegas-21">Las
+Vegas 21</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/las-vegas-21/critiques">35
+avis</a> 
+<div class="c35">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/las-vegas-21/44527712/em"
+class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/las-vegas-21/44527712/em"
+class="texteGris" target="_blank">à 20:40</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/tps-star/ch" target=
+"_blank">TPS Star</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href="/film/las-vegas-21"><img
+src="http://photos.cityvox.com/photos_120_90/197/93/286149.jpg"
+alt="Las Vegas 21" title="©&nbsp;DR - Las Vegas 21"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href="/film/be-cool">Be
+Cool</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/be-cool/critiques">24 avis</a> 
+<div class="c35">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/be-cool/44498820/em" class=
+"texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/be-cool/44498820/em" class=
+"texteGris" target="_blank">à 20:40</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/orange-cinemax/ch" target=
+"_blank">Orange Cinémax</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href="/film/be-cool"><img src=
+"http://photos.cityvox.com/photos_120_90/191/79/151487.jpg" alt=
+"Be Cool" title="©&nbsp;Twentieth Century Fox France"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/le-bal-des-vampires">Le bal des vampires</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/le-bal-des-vampires/critiques">2
+avis</a> 
+<div class="c50">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/le-bal-des-vampires/44523619/em"
+ class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/le-bal-des-vampires/44523619/em"
+ class="texteGris" target="_blank">à 21:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/cinecinema-club/ch" target=
+"_blank">Cinecinema Club</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/le-bal-des-vampires"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le bal des vampires" title=
+"http://photos.cityvox.com/photos_120_90/12/214/448012.jpg||© Swashbuckler Films"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href="/film/lost-highway">Lost
+Highway</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/lost-highway/critiques">2 avis</a>
+
+<div class="c45">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/lost-highway/44521921/em"
+class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/lost-highway/44521921/em"
+class="texteGris" target="_blank">à 21:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/cinecinema-frisson/ch"
+target="_blank">Cinecinema Frisson</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href="/film/lost-highway"><img
+src="http://photos.cityvox.com/photos_120_90/72/123/424776.jpg"
+alt="Lost Highway" title=
+"http://photos.cityvox.com/photos_120_90/105/131/164713.jpg||© DR - Lost Highway"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/indiscretions">Indiscrétions</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href="/film/indiscretions/critiques">2
+avis</a> 
+<div class="c35">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/indiscretions/44492080/em"
+class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/indiscretions/44492080/em"
+class="texteGris" target="_blank">à 22:40</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/tcm/ch" target=
+"_blank">TCM</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/indiscretions"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Indiscrétions" title=
+"http://photos.cityvox.com/photos_120_90/164/246/194212.jpg||© DR - Indiscretions"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/just-another-love-story-2">Just another love story</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href=
+"/film/just-another-love-story-2/critiques">1 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/just-another-love-story/44530414/em"
+ class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/just-another-love-story/44530414/em"
+ class="texteGris" target="_blank">à 23:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/canal-cinema/ch" target=
+"_blank">Canal+ cinéma</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/just-another-love-story-2"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Just another love story" title=
+"http://photos.cityvox.com/photos_120_90/128/115/422784.jpg||© UGC Ph."></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/l-extravagant-mr-deeds">L'extravagant Mr Deeds</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href=
+"/film/l-extravagant-mr-deeds/critiques">1 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/l-extravagant-mr-deeds/44493451/em"
+ class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/l-extravagant-mr-deeds/44493451/em"
+ class="texteGris" target="_blank">à 21:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/orange-cine-geants/ch"
+target="_blank">Orange Ciné Géants</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/l-extravagant-mr-deeds"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"L'extravagant Mr Deeds" title=
+"http://photos.cityvox.com/photos_120_90/10/65/475402.jpg||© Splendor Films"></a></div>
+</div>
+<div class="photosPositionTele">
+<div class="titre"><a class="texte" href=
+"/film/l-homme-aux-colts-d-or">L'homme aux colts d'or</a><br>
+<br clear="all">
+</div>
+<br>
+ 
+<div class="afficheGaucheContent"><br>
+ 
+<div class="avis"><a href=
+"/film/l-homme-aux-colts-d-or/critiques">1 avis</a> 
+<div class="c40">&nbsp;</div>
+</div>
+<br clear="all">
+<br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/l-homme-aux-colts-d-or/44087749/em"
+ class="texteGris" target="_blank">&nbsp;le 25/02/11</a><br>
+ <a href=
+"http://www.cityvox-tv.fr/programme-tv/l-homme-aux-colts-d-or/44087749/em"
+ class="texteGris" target="_blank">à 21:00</a><br>
+ 
+<table align="right">
+<tr>
+<td>sur&nbsp;</td>
+<td><a class="texteVif" href=
+"http://www.cityvox-tv.fr/programme-tv/action/ch" target=
+"_blank">Action</a></td>
+</tr>
+</table>
+</div>
+<div class="afficheDroiteContent"><a href=
+"/film/l-homme-aux-colts-d-or"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"L'homme aux colts d'or" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||© cityvox"></a></div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+</div>
+<!-- fin scroll tele -->
+<br clear="all">
+<br>
+<br clear="all">
+ 
+<div class="teleVignettes"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPositionTele active"><img src=
+"http://photos.cityvox.com/photos_120_90/115/67/410483.jpg" alt=
+"Le concert" title="Le concert" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/140/69/148876.jpg" alt=
+"Bridget Jones : l'âge de raison" title=
+"Bridget Jones : l'âge de raison" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/197/93/286149.jpg" alt=
+"Las Vegas 21" title="Las Vegas 21" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/191/79/151487.jpg" alt=
+"Be Cool" title="Be Cool" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Le bal des vampires" title=
+"http://photos.cityvox.com/photos_120_90/12/214/448012.jpg||Le bal des vampires"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Lost Highway" title=
+"http://photos.cityvox.com/photos_120_90/105/131/164713.jpg||Lost Highway"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Indiscrétions" title=
+"http://photos.cityvox.com/photos_120_90/164/246/194212.jpg||Indiscrétions"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Just another love story" title=
+"http://photos.cityvox.com/photos_120_90/128/115/422784.jpg||Just another love story"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"L'extravagant Mr Deeds" title=
+"http://photos.cityvox.com/photos_120_90/10/65/475402.jpg||L'extravagant Mr Deeds"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"L'homme aux colts d'or" title=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg||L'homme aux colts d'or"
+ height="45"></div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<a class="nextPage browse right"></a><!-- "next page" action -->
+</div>
+<!-- fin scroll teleVignettes -->
+<br clear="all">
+ <a class="lienFleche" href="/tv/film-du-soir">Tout le programme
+télé</a><br clear="all">
+<br>
+</div>
+</div>
+<script type="text/javascript">
+                $(function() {
+                        DoubleScrollDynamique("div.teleVignettes div.scrollable", "div.teleVignettes div.scrollable .photosPositionTele","div.tele div.scrollable", "div.tele div.scrollable .photosPositionTele",4)
+                });
+        </script>
+ 
+<div class="blocStars">
+<h1>STARS</h1>
+<div class="bandeau">&nbsp;</div>
+<div class="blocBordure"><br clear="all">
+ 
+<div class="stars"><!-- debut scroll -->
+<!-- root element for scrollable -->
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/robert-redford">ROBERT REDFORD</a></div>
+</div>
+<a href="/star/robert-redford"><img src=
+"http://photos.cityvox.com/photos_120_90/15/235/191247.jpg" alt=
+"Robert Redford" title=
+"©&nbsp;DR - L''homme qui murmurait l''oreille des chevaux"></a><br
+clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href="/star/matt-damon">MATT
+DAMON</a></div>
+</div>
+<a href="/star/matt-damon"><img src=
+"http://photos.cityvox.com/photos_120_90/146/174/437906.jpg" alt=
+"Matt Damon" title="©&nbsp;Warner Bros "></a><br clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/melanie-laurent">MÉLANIE LAURENT</a></div>
+</div>
+<a href="/star/melanie-laurent"><img src=
+"http://photos.cityvox.com/photos_120_90/203/126/360139.jpg" alt=
+"Mélanie Laurent" title="©&nbsp;Mars Distribution"></a><br clear=
+"all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/clovis-cornillac">CLOVIS CORNILLAC</a></div>
+</div>
+<a href="/star/clovis-cornillac"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Clovis Cornillac" title=
+"http://photos.cityvox.com/photos_120_90/122/157/302458.jpg||© D.R."></a><br
+ clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href="/star/jack-black">JACK
+BLACK</a></div>
+</div>
+<a href="/star/jack-black"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jack Black" title=
+"http://photos.cityvox.com/photos_120_90/69/55/210757.jpg||© Jack Black"></a><br
+ clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/jeff-bridges">JEFF BRIDGES</a></div>
+</div>
+<a href="/star/jeff-bridges"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jeff Bridges" title=
+"http://photos.cityvox.com/photos_120_90/151/216/514199.jpg||© DR-"></a><br
+ clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href="/star/josh-brolin">JOSH
+BROLIN</a></div>
+</div>
+<a href="/star/josh-brolin"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Josh Brolin" title=
+"http://photos.cityvox.com/photos_120_90/226/54/210658.jpg||© Josh Brolin"></a><br
+ clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/james-franco">JAMES FRANCO</a></div>
+</div>
+<a href="/star/james-franco"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"James Franco" title=
+"http://photos.cityvox.com/photos_120_90/153/60/343193.jpg||© SND Distribution"></a><br
+ clear="all">
+</div>
+</div>
+<div class="photosPositionTele">
+<div class="bgGradient">
+<div class="bandeauTransparent">
+<div class="texteBlancLargeurFixe"><a href=
+"/star/leila-bekhti">LEÏLA BEKHTI</a></div>
+</div>
+<a href="/star/leila-bekhti"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Leïla Bekhti" title=
+"http://photos.cityvox.com/photos_120_90/84/97/352596.jpg||© Ben Douchez"></a><br
+ clear="all">
+</div>
+</div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+</div>
+<!-- fin scroll stars -->
+<div class="starsVignettes"><!-- debut scroll -->
+<a class="prevPage browse left"></a><!-- "previous page" action -->
+<!-- root element for scrollable -->
+ 
+<div class="scrollable"><!-- root element for the items -->
+<div class="items">
+<div class="photosPositionTele active"><img src=
+"http://photos.cityvox.com/photos_gd/15/235/191247_90x120.jpg" alt=
+"Robert Redford" title="©&nbsp;Robert Redford" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/146/174/437906.jpg" alt=
+"Matt Damon" title="©&nbsp;Matt Damon" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/203/126/360139.jpg" alt=
+"Mélanie Laurent" title="©&nbsp;Mélanie Laurent" height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Clovis Cornillac" title=
+"http://photos.cityvox.com/photos_120_90/122/157/302458.jpg||© Clovis Cornillac"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jack Black" title=
+"http://photos.cityvox.com/photos_120_90/69/55/210757.jpg||© Jack Black"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Jeff Bridges" title=
+"http://photos.cityvox.com/photos_120_90/151/216/514199.jpg||© Jeff Bridges"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Josh Brolin" title=
+"http://photos.cityvox.com/photos_120_90/226/54/210658.jpg||© Josh Brolin"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"James Franco" title=
+"http://photos.cityvox.com/photos_gd/153/60/343193_90x120.jpg||© James Franco"
+ height="45"></div>
+<div class="photosPositionTele"><img src=
+"http://photos.cityvox.com/photos_120_90/72/123/424776.jpg" alt=
+"Leïla Bekhti" title=
+"http://photos.cityvox.com/photos_120_90/84/97/352596.jpg||© Leïla Bekhti"
+ height="45"></div>
+</div>
+<!-- items -->
+</div>
+<!-- scrollable -->
+<br clear="all">
+ <a class="nextPage browse right"></a><!-- "next page" action -->
+</div>
+<!-- fin scroll starsVignettes -->
+<br>
+<br clear="all">
+<br clear="all">
+ <a class="lienFleche" href="/stars">Toutes les stars à
+l'affiche</a><br clear="all">
+<br>
+</div>
+</div>
+<script type="text/javascript">
+                $(function() {
+                        DoubleScrollDynamique("div.starsVignettes div.scrollable", "div.starsVignettes div.scrollable .photosPositionTele","div.stars div.scrollable", "div.stars div.scrollable .photosPositionTele",3, true,"div.stars div.bandeauTransparent")
+                });
+        </script>
+</div>
+<br clear="all">
+</div>
+<div id="containerRight"><script type="text/javascript">
+                                        function submitForm() {
+                                                var $email = $("#emailId");
+                                                $validEmail = checkMailAddress($email.val());
+                                                if($validEmail==true){
+                                                        return true;
+                                                }else{
+                                                        $("#errorLabel").show();
+                                                        $email.focus();
+                                                        return false;
+                                                }
+                                        }
+                                </script>
+ 
+<div class="newsBandeauRouge">
+<div>Inscrivez-vous à la newsletter</div>
+</div>
+<div id="affInsNewsletter">
+<form name="aboNLT" id="aboNLT" action=
+"http://www.cinefil.com/newsletters/inscription_act" method="post"
+onsubmit="javascript:return submitForm();"><input type="text"
+value="Entrez votre adresse email" class="emailNewsletter" name=
+"fld_email" id="emailId" onfocus="clearText(this);" onblur=
+"if (this.value=='') this.value='Entrez votre adresse email'">
+<input class="buttonok" type="submit" value=""> 
+<div id="errorLabel" style="display:none;">Veuillez saisir une
+adresse email valide</div>
+</form>
+</div>
+<div class="bandeauPointilleNoir">&nbsp;</div>
+<div id="pubcarre"><script type="text/javascript" language=
+"JavaScript">
+ord=Math.random()*10000000000000000;
+                                                document.write('<SCRI'+'PT LANGUAGE="JavaScript" SRC="http://ad.fr.doubleclick.net/adj/cin_rec_1_300x250_hp/;sz=300x250;'+o_sGetVarPub(0,1,0)+'ord='+ord+'?" ><\/SCR'+'IPT>');
+                                                </script>
+ <noscript><a href=
+"http://ad.fr.doubleclick.net/jump/cin_rec_1_300x250_hp/;sz=300x250;ord='+ord+'?"
+ target="_blank"><img src=
+"http://ad.fr.doubleclick.net/ad/cin_rec_1_300x250_hp/;sz=300x250;ord=123456789?"
+ width="300" height="250" border="0" alt=""></a></noscript></div>
+<script type="text/javascript">
+                                        var currentCharte = "CIL";
+                                        var histoStatus = "hide";
+                                        function toggleLieuHisto(status){
+                                                if(status==1){
+                                                        histoStatus = "show";
+                                                } else if(status==2){
+                                                        histoStatus = "hide";
+                                                } else if(status==0){
+                                                        if(histoStatus=="show"){
+                                                                histoStatus = "hide";
+                                                        } else {
+                                                                histoStatus = "show";
+                                                        }
+                                                }
+                                                if(histoStatus=="hide"){
+                                                        jQuery("#toggleIcon").removeClass("navOpened");
+                                                        jQuery("#hiddenFavLie").hide();
+                                                        jQuery("#toutAfficher").show();
+                                                        jQuery("#reduire").hide();
+                                                } else {
+                                                        jQuery("#toggleIcon").addClass("navOpened");
+                                                        jQuery("#hiddenFavLie").show();
+                                                        jQuery("#toutAfficher").hide();
+                                                        jQuery("#reduire").show();
+                                                }
+                                        }
+                                </script>
+<div class="bandeauPointilleNoir">&nbsp;</div>
+<div id="historique">
+<div class="hautHistorique">&nbsp;</div>
+<a href="javascript:void(0);" class="navClosed" id="toggleIcon"
+onclick="toggleLieuHisto(0);"></a> 
+<div class="millieuHistorique"><a href="javascript:void(0);" id=
+"toutAfficher" onclick="toggleLieuHisto(1);" class=
+"liensGrisDroite">Tout afficher</a> <a href="javascript:void(0);"
+style="display:none" id="reduire" onclick="toggleLieuHisto(2);"
+class="liensGrisDroite">Réduire</a><br>
+ 
+<div id="listeLieuFavorites"></div>
+<script type="text/javascript" language="Javascript">
+                                                                        jQuery(document).ready(function(){
+                                                                                setTimeout("showListeCitFavorites();", 200);
+                                                                        });
+                                                                </script>
+<br clear="all">
+</div>
+<div class="basHistorique">&nbsp;</div>
+</div>
+<div class="bandeauPointilleNoir">&nbsp;</div>
+<div id="lesPlusAttenduAcc" class="contentBlocDroite">
+<div class="typeH2">
+<h2>LES + ATTENDUS</h2>
+</div>
+<br clear="all">
+<hr>
+<div class="titreDiv"><a href="/film/fighter-2" title=
+"Fighter">Fighter</a></div>
+<br>
+<br clear="all">
+ 
+<div class="pairSansBordeur"><a href="/film/fighter-2" title=
+"Fighter"><img src=
+"http://photos.cityvox.com/photos_moyen/61/205/511293.jpg" alt=
+"Fighter"></a> 
+<p>Date de sortie&nbsp;09/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/david-o-russell" title=
+"David O. Russell" class="texteVif">David O. Russell</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/mark-wahlberg" title=
+"Mark Wahlberg" class="texteVif">Mark Wahlberg</a>, <a href=
+"/star/christian-bale" title="Christian Bale" class=
+"texteVif">Christian Bale</a>, <a href="/star/amy-adams" title=
+"Amy Adams" class="texteVif">Amy Adams</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+<div class="titreDiv"><a href="/film/le-rite-2" title="Le rite">Le
+Rite</a></div>
+<br>
+<br clear="all">
+ 
+<div class="impairSansBordeur"><a href="/film/le-rite-2" title=
+"Le rite"><img src=
+"http://photos.cityvox.com/photos_moyen/38/224/516134.jpg" alt=
+"Le Rite"></a> 
+<p>Date de sortie&nbsp;09/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp; <a href=
+"/star/mickael-hafstrom-mickael-hafstrom" title=" Mickael Hafstrom"
+class="texteVif">Mickael Hafstrom</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/anthony-hopkins" title=
+"Anthony Hopkins" class="texteVif">Anthony Hopkins</a>, <a href=
+"/star/alice-braga" title="Alice Braga" class="texteVif">Alice
+Braga</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+<div class="titreDiv"><a href="/film/au-bistro-du-coin" title=
+"Au Bistro du coin">Au Bistro Du Coin</a></div>
+<br>
+<br clear="all">
+ 
+<div class="pairSansBordeur"><a href="/film/au-bistro-du-coin"
+title="Au Bistro du coin"><img src=
+"http://photos.cityvox.com/photos_moyen/242/203/510962.jpg" alt=
+"Au Bistro Du Coin"></a> 
+<p>Date de sortie&nbsp;16/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/charles-nemes" title=
+"Charles Nemes" class="texteVif">Charles Nemes</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/frederic-testot-2" title=
+"Frédéric Testot" class="texteVif">Frédéric Testot</a>, <a href=
+"/star/guy-lecluyse-2" title="Guy Lecluyse" class="texteVif">Guy
+Lecluyse</a>, <a href="/star/vincent-desagnat" title=
+"Vincent Desagnat" class="texteVif">Vincent Desagnat</a><br clear=
+"all">
+</p>
+<br clear="all">
+</div>
+<div class="titreDiv"><a href="/film/rango-2" title=
+"Rango ">Rango</a></div>
+<br>
+<br clear="all">
+ 
+<div class="impairSansBordeur"><a href="/film/rango-2" title=
+"Rango "><img src=
+"http://photos.cityvox.com/photos_moyen/92/226/516700.jpg" alt=
+"Rango "></a> 
+<p>Date de sortie&nbsp;23/03/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/gore-verbinski" title=
+"Gore Verbinski" class="texteVif">Gore Verbinski</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/johnny-depp" title="Johnny Depp"
+class="texteVif">Johnny Depp</a>, <a href="/star/abigail-breslin"
+title="Abigail Breslin" class="texteVif">Abigail Breslin</a>, <a
+href="/star/isla-fisher" title="Isla Fisher" class="texteVif">Isla
+Fisher</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+<div class="titreDiv"><a href="/film/thor-2" title=
+"Thor">Thor</a></div>
+<br>
+<br clear="all">
+ 
+<div class="pairSansBordeur"><a href="/film/thor-2" title=
+"Thor"><img src=
+"http://photos.cityvox.com/photos_moyen/110/191/507758.jpg" alt=
+"Thor"></a> 
+<p>Date de sortie&nbsp;27/04/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/kenneth-branagh" title=
+"Kenneth Branagh" class="texteVif">Kenneth Branagh</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/chris-hemsworth" title=
+"Chris Hemsworth" class="texteVif">Chris Hemsworth</a>, <a href=
+"/star/natalie-portman" title="Natalie Portman" class=
+"texteVif">Natalie Portman</a>, <a href="/star/colm-feore" title=
+"Colm Feore" class="texteVif">Colm Feore</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+<div class="titreDiv"><a href=
+"/film/pirates-des-caraibes-la-fontaine-de-jouv" title=
+"Pirates des Caraïbes : la fontaine de jouvence">Pirates Des
+Caraïbes : La Fontaine De Jouvence</a></div>
+<br>
+<br clear="all">
+ 
+<div class="impairSansBordeur"><a href=
+"/film/pirates-des-caraibes-la-fontaine-de-jouv" title=
+"Pirates des Caraïbes : la fontaine de jouvence"><img src=
+"http://photos.cityvox.com/photos_moyen/82/174/503378.jpg" alt=
+"Pirates Des Caraïbes : La Fontaine De Jouvence"></a> 
+<p>Date de sortie&nbsp;18/05/2011<br>
+<br>
+Un film de&nbsp;:&nbsp;<a href="/star/rob-marshall" title=
+"Rob Marshall" class="texteVif">Rob Marshall</a><br>
+Avec&nbsp;:&nbsp;<a href="/star/johnny-depp" title="Johnny Depp"
+class="texteVif">Johnny Depp</a>, <a href="/star/geoffrey-rush"
+title="Geoffrey Rush" class="texteVif">Geoffrey Rush</a>, <a href=
+"/star/penelope-cruz" title="Penélope Cruz" class=
+"texteVif">Penélope Cruz</a><br clear="all">
+</p>
+<br clear="all">
+</div>
+<br clear="all">
+ <a href="/rss-films-attendus" class="pictoRss" target=
+"_blank"></a><a class="lienFleche" href="/films-attendus">Tous les
+films les + attendus</a><br clear="all">
+<br>
+</div>
+<div class="bandeauPointilleNoir">&nbsp;</div>
+</div>
+<br>
+<br clear="all">
+<br>
+ <script language="javascript" type="text/javascript">
+                        jQuery(document).ready(function() {
+                                jQuery("#footerHaut h3 ").click(function () {
+                                        jQuery(".topfooter").toggle(50);
+                                });
+                        });
+                </script>
+ 
+<div id="footerHaut">
+<div class="imageFondFooter">&nbsp;</div>
+<div class="positionFooter">
+<h3>BOX OFFICE CINÉMA</h3>
+<ul class="topfooter">
+<li><a href="/box-office/2011/08">Cette semaine</a></li>
+<li><a href="/box-office/2011/07">Semaine dernière</a></li>
+<li><a href="/box-office/2011/06">Il y a 2 semaines</a></li>
+<li><a href="/box-office/2011/05">Il y a 3 semaines</a></li>
+<li><a href="/box-office">Le Box Office</a></li>
+</ul>
+</div>
+<div class="positionFooter">
+<h3>LES FILMS LES PLUS ATTENDUS</h3>
+<ul class="topfooter">
+<li><a href="/film/rango-2" title="Rango ">Rango</a></li>
+<li><a href="/film/thor-2" title="Thor">Thor</a></li>
+<li><a href="/film/pirates-des-caraibes-la-fontaine-de-jouv" title=
+"Pirates des Caraïbes : la fontaine de jouvence">Pirates des
+Caraïbes : la fontaine de jouvence</a></li>
+<li><a href="/film/tree-of-life" title="Tree Of Life">Tree Of
+Life</a></li>
+<li><a href="/film/kung-fu-panda-2-the-kaboom-of-doom" title=
+"Kung Fu Panda 2 : The Kaboom of Doom ">Kung Fu Panda 2 : The
+Kaboom of Doom</a></li>
+<li><a href="/films-attendus">Les films les plus attendus</a></li>
+</ul>
+</div>
+<div class="positionFooter">
+<h3>LES PROCHAINES SORTIES</h3>
+<ul class="topfooter">
+<li><a href="/film/paul-1882" title="Paul">Paul</a></li>
+<li><a href="/film/une-pure-affaire" title="Une Pure affaire">Une
+Pure affaire</a></li>
+<li><a href="/film/avant-l-aube-2" title="Avant l aube">Avant
+l'aube</a></li>
+<li><a href="/film/correspondances-7" title=
+"Correspondances">Correspondances</a></li>
+<li><a href="/film/faster-72" title="Faster">Faster</a></li>
+<li><a href="/prochaines-sorties-cinema">Toutes les prochaines
+sorties</a></li>
+</ul>
+</div>
+<div class="positionFooter">
+<h3 class="footerTitle">LES SORTIES DE LA SEMAINE</h3>
+<ul class="topfooter">
+<li><a href="/film/les-voyages-de-gulliver-3d" title=
+"Les voyages de Gulliver 3D">Les voyages de Gulliver 3D</a></li>
+<li><a href="/film/true-grit-2" title="True Grit">True
+Grit</a></li>
+<li><a href="/film/sanctum-3d" title="Sanctum 3D">Sanctum
+3D</a></li>
+<li><a href="/film/requiem-pour-une-tueuse" title=
+"Requiem pour une tueuse">Requiem pour une tueuse</a></li>
+<li><a href="/film/127-heures" title="127 Heures">127
+Heures</a></li>
+<li><a href="/sorties-cinema-de-la-semaine">Toutes les sorties de
+la semaine</a></li>
+</ul>
+</div>
+<br>
+</div>
+<!-- footerHaut -->
+<div id="footer"><a href=
+"/newsletters/archives"><b>Newsletters</b></a>&nbsp;-&nbsp; <a
+href="/rss"><b>Fils Rss</b></a><br>
+ © Copyright Cityvox 2011. Droits de reproduction et de diffusion
+réservés. - Cinefil est une marque déposée par Cityvox SAS<br>
+ <a href="http://www.cityvox.net/" target="_blank"><b>En savoir
+plus sur la société Cityvox SAS</b></a> - <a href=
+"/informations-legales" rel="nofollow"><b>Informations
+légales</b></a> - <a href=
+"/contact"><b>Contactez-nous</b></a></div>
+<script language="JavaScript" type="text/javascript">
+<!--//
+var _PJS=0;
+//--> 
+</script>
+ <script language="JavaScript" src=
+"http://prof.estat.com/js/mr4.js" type="text/javascript">
+</script>
+ <script language="JavaScript" type="text/javascript">
+<!--//
+if(_PJS) _estatl("281081157429", "210010156745", "CILFRA", "---", "ACC", "---Accueil");
+//-->
+</script>
+<noscript><img src=
+"http://prof.estat.com/m/web/281081157429?g=210010156745&amp;c=CILFRA&amp;p=---&amp;l3=ACC&amp;l4=---Accueil&amp;st=0&amp;sjs=0"
+ border="0"></noscript></div>
+</center>
+</body>
+</html>
