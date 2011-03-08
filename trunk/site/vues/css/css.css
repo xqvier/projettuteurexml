@@ -1,0 +1,174 @@
+html {
+	/*background:url(../img/fond.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+	background-image:url(../img/fond.jpg);
+	background-position:top right;
+	background-color:#FFFFCC;
+
+}
+
+body {
+	width:800px;
+	margin:auto;
+	font-family:verdana, fantasy;
+}
+
+li {
+	color:#FFF;
+	float:left;
+	display:block;
+	heigth:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	border-style:none;
+}
+
+ul {
+	height:30px;
+	background-color:#4a5a5a;
+	 -moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+a {
+	text-decoration:none;
+	color:#F4A460;
+}
+
+.genre {
+	width:30%;
+	margin:2px;
+	background-color:#999;
+	float:left;
+	height:20px;
+	text-align:center;
+	color:#FFF;
+	 -moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.genre:hover{
+	
+}
+
+.film {
+	 margin:5px; 
+	 background-color:#F4A460; 
+	 color:#000;
+	 height:25px;
+	 padding-left:10px;
+	 padding-top:5px;
+	 -moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.film:hover {
+	background-color:#FFFF99; 
+	border:1px #F4A460 solid;
+}
+
+.commentaire  {
+	margin:20px 0px auto 200px;
+	width:600px;
+	border: 1px solid #4a5a5a;
+	 -moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.source {
+	font-size:12px;
+	background-color:#4a5a5a;
+	color:#FFF;
+	padding:3px 5px 3px 5px;
+}
+
+.pseudo {
+	background-color:#4a5a5a;
+	color:#F4A460;
+	padding:5px 5px 5px 5px;
+}
+
+.com {
+	padding:10px 5px 10px 5px;
+	font-size:12px;
+	background-color:#FFF;
+	border: solid #4a5a5a 1px;
+}
+
+.detail_film {
+	border: 1px solid #F4A460;
+	 -moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.titre {
+	background-color:#F4A460;
+	color:#4a5a5a;
+	padding:5px 5px 5px 5px;
+}
+
+.detail {
+	background-color:#F4A460;
+	color:#4a5a5a;
+	padding:3px 5px 3px 5px;
+	font-size:12px;
+}
+
+.resume {
+	padding:10px 5px 10px 5px;
+	font-size:12px;
+	background-color:#FFF;
+	border: 1px solid #F4A460;
+}
+
+.etoile {
+	width:15px;
+}
+
+.note {
+	font-size:10px;
+	width:300px;
+}
+
+.note_commentaire {
+	font-size:10px;
+	width:210px;
+	height:18px;
+	float:right;
+	padding-left:8px;
+	padding-top:2px;
+	background-color:#FFF;
+	 -moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#avertissement {
+	background-color:#F4A460;
+	 -moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:20px;
+	width:450px;
+}
+
+#btn_acteur {
+	text-decoration:underline;
+}
+
+#btn_realisateur {
+	text-decoration:underline;
+}
+
+.pagination {
+	float:left;
+	width:auto;
+	padding:3px 5px 0px 5px;
+	height:15px;
+	margin-left:5px;
+	border: solid 1px #000;
+	font-size:10px;
+}
+
+
