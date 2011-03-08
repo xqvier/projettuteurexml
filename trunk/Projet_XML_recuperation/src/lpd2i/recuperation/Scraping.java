@@ -275,13 +275,25 @@ public class Scraping {
             this.setNoeud(nextNode(this.noeud));
             Node listofmicroviews = this.search(this.noeud, "class", "listofmicroviews", Node.ATTRIBUTE_NODE);
             Node noeud = this.search(listofmicroviews, "div", null, Node.TEXT_NODE);
+            String acteur[];
             do {
                 this.setNoeud(this.search(noeud,"h3", null, Node.TEXT_NODE));
                 this.setNoeud(this.search(this.noeud, "a", null, Node.TEXT_NODE));
                 this.setNoeud(this.search(this.noeud, "#text", null, Node.TEXT_NODE));
-                System.err.println(this.noeud.getNodeValue());
+//                System.err.println(this.noeud.getNodeValue());
+                acteur = this.noeud.getNodeValue().split(" ");
+                acteurs.add(new Personne(acteur[0], acteur[1]));
             } while((noeud = nextNode(noeud))!= null);
             
+            // ensuite les acteurs dont la vue est en liste
+            Node actorlist = listofmicroviews.getParentNode();
+            actorlist = nextSameNode(actorlist);
+            noeud = this.search(actorlist, "tr", null, Node.TEXT_NODE);
+            while((noeud = nextNode(noeud)) != null){
+                this.setNoeud(this.search(noeud, "a", null, Node.TEXT_NODE));
+                this.setNoeud(this.search(this.noeud,"#text", null, Node.TEXT_NODE));
+                acteurs.add(new Personne(this.noeud.getNodeValue()));
+            }
         }
         return acteurs;
     }

@@ -34,6 +34,19 @@ public class Personne {
         this.nom = nom;
     }
 
+    /**
+     * TODO Commenter le constructeur
+     * @param nodeValue
+     */
+    public Personne(String prenomnom) {
+        String text[] = prenomnom.split(" ");
+        this.prenom = text[0];
+        this.nom = text[1];
+        for(int i = 2; i<text.length; i++){
+            this.nom = this.nom + " " + text[i];
+        }
+    }
+
     /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */

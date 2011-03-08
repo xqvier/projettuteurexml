@@ -25,8 +25,8 @@ public class TestScraping {
      */
     public static void main(String[] args) throws MalformedURLException {
         Scraping scrap = new Scraping(
-                "http://www.allocine.fr/film/fichefilm_gen_cfilm=19776.html",
-                Scraping.ALLOCINE);
+                "http://www.cinefil.com/",
+                Scraping.CINEFIL);
         System.out.println(scrap);
         
         Film film = scrap.extractFilm();
