@@ -8,6 +8,7 @@ notes_site NUMERIC,
 notes_util NUMERIC,
 resume LONG,
 commentaire XMLTYPE,
+affiche varchar(200),
 constraint pkf primary key (id_film)
 )
 
@@ -77,6 +78,24 @@ VALUES ( 0002, 'slevin', 108, 2006, 8 ,6 ,'deux clan un endettés',XMLType('
     </commentaire>
 </film>') )
 
+INSERT INTO film
+VALUES ( 6, 'gran torino', 138, 2010, 9 ,9.5 ,'clint a la retraite...',XMLType('
+<film> 
+    <commentaire>
+	<pseudo>ford_48</pseudo>
+	<com>trés bon film avec M. Eastwood</com>
+	<note>10</note>
+	<source>Allocine</source>
+    </commentaire>
+    <commentaire>
+	<pseudo>jojodu12</pseudo>
+	<com>Clint encore une fois énorme !!</com>
+	<note>8</note>
+	<source>Allocine</source>
+    </commentaire>
+</film>'),'' )
+
+
 
 insert into personne
 values (0001, 'cruise', 'tom')
@@ -107,8 +126,34 @@ insert into jouer
 values (0002,0003)
 
 
+///vue et trigger///
+
+create or replace view vuefilm (id_film, titre, duree, annee, notes_site, notes_util, resume, pseudo, com, note, source, affiche, nbcom)
+as select id_film, titre, duree, annee, notes_sites, notes_util, resume, f.commentaire.extract('/film/commentaire/pseudo/text()').getStringVal(), f.commentaire.extract('/film/commentaire/com/text()').getStringVal(), f.commentaire.extract('/film/commentaire/note/text()').getStringVal(), f.commentaire.extract('/film/commentaire/source/text()').getStringVal(), affiche, count(f.commentaire.extract('/film/commentaire'))
+from film f
+
+
+CREATE OR REPLACE TRIGGER moyenne
+AFTER INSERT OR UPDATE ON film
+FOR EACH ROW
+	BEGIN
+		UPDATE film
+		SET notes_util = (SELECT AVG(extract(value(note),'note/text()').getNumberVal()) AS moyenne
+				FROM film f,
+ 				table(xmlsequence(extract(f.commentaire,'/film/commentaire/note'))) AS note
+				WHERE id_film = NEW.id_film)
+		WHERE id_film = NEW.id_film
+	END;
+END moyenne;
 /
 
 SELECT 
   f.commentaire.extract('/film/commentaire/com/text()').getStringVal()
 FROM film f; 
+
+
+//moyenne
+ select AVG(extract(value(note),'note/text()').getNumberVal()) moyenne
+from film f,
+ table(xmlsequence(extract(f.commentaire,'/film/commentaire/note'))) note
+where id_film = 5
