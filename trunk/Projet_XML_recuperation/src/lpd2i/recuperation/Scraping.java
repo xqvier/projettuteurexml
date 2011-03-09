@@ -28,31 +28,46 @@ import org.w3c.tidy.Tidy;
  * @version 0.1
  */
 public class Scraping {
-    /** URL de la page contenant les informations */
+    /**
+     * URL de la page contenant les informations
+     * @uml.property  name="url"
+     */
     private URL url;
 
     /**
-     * Base URL du site (exemple url : http://www.google.fr/index.php , baseurl
-     * : http://www.google.fr/)
+     * Base URL du site (exemple url : http://www.google.fr/index.php , baseurl : http://www.google.fr/)
+     * @uml.property  name="baseurl"
      */
     private String baseurl;
 
-    /** Le fichier contenant uniquement les informations nécessaires */
+    /**
+     * Le fichier contenant uniquement les informations nécessaires
+     * @uml.property  name="basenamefile"
+     */
     private String basenamefile;
 
-    /** Le document xml a parser */
+    /**
+     * Le document xml a parser
+     * @uml.property  name="xmlfile"
+     * @uml.associationEnd  
+     */
     private Document xmlfile;
 
-    /** Le site de provenance de la page */
+    /**
+     * Le site de provenance de la page
+     * @uml.property  name="site"
+     */
     private int site;
 
-    /** noeud de resultat de la recherche */
+    /**
+     * noeud de resultat de la recherche
+     * @uml.property  name="noeud"
+     * @uml.associationEnd  
+     */
     Node noeud;
 
-    /** iterateur de champ texte */
-    private int iterateur = 0;
 
-    /** Constante indiquant que la page provient d'allocine */
+   /** Constante indiquant que la page provient d'allocine */
     public static final int ALLOCINE = 1;
 
     /** Constante indiquant que la page provient du site IMDB */
@@ -137,11 +152,8 @@ public class Scraping {
     /**
      * Retire les information du fichier pour en retirer toutes les information
      * du film referencé.
-     */
-    /**
-     * TODO Commenter cette méthode
      * 
-     * @return
+     * @return le film 
      */
     private Film parseFilmContent() {
         Node noeud;
@@ -238,17 +250,16 @@ public class Scraping {
             Scraping acteurs;
             while((this.noeud = nextNode(this.noeud, "a")) != null && this.noeud.hasAttributes() && !getAttribute(this.noeud, "href").getNodeValue().startsWith("/film/casting_gen_cfilm="));
 
-            System.err.println();
-
             try {
                 acteurs = new Scraping(baseurl + getAttribute(this.noeud, "href").getNodeValue(),
                         this.site);
-                System.out.println(acteurs);
                 film.setActeurs(acteurs.extractActors());
             } catch (MalformedURLException e) {
 //                 TODO Auto-generated catch block
                 e.printStackTrace();
             }
+            
+            // Commentaires TODO
         }
         return film;
     }
@@ -280,7 +291,6 @@ public class Scraping {
                 this.setNoeud(this.search(noeud,"h3", null, Node.TEXT_NODE));
                 this.setNoeud(this.search(this.noeud, "a", null, Node.TEXT_NODE));
                 this.setNoeud(this.search(this.noeud, "#text", null, Node.TEXT_NODE));
-//                System.err.println(this.noeud.getNodeValue());
                 acteur = this.noeud.getNodeValue().split(" ");
                 acteurs.add(new Personne(acteur[0], acteur[1]));
             } while((noeud = nextNode(noeud))!= null);
@@ -325,7 +335,6 @@ public class Scraping {
         // on parcours chaque enfant
         for (int i = 0; i < nl.getLength(); i++) {
             noeud = nl.item(i);
-            // System.out.println(n.getNodeName());
             // si on recherche un attribut (type)
             if (type == Node.ATTRIBUTE_NODE) {
                 // on verifie que le noeud a des attributs
@@ -345,7 +354,6 @@ public class Scraping {
                                 return noeud;
                             }
                         }
-                        // System.out.println(attr.item(j).getNodeName());
                     }
                 }
             }
@@ -384,9 +392,7 @@ public class Scraping {
         return null;
     }
 
-    private Node getAttribute(Node noeud, int i) {
-        return noeud.hasAttributes() ? noeud.getAttributes().item(i) : null;
-    }
+
 
     private Node getAttribute(Node noeud, String attributeName) {
         if (noeud.hasAttributes()) {
@@ -416,24 +422,7 @@ public class Scraping {
         return noeud;
     }
 
-    /**
-     * Renvoie le noeud frere suivant en sautant les freres correspondant au
-     * nombre passer en parametre
-     * 
-     * @param noeud
-     *            le noeud a partir duquel on navigue
-     * @param saut
-     *            le nombre de saut
-     * @return le noeud frere de meme nom
-     */
-    private Node nextSameNode(Node noeud, int saut) {
-        Node retour = null;
-        saut++;
-        for (int i = 0; i < saut; i++) {
-            retour = nextSameNode(noeud);
-        }
-        return retour;
-    }
+
 
     /**
      * Renvoie el frere suivant ayant le nom passer en parametre
@@ -465,24 +454,7 @@ public class Scraping {
         return noeud.getNextSibling();
     }
 
-    /**
-     * Retourne le noeud frere suivant en sautant certain noeud
-     * 
-     * @param noeud
-     *            le noeud a partir duquel on navigue
-     * @param saut
-     *            le nombre de frere a sauter
-     * @return <li>le frere suivant apres le nombre de saut voulu</li>
-     *         <li>null sinon </li>
-     */
-    private Node nextNode(Node noeud, int saut) {
-        Node retour = null;
-        saut++;
-        for (int i = 0; i < saut; i++) {
-            retour = nextNode(noeud);
-        }
-        return retour;
-    }
+
 
     private Node parentNode(Node noeud, String nodeName){
         do{
@@ -491,81 +463,25 @@ public class Scraping {
         while(noeud != null && !noeud.getNodeName().equals(nodeName));
         return noeud;
     }
-    /**
-     * Extrait le premier texte brut trouvé directement en dessous du noeud
-     * donnée Si aucun texte n'est trouvé la méthode renvoie une chaine vide
-     * 
-     * @param noeud
-     *            le noeud sur lequel on cherche du texte brut
-     * @return le texte trouvé ou une chaine vide le cas échéant
-     */
-    private Node extractText() {
-        this.setIterateur(0);
-        return extractNextText();
-    }
+
+
+
+
+
 
     /**
-     * Extrait le texte brut trouvé directement en dessous du noeud donnée a la
-     * position désirée indiquée en parametre. Si aucun texte n'est trouvé la
-     * méthode renvoie une chaine vide
-     * 
-     * @param noeud
-     *            le noeud sur lequel on cherche du texte brut
-     * @return le texte trouvé ou une chaine vide le cas échéant
-     */
-    private Node extractText(int iterateur) {
-        this.setIterateur(iterateur);
-        return extractNextText();
-    }
-
-    /**
-     * Extrait le prochain texte brut trouvé directement en dessous du noeud
-     * donnée. Si aucun texte n'est trouvé la méthode renvoie une chaine vide
-     * 
-     * @param noeud
-     *            le noeud sur lequel on cherche du texte brut
-     * @return le texte trouvé ou une chaine vide le cas échéant
-     */
-    private Node extractNextText() {
-        NodeList listeFils = this.noeud.getChildNodes();
-        Node fils;
-        int j = 0;
-        for (int i = 0; i < listeFils.getLength(); i++) {
-            fils = listeFils.item(i);
-            if ("#text".equals(fils.getNodeName())) {
-                if (this.iterateur == j) {
-                    this.iterateur++;
-                    return fils;
-                }
-                j++;
-            }
-        }
-        return null;
-
-    }
-
-    /**
-     * Setter de l'attribut noeud, remet l'iterateur de texte a zero lorsque le
-     * noeud est modifié
-     * 
-     * @param noeud
-     *            the noeud to set
+     * Setter de l'attribut noeud, remet l'iterateur de texte a zero lorsque le noeud est modifié
+     * @param noeud   the noeud to set
+     * @uml.property  name="noeud"
      */
     public void setNoeud(Node noeud) {
         if (noeud == null) {
             System.err.println("NOEUD NULL");
         }
         this.noeud = noeud;
-        this.setIterateur(0);
     }
 
-    /**
-     * @param iterateur
-     *            the iterateur to set
-     */
-    public void setIterateur(int iterateur) {
-        this.iterateur = iterateur;
-    }
+
 
     /*
      * (non-Javadoc)

@@ -25,12 +25,12 @@ public class TestScraping {
      */
     public static void main(String[] args) throws MalformedURLException {
         Scraping scrap = new Scraping(
-                "http://www.cinefil.com/",
-                Scraping.CINEFIL);
-        System.out.println(scrap);
+                args[1],
+                Scraping.ALLOCINE);
         
         Film film = scrap.extractFilm();
-        System.out.println(film);
+        
+        film.save();
 
     }
 
