@@ -7,7 +7,7 @@ package lpd2i.recuperation.tests;
 import java.net.MalformedURLException;
 
 import lpd2i.recuperation.Film;
-import lpd2i.recuperation.Scraping;
+import lpd2i.recuperation.Scrapping;
 
 /**
  * Classe de teste du téléchargement des informations
@@ -15,7 +15,7 @@ import lpd2i.recuperation.Scraping;
  * @author Xavier Mourgues
  * @version 0.1
  */
-public class TestScraping {
+public class TestScrapping {
 
     /**
      * TODO Commenter cette méthode
@@ -24,9 +24,9 @@ public class TestScraping {
      * @throws MalformedURLException 
      */
     public static void main(String[] args) throws MalformedURLException {
-        Scraping scrap = new Scraping(
+        Scrapping scrap = new Scrapping(
                 args[1],
-                Scraping.ALLOCINE);
+                Scrapping.ALLOCINE);
         
         Film film = scrap.extractFilm();
         

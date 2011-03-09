@@ -27,7 +27,7 @@ import org.w3c.tidy.Tidy;
  * @author Xavier Mourgues
  * @version 0.1
  */
-public class Scraping {
+public class Scrapping {
     /**
      * URL de la page contenant les informations
      * @uml.property  name="url"
@@ -81,7 +81,7 @@ public class Scraping {
      * @throws MalformedURLException
      *             TODO
      */
-    public Scraping(String url, int site) throws MalformedURLException {
+    public Scrapping(String url, int site) throws MalformedURLException {
         super();
         this.url = new URL(url);
         this.baseurl = this.url.getProtocol() + "://" + this.url.getHost();
@@ -158,7 +158,7 @@ public class Scraping {
     private Film parseFilmContent() {
         Node noeud;
         Film film = new Film();
-        if (this.site == Scraping.ALLOCINE) {
+        if (this.site == Scrapping.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
             // données
             this.setNoeud(this.search(this.xmlfile, "class", "boxbasicctt",
@@ -247,11 +247,11 @@ public class Scraping {
 
             // Acteurs
             this.setNoeud(search(this.xmlfile, "#text", "Avec", Node.TEXT_NODE));
-            Scraping acteurs;
+            Scrapping acteurs;
             while((this.noeud = nextNode(this.noeud, "a")) != null && this.noeud.hasAttributes() && !getAttribute(this.noeud, "href").getNodeValue().startsWith("/film/casting_gen_cfilm="));
 
             try {
-                acteurs = new Scraping(baseurl + getAttribute(this.noeud, "href").getNodeValue(),
+                acteurs = new Scrapping(baseurl + getAttribute(this.noeud, "href").getNodeValue(),
                         this.site);
                 film.setActeurs(acteurs.extractActors());
             } catch (MalformedURLException e) {
@@ -271,7 +271,7 @@ public class Scraping {
      */
     private ArrayList<Personne> parseActorsContent() {
         ArrayList<Personne> acteurs = new ArrayList<Personne>();
-        if (this.site == Scraping.ALLOCINE) {
+        if (this.site == Scrapping.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
             // données
             this.setNoeud(this.search(this.xmlfile, "class", "colcontent",
