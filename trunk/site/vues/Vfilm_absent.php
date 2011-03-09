@@ -1,1 +1,0 @@
-<?php	echo "<center><div id='avertissement'>";	echo "<img src='vues/img/attention.gif'/>";	echo "<span style='color:red;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;Aucun résultat n'à été trouvé&nbsp;&nbsp;&nbsp;&nbsp;</strong></span>";	echo "<img src='vues/img/attention.gif'/>";	echo "</div></center>";?>
