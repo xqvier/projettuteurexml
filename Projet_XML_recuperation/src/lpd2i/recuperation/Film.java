@@ -8,8 +8,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import oracle.jdbc.driver.DatabaseError;
-
 /**
  * Classe gérant les informations d'un film
  * 

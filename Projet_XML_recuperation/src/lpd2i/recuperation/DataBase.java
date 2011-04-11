@@ -13,7 +13,7 @@ import java.sql.Statement;
 /**
  * classe de gestion de connexion a la base et d'envoie des requetes SQL
  * @author Xavier Mourgues
- * @version 0.1
+ * @version 0.1 
  */
 public class DataBase {
     /** login de connexion a la base */
