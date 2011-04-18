@@ -2,7 +2,7 @@
  * Commentaire.java 	23 févr. 2011
  * Projet_XML_recuperation
  */ 
-package lpd2i.recuperation;
+package lpd2i.bean;
 
 /**
  * Classe de gestion des commentaires des utilisateurs

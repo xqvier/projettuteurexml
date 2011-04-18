@@ -2,11 +2,13 @@
  * Personne.java 	14 févr. 2011
  * Projet_XML_recuperation
  */
-package lpd2i.recuperation;
+package lpd2i.bean;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import lpd2i.recuperation.DataBase;
 
 /**
  * Classe contenant les informations d'une personne
