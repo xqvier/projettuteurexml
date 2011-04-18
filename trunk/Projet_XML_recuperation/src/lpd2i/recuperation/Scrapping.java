@@ -14,6 +14,12 @@ import java.net.MalformedURLException;
 import java.net.Proxy;
 import java.net.URL;
 import java.util.ArrayList;
+
+import lpd2i.bean.Film;
+import lpd2i.bean.Personne;
+import lpd2i.configuration.ConfigurationManager;
+import lpd2i.configuration.SiteConfiguration;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -66,12 +72,6 @@ public class Scrapping {
      */
     Node noeud;
 
-
-   /** Constante indiquant que la page provient d'allocine */
-    public static final int ALLOCINE = 1;
-
-    /** Constante indiquant que la page provient du site IMDB */
-    public static final int CINEFIL = 2;
 
     /**
      * Constructeur a partir d'une url d'un site
@@ -158,7 +158,7 @@ public class Scrapping {
     private Film parseFilmContent() {
         Node noeud;
         Film film = new Film();
-        if (this.site == Scrapping.ALLOCINE) {
+        if (this.site == ConfigurationManager.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
             // données
             this.setNoeud(this.search(this.xmlfile, "class", "boxbasicctt",
@@ -271,7 +271,7 @@ public class Scrapping {
      */
     private ArrayList<Personne> parseActorsContent() {
         ArrayList<Personne> acteurs = new ArrayList<Personne>();
-        if (this.site == Scrapping.ALLOCINE) {
+        if (this.site == ConfigurationManager.ALLOCINE) {
             // on accede d'abord au noeud (tableau/div) contenant toutes les
             // données
             this.setNoeud(this.search(this.xmlfile, "class", "colcontent",
