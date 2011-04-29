@@ -71,7 +71,7 @@ public class Personne {
     }
 
     /**
-     * méthode de stockage d'un acteur ou réalisateur dans la base TODO
+     * méthode de stockage d'un acteur ou réalisateur dans la base
      * 
      * @return l'id de la personne une fois sauvé dans la base
      */

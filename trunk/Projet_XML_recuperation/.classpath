@@ -4,5 +4,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/classes12.jar"/>
 	<classpathentry kind="lib" path="lib/jtidy-r938.jar"/>
+	<classpathentry kind="lib" path="lib/ini4j-0.5.2-SNAPSHOT.jar" sourcepath="D:/Documents and Settings/xMourgues/Mes documents/Downloads/ini4j-0.5.2-SNAPSHOT/ini4j-0.5.2-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/AAide/ini4j-0.5.2-SNAPSHOT-javadoc/ini4j-0.5.2-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/sax2r2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
