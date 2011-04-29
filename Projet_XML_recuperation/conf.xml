@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<allocine>
+		<film>
+			<attribut name="class" value="boxbasicctt" />
+			<title>
+				<attribut name="property" value="v:name" />
+				<balise name="#text" />
+			</title>
+		</film>
+		<actor></actor>
+	</allocine>
+	<cinefil>
+
+	</cinefil>
+</sites>

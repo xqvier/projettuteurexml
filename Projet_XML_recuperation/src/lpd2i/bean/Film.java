@@ -87,10 +87,10 @@ public class Film {
     private String affiche;
 
     public Film() {
-        this.acteurs = new ArrayList<Personne>();
-        this.realisateurs = new ArrayList<Personne>();
-        this.genres = new ArrayList<String>();
-        this.commentaires = new ArrayList<Commentaire>();
+	this.acteurs = new ArrayList<Personne>();
+	this.realisateurs = new ArrayList<Personne>();
+	this.genres = new ArrayList<String>();
+	this.commentaires = new ArrayList<Commentaire>();
     }
 
     /**
@@ -98,7 +98,7 @@ public class Film {
      * @uml.property name="titre"
      */
     public String getTitre() {
-        return titre;
+	return titre;
     }
 
     /**
@@ -107,7 +107,7 @@ public class Film {
      * @uml.property name="titre"
      */
     public void setTitre(String titre) {
-        this.titre = titre;
+	this.titre = titre;
     }
 
     /**
@@ -115,7 +115,7 @@ public class Film {
      * @uml.property name="duree"
      */
     public int getDuree() {
-        return duree;
+	return duree;
     }
 
     /**
@@ -124,7 +124,7 @@ public class Film {
      * @uml.property name="duree"
      */
     public void setDuree(int duree) {
-        this.duree = duree;
+	this.duree = duree;
     }
 
     /**
@@ -134,7 +134,7 @@ public class Film {
      * @uml.property name="annee"
      */
     public void setAnnee(int annee) {
-        this.annee = annee;
+	this.annee = annee;
 
     }
 
@@ -145,7 +145,7 @@ public class Film {
      * @uml.property name="noteSite"
      */
     public void setNoteSite(float note) {
-        this.noteSite = note;
+	this.noteSite = note;
     }
 
     /**
@@ -155,7 +155,7 @@ public class Film {
      * @uml.property name="resume"
      */
     public void setResume(String resume) {
-        this.resume = resume;
+	this.resume = resume;
     }
 
     /**
@@ -164,7 +164,7 @@ public class Film {
      * @param nodeValue
      */
     public void addGenre(String genre) {
-        genres.add(genre);
+	genres.add(genre);
     }
 
     /*
@@ -174,201 +174,214 @@ public class Film {
      */
     @Override
     public String toString() {
-        StringBuffer str = new StringBuffer();
-        str.append("Film [titre=" + titre + ", duree=" + duree + ", annee="
-                + annee + ", noteSite=" + noteSite + ", resume=" + resume
-                + ", genres=");
-        for (String genre : genres) {
-            str.append("," + genre);
-        }
-        str.append(", commentaires=");
-        for (Commentaire com : commentaires) {
-            str.append(com);
-        }
-        str.append(", acteurs=");
-        for (Personne acteur : acteurs) {
-            str.append(acteur);
-        }
-        str.append(", realisateurs=");
-        for (Personne realisateur : realisateurs) {
-            str.append(realisateur);
-        }
-        str.append("]");
-        return str.toString();
+	StringBuffer str = new StringBuffer();
+	str.append("Film [titre=" + titre + ", duree=" + duree + ", annee="
+	        + annee + ", noteSite=" + noteSite + ", resume=" + resume
+	        + ", genres=");
+	for (String genre : genres) {
+	    str.append("," + genre);
+	}
+	str.append(", commentaires=");
+	for (Commentaire com : commentaires) {
+	    str.append(com);
+	}
+	str.append(", acteurs=");
+	for (Personne acteur : acteurs) {
+	    str.append(acteur);
+	}
+	str.append(", realisateurs=");
+	for (Personne realisateur : realisateurs) {
+	    str.append(realisateur);
+	}
+	str.append("]");
+	return str.toString();
     }
 
     /**
-     * méthode stockant les informations du film dans la base de donnée TODO
+     * méthode stockant les informations du film dans la base de donnée
      */
     public void save() {
-        boolean update = false;
-        int idfilm = -1;
-        String requete;
-        DataBase db;
-        DataBase db2;
-        try {
-            db = new DataBase();
-            db2 = new DataBase();
-            db.connextionOracle();
-            // verifier que le film n'existe pas déjà
-            ResultSet films = db
-                    .executeRequete("SELECT id_film, titre FROM film");
-            while (films.next()) {
-                if (films.getString(2).equals(this.titre)) {
-                    update = true;
-                    idfilm = Integer.parseInt(films.getString(1));
-                }
-                if (!update) {
-                    // si on update pas on stocke le plus haut ID pour
-                    // l'incrémenter
-                    if (Integer.parseInt(films.getString(1)) > idfilm) {
-                        idfilm = Integer.parseInt(films.getString(1));
-                    }
-                }
-            }
+	boolean update = false;
+	int idfilm = -1;
+	String requete;
+	DataBase db;
+	DataBase db2;
+	try {
+	    db = new DataBase();
+	    db2 = new DataBase();
+	    db.connextionOracle();
+	    // verifier que le film n'existe pas déjà
+	    ResultSet films = db
+		    .executeRequete("SELECT id_film, titre FROM film");
+	    while (films.next()) {
+		if (films.getString(2).equals(this.titre)) {
+		    update = true;
+		    idfilm = Integer.parseInt(films.getString(1));
+		}
+		if (!update) {
+		    // si on update pas on stocke le plus haut ID pour
+		    // l'incrémenter
+		    if (Integer.parseInt(films.getString(1)) > idfilm) {
+			idfilm = Integer.parseInt(films.getString(1));
+		    }
+		}
+	    }
 
-            // stocker les information de base (titre, durée, etc..)
-            // TODO penser a rajouter les commentaires
-            // penser a incrementer l'id si ce n'est pas un update
-            StringBuffer comms = new StringBuffer();
-            comms.append("<film>");
-            for (Commentaire c : this.commentaires) {
-                comms.append(c);
-            }
-            comms.append("</film>");
-            if (update) {
-                requete = "UPDATE film SET titre = '"
-                        + this.titre.replace("'", "''") + "', duree =  "
-                        + this.duree + ", annee = " + this.annee
-                        + ", notes_site = " + this.noteSite + ", resume = '"
-                        + this.resume.replace("'", "''")
-                        + "',commentaire = XMLType('" + comms.toString()
-                        + "'), affiche = '" + this.affiche
-                        + "' WHERE id_film = " + idfilm;
-                db.executeRequete(requete);
-            } else {
-                idfilm++;
-                requete = "INSERT INTO film VALUES(" + idfilm + ",'"
-                        + this.titre.replace("'", "''") + "'," + this.duree
-                        + "," + this.annee + "," + this.noteSite + ",0.0,'"
-                        + this.resume.replace("'", "''") + "',XMLType('"
-                        + comms.toString() + "'),'')";
-                db.executeRequete(requete);
-            }
-            // stocker les acteurs, realisateur et genre
-            ArrayList<Integer> idacteurs = new ArrayList<Integer>();
-            for (Personne e : acteurs) {
-                idacteurs.add(e.save());
-            }
-            ArrayList<Integer> idrealisateurs = new ArrayList<Integer>();
-            for (Personne e : realisateurs) {
-                idrealisateurs.add(e.save());
-            }
+	    // stocker les information de base (titre, durée, etc..)
+	    // TODO penser a rajouter les commentaires
+	    // penser a incrementer l'id si ce n'est pas un update
+	    StringBuffer comms = new StringBuffer();
+	    comms.append("<film>");
+	    for (Commentaire c : this.commentaires) {
+		comms.append(c);
+	    }
+	    comms.append("</film>");
+	    if (update) {
+		requete = "UPDATE film SET titre = '"
+		        + this.titre.replace("'", "''")
+		        + "', duree =  "
+		        + this.duree
+		        + ", annee = "
+		        + this.annee
+		        + ", notes_site = "
+		        + this.noteSite
+		        + ", resume = '"
+		        + (resume == null ? "" : this.resume.replace("'", "''"))
+		        + "',commentaire = XMLType('" + comms.toString()
+		        + "'), affiche = '" + this.affiche
+		        + "' WHERE id_film = " + idfilm;
+		db.executeRequete(requete);
+	    } else {
+		idfilm++;
+		requete = "INSERT INTO film VALUES("
+		        + idfilm
+		        + ",'"
+		        + this.titre.replace("'", "''")
+		        + "',"
+		        + this.duree
+		        + ","
+		        + this.annee
+		        + ","
+		        + this.noteSite
+		        + ",0.0,'"
+		        + (resume == null ? "" : this.resume.replace("'", "''"))
+		        + "',XMLType('" + comms.toString() + "'),'')";
+		db.executeRequete(requete);
+	    }
+	    // stocker les acteurs, realisateur et genre
+	    ArrayList<Integer> idacteurs = new ArrayList<Integer>();
+	    for (Personne e : acteurs) {
+		idacteurs.add(e.save());
+	    }
+	    ArrayList<Integer> idrealisateurs = new ArrayList<Integer>();
+	    for (Personne e : realisateurs) {
+		idrealisateurs.add(e.save());
+	    }
 
-            // verifier que le genre n'existe pas déjà
-            requete = "SELECT id_genre, nom_genre FROM genre";
-            ResultSet genres;
-            ArrayList<Integer> idgenres = new ArrayList<Integer>();
-            int idgenre;
-            for (String genre : this.genres) {
-                update = false;
-                // TODO optimiser pour pas avoir a refaire la requete a chaque
-                // itération
-                genres = db.executeRequete(requete);
-                idgenre = -1;
-                genres.beforeFirst();
-                while (genres.next()) {
-                    if (genres.getString(2).equals(genre)) {
-                        update = true;
-                        idgenre = Integer.parseInt(genres.getString(1));
-                    }
-                    if (!update) {
-                        // si on update pas on stocke le plus haut ID pour
-                        // l'incrémenter
-                        if (Integer.parseInt(genres.getString(1)) > idgenre) {
-                            idgenre = Integer.parseInt(genres.getString(1));
-                        }
-                    }
-                }
-                if (!update) {
-                    idgenre++;
-                    db2.executeRequete("INSERT INTO genre VALUES(" + idgenre
-                            + ", '" + genre + "')");
-                }
-                idgenres.add(idgenre);
-            }
-            // stocker les liens (acteur/film, realisateur/film, genre/film)
-            // acteur/film
-            requete = "SELECT id_film,id_pers FROM jouer";
-            ResultSet filmsactors;
-            for (Integer id : idacteurs) {
-                update = false;
-                // TODO optimiser pour pas avoir a refaire la requete a chaque
-                // itération
-                filmsactors = db.executeRequete(requete);
-                // verifier si le lien n'existe pas deja
-                filmsactors.first();
-                while (filmsactors.next()) {
-                    if (idfilm == Integer.parseInt(filmsactors.getString(1))
-                            && id == Integer.parseInt(filmsactors.getString(2))) {
-                        update = true;
-                    }
-                }
-                if (!update) {
-                    db2.executeRequete("INSERT INTO jouer VALUES(" + idfilm
-                            + "," + id + ")");
-                }
-            }
-            // realisateur/film
-            requete = "SELECT id_film,id_pers FROM realiser";
-            ResultSet filmsrealisators;
-            for (Integer id : idrealisateurs) {
-                update = false;
-                // TODO optimiser pour pas avoir a refaire la requete a chaque
-                // itération
-                filmsrealisators = db.executeRequete(requete);
-                // verifier si le lien n'existe pas deja
-                filmsrealisators.beforeFirst();
-                while (filmsrealisators.next()){
-                    if (idfilm == Integer.parseInt(filmsrealisators
-                            .getString(1))
-                            && id == Integer.parseInt(filmsrealisators
-                                    .getString(2))) {
-                        update = true;
-                    }
-                }
-                if (!update) {
-                    db2.executeRequete("INSERT INTO realiser VALUES('" + idfilm
-                            + "','" + id + "')");
-                }
-            }
-            // genre/film
-            requete = "SELECT id_film,id_genre FROM est";
-            ResultSet filmsgenres;
-            for (Integer id : idgenres) {
-                update = false;
-                // TODO optimiser pour pas avoir a refaire la requete a chaque
-                // itération
-                filmsgenres = db.executeRequete(requete);
-                // verifier si le lien n'existe pas deja
-                filmsgenres.beforeFirst();
-                while (filmsgenres.next()) {
-                    if (idfilm == Integer.parseInt(filmsgenres.getString(1))
-                            && id == Integer.parseInt(filmsgenres.getString(2))) {
-                        update = true;
-                    }
-                }
-                if (!update) {
-                    db2.executeRequete("INSERT INTO est VALUES(" + idfilm + ","
-                            + id + ")");
-                }
-            }
-            db.close();
-            db2.close();
-        } catch (SQLException e1) {
-            // TODO Auto-generated catch block
-            e1.printStackTrace();
-        }
+	    // verifier que le genre n'existe pas déjà
+	    requete = "SELECT id_genre, nom_genre FROM genre";
+	    ResultSet genres;
+	    ArrayList<Integer> idgenres = new ArrayList<Integer>();
+	    int idgenre;
+	    for (String genre : this.genres) {
+		update = false;
+		// TODO optimiser pour pas avoir a refaire la requete a chaque
+		// itération
+		genres = db.executeRequete(requete);
+		idgenre = -1;
+		genres.beforeFirst();
+		while (genres.next()) {
+		    if (genres.getString(2).equals(genre)) {
+			update = true;
+			idgenre = Integer.parseInt(genres.getString(1));
+		    }
+		    if (!update) {
+			// si on update pas on stocke le plus haut ID pour
+			// l'incrémenter
+			if (Integer.parseInt(genres.getString(1)) > idgenre) {
+			    idgenre = Integer.parseInt(genres.getString(1));
+			}
+		    }
+		}
+		if (!update) {
+		    idgenre++;
+		    db2.executeRequete("INSERT INTO genre VALUES(" + idgenre
+			    + ", '" + genre + "')");
+		}
+		idgenres.add(idgenre);
+	    }
+	    // stocker les liens (acteur/film, realisateur/film, genre/film)
+	    // acteur/film
+	    requete = "SELECT id_film,id_pers FROM jouer";
+	    ResultSet filmsactors;
+	    for (Integer id : idacteurs) {
+		update = false;
+		// TODO optimiser pour pas avoir a refaire la requete a chaque
+		// itération
+		filmsactors = db.executeRequete(requete);
+		// verifier si le lien n'existe pas deja
+		filmsactors.first();
+		while (filmsactors.next()) {
+		    if (idfilm == Integer.parseInt(filmsactors.getString(1))
+			    && id == Integer.parseInt(filmsactors.getString(2))) {
+			update = true;
+		    }
+		}
+		if (!update) {
+		    db2.executeRequete("INSERT INTO jouer VALUES(" + idfilm
+			    + "," + id + ")");
+		}
+	    }
+	    // realisateur/film
+	    requete = "SELECT id_film,id_pers FROM realiser";
+	    ResultSet filmsrealisators;
+	    for (Integer id : idrealisateurs) {
+		update = false;
+		// TODO optimiser pour pas avoir a refaire la requete a chaque
+		// itération
+		filmsrealisators = db.executeRequete(requete);
+		// verifier si le lien n'existe pas deja
+		filmsrealisators.beforeFirst();
+		while (filmsrealisators.next()) {
+		    if (idfilm == Integer.parseInt(filmsrealisators
+			    .getString(1))
+			    && id == Integer.parseInt(filmsrealisators
+			            .getString(2))) {
+			update = true;
+		    }
+		}
+		if (!update) {
+		    db2.executeRequete("INSERT INTO realiser VALUES('" + idfilm
+			    + "','" + id + "')");
+		}
+	    }
+	    // genre/film
+	    requete = "SELECT id_film,id_genre FROM est";
+	    ResultSet filmsgenres;
+	    for (Integer id : idgenres) {
+		update = false;
+		// TODO optimiser pour pas avoir a refaire la requete a chaque
+		// itération
+		filmsgenres = db.executeRequete(requete);
+		// verifier si le lien n'existe pas deja
+		filmsgenres.beforeFirst();
+		while (filmsgenres.next()) {
+		    if (idfilm == Integer.parseInt(filmsgenres.getString(1))
+			    && id == Integer.parseInt(filmsgenres.getString(2))) {
+			update = true;
+		    }
+		}
+		if (!update) {
+		    db2.executeRequete("INSERT INTO est VALUES(" + idfilm + ","
+			    + id + ")");
+		}
+	    }
+	    db.close();
+	    db2.close();
+	} catch (SQLException e1) {
+	    // TODO Auto-generated catch block
+	    e1.printStackTrace();
+	}
 
     }
 
@@ -378,7 +391,7 @@ public class Film {
      * @param personne
      */
     public void addRealisateur(Personne personne) {
-        this.realisateurs.add(personne);
+	this.realisateurs.add(personne);
 
     }
 
@@ -388,7 +401,25 @@ public class Film {
      * @param parseActorsContent
      */
     public void setActeurs(ArrayList<Personne> acteurs) {
-        this.acteurs = acteurs;
+	this.acteurs = acteurs;
+    }
+
+    /**
+     * TODO Comment method
+     * 
+     * @param entityName
+     * @param nodeValue
+     * @throws InformationNonPriseEnChargeException
+     */
+    public void put(String entityName, String nodeValue)
+	    throws InformationNonPriseEnChargeException {
+	if ("title".equals(entityName)) {
+	    this.setTitre(nodeValue);
+	} else if ("duree".equals(entityName)) {
+	    this.setDuree(Integer.parseInt(nodeValue));
+	} else {
+	    throw new InformationNonPriseEnChargeException(entityName);
+	}
     }
 
 }

@@ -17,10 +17,10 @@ import java.sql.Statement;
  */
 public class DataBase {
     /** login de connexion a la base */
-    private final static String LOGIN = "xmlp2";
+    private final static String LOGIN = "xmlproject";
     
     /** mot de passe de connexion a la base */
-    private final static String PASSWORD = "mlp42";
+    private final static String PASSWORD = "xmlproject";
     
     /** Permet la connexion */
     private static Connection cnx;
@@ -38,7 +38,7 @@ public class DataBase {
             DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
             // Chaine de connexion a la base de donnée de l'iut de rodez
             // thin driver de type 4 --> Le driver est entièrement écrit en Java
-            String url= "jdbc:oracle:thin:@oracle.dometud.iut-rodez.local:1521:XE";
+            String url= "jdbc:oracle:thin:@localhost:1521:XE";
             // Ouverture de la connection
             cnx = DriverManager.getConnection(url, LOGIN, PASSWORD);
             stmt = cnx.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
